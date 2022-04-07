@@ -1,0 +1,15 @@
+prefix wdt: <http://www.wikidata.org/prop/direct/>
+prefix wd: <http://www.wikidata.org/entity/>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix : <https://id.kb.se/vocab/>
+
+construct {
+    ?s :closeMatch ?wd
+}where {
+    ?s a :Place ; :label ?label .
+    service <https://query.wikidata.org/sparql> {
+        ?wd rdfs:label ?label ;
+            wdt:P17 wd:Q34 . # :country :Sweden
+     #?s wdt:P31 wd:Q127448 . # :instanceOf :MunicipalityInSweden
+    }
+}

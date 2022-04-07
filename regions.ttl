@@ -1,0 +1,436 @@
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix : <https://id.kb.se/vocab/>
+
+:ARegion rdfs:subClassOf :GeographicCoverage .
+
+</geo/Sverige/Blekinge/Karlshamn> a :ARegion;
+    :code "23" ;
+    :label "Karlshamn"@sv;
+    :locatedIn </geo/Sverige/Blekinge> .
+
+</geo/Sverige/Blekinge> a :ARegion;
+    :label "Blekinge"@sv;
+    :locatedIn </geo/Sverige> .
+
+</geo/Sverige> a :ARegion;
+    :label "Sverige"@sv;
+    :locatedIn </geo> .
+
+</geo/Sverige/Blekinge/Karlskrona> a :ARegion;
+    :code "22" ;
+    :label "Karlskrona"@sv;
+    :locatedIn </geo/Sverige/Blekinge> .
+
+</geo/Sverige/%C3%96rebro/%C3%96rebro> a :ARegion;
+    :code "45" ;
+    :label "Örebro"@sv;
+    :locatedIn </geo/Sverige/%C3%96rebro> .
+
+</geo/Sverige/%C3%96rebro> a :ARegion;
+    :label "Örebro"@sv;
+    :locatedIn </geo/Sverige> .
+
+</geo/Sverige/%C3%96rebro/Karlskoga> a :ARegion;
+    :code "46" ;
+    :label "Karlskoga"@sv;
+    :locatedIn </geo/Sverige/%C3%96rebro> .
+
+</geo/Sverige/%C3%96sterg%C3%B6tland/Link%C3%B6ping> a :ARegion;
+    :label "Linköping"@sv;
+    :locatedIn </geo/Sverige/%C3%96sterg%C3%B6tland> .
+
+</geo/Sverige/%C3%96sterg%C3%B6tland> a :ARegion;
+    :label "Östergötland"@sv;
+    :locatedIn </geo/Sverige> .
+
+</geo/Sverige/%C3%96sterg%C3%B6tland/Mj%C3%B6lby%2FMotala> a :ARegion;
+    :code "08" ;
+    :label "Mjölby/Motala"@sv;
+    :locatedIn </geo/Sverige/%C3%96sterg%C3%B6tland> .
+
+</geo/Sverige/%C3%96sterg%C3%B6tland/Norrk%C3%B6ping> a :ARegion;
+    :code "10" ;
+    :label "Norrköping"@sv;
+    :locatedIn </geo/Sverige/%C3%96sterg%C3%B6tland> .
+
+</geo/Sverige/Dalarna/Avesta%2FHedemora> a :ARegion;
+    :code "53" ;
+    :label "Avesta/Hedemora"@sv;
+    :locatedIn </geo/Sverige/Dalarna> .
+
+</geo/Sverige/Dalarna> a :ARegion;
+    :label "Dalarna"@sv;
+    :locatedIn </geo/Sverige> .
+
+</geo/Sverige/Dalarna/Borl%C3%A4nge%2FFalun> a :ARegion;
+    :code "52" ;
+    :label "Borlänge/Falun"@sv;
+    :locatedIn </geo/Sverige/Dalarna> .
+
+</geo/Sverige/Dalarna/Ludvika> a :ARegion;
+    :code "54" ;
+    :label "Ludvika"@sv;
+    :locatedIn </geo/Sverige/Dalarna> .
+
+</geo/Sverige/Dalarna/Mora> a :ARegion;
+    :code "55" ;
+    :label "Mora"@sv;
+    :locatedIn </geo/Sverige/Dalarna> .
+
+</geo/Sverige/G%C3%A4vleborg/Bolln%C3%A4s%2FS%C3%B6derhamn> a :ARegion;
+    :code "57" ;
+    :label "Bollnäs/Söderhamn"@sv;
+    :locatedIn </geo/Sverige/G%C3%A4vleborg> .
+
+</geo/Sverige/G%C3%A4vleborg> a :ARegion;
+    :label "Gävleborg"@sv;
+    :locatedIn </geo/Sverige> .
+
+</geo/Sverige/G%C3%A4vleborg/G%C3%A4vle%2FSandviken> a :ARegion;
+    :code "56" ;
+    :label "Gävle/Sandviken"@sv;
+    :locatedIn </geo/Sverige/G%C3%A4vleborg> .
+
+</geo/Sverige/G%C3%A4vleborg/Hudiksvall%2FLjusdal> a :ARegion;
+    :code "58" ;
+    :label "Hudiksvall/Ljusdal"@sv;
+    :locatedIn </geo/Sverige/G%C3%A4vleborg> .
+
+</geo/Sverige/G%C3%A4vleborg/Sundsvall> a :ARegion;
+    :code "59" ;
+    :label "Sundsvall"@sv;
+    :locatedIn </geo/Sverige/G%C3%A4vleborg> .
+
+</geo/Sverige/Gotland/Visby> a :ARegion;
+    :code "21" ;
+    :label "Visby"@sv;
+    :locatedIn </geo/Sverige/Gotland> .
+
+</geo/Sverige/Gotland> a :ARegion;
+    :label "Gotland"@sv;
+    :locatedIn </geo/Sverige> .
+
+</geo/Sverige/Halland/Falkenberg%2FVarberg> a :ARegion;
+    :code "32" ;
+    :label "Falkenberg/Varberg"@sv;
+    :locatedIn </geo/Sverige/Halland> .
+
+</geo/Sverige/Halland> a :ARegion;
+    :label "Halland"@sv;
+    :locatedIn </geo/Sverige> .
+
+</geo/Sverige/Halland/Halmstad> a :ARegion;
+    :code "31" ;
+    :label "Halmstad"@sv;
+    :locatedIn </geo/Sverige/Halland> .
+
+</geo/Sverige/J%C3%A4mtland/%C3%96stersund> a :ARegion;
+    :code "63" ;
+    :label "Östersund"@sv;
+    :locatedIn </geo/Sverige/J%C3%A4mtland> .
+
+</geo/Sverige/J%C3%A4mtland> a :ARegion;
+    :label "Jämtland"@sv;
+    :locatedIn </geo/Sverige> .
+
+</geo/Sverige/J%C3%B6nk%C3%B6ping/Eksj%C3%B6%2FN%C3%A4ssj%C3%B6%2FVetlanda> a :ARegion;
+    :code "13" ;
+    :label "Eksjö/Nässjö/Vetlanda"@sv;
+    :locatedIn </geo/Sverige/J%C3%B6nk%C3%B6ping> .
+
+</geo/Sverige/J%C3%B6nk%C3%B6ping> a :ARegion;
+    :label "Jönköping"@sv;
+    :locatedIn </geo/Sverige> .
+
+</geo/Sverige/J%C3%B6nk%C3%B6ping/J%C3%B6nk%C3%B6ping> a :ARegion;
+    :code "11" ;
+    :label "Jönköping"@sv;
+    :locatedIn </geo/Sverige/J%C3%B6nk%C3%B6ping> .
+
+</geo/Sverige/J%C3%B6nk%C3%B6ping/Tran%C3%A5s> a :ARegion;
+    :code "12" ;
+    :label "Tranås"@sv;
+    :locatedIn </geo/Sverige/J%C3%B6nk%C3%B6ping> .
+
+</geo/Sverige/J%C3%B6nk%C3%B6ping/V%C3%A4rnamo> a :ARegion;
+    :code "14" ;
+    :label "Värnamo"@sv;
+    :locatedIn </geo/Sverige/J%C3%B6nk%C3%B6ping> .
+
+</geo/Sverige/Kalmar/Hultsfred%2FVimmerby> a :ARegion;
+    :code "18" ;
+    :label "Hultsfred/Vimmerby"@sv;
+    :locatedIn </geo/Sverige/Kalmar> .
+
+</geo/Sverige/Kalmar> a :ARegion;
+    :label "Kalmar"@sv;
+    :locatedIn </geo/Sverige> .
+
+</geo/Sverige/Kalmar/Kalmar%2FNybro> a :ARegion;
+    :code "20" ;
+    :label "Kalmar/Nybro"@sv;
+    :locatedIn </geo/Sverige/Kalmar> .
+
+</geo/Sverige/Kalmar/Oskarshamn> a :ARegion;
+    :code "19" ;
+    :label "Oskarshamn"@sv;
+    :locatedIn </geo/Sverige/Kalmar> .
+
+</geo/Sverige/Kalmar/V%C3%A4stervik> a :ARegion;
+    :code "17" ;
+    :label "Västervik"@sv;
+    :locatedIn </geo/Sverige/Kalmar> .
+
+</geo/Sverige/Kronoberg/Ljungby> a :ARegion;
+    :code "15" ;
+    :label "Ljungby"@sv;
+    :locatedIn </geo/Sverige/Kronoberg> .
+
+</geo/Sverige/Kronoberg> a :ARegion;
+    :label "Kronoberg"@sv;
+    :locatedIn </geo/Sverige> .
+
+</geo/Sverige/Kronoberg/V%C3%A4xj%C3%B6> a :ARegion;
+    :code "16" ;
+    :label "Växjö"@sv;
+    :locatedIn </geo/Sverige/Kronoberg> .
+
+</geo/Sverige/Norrbotten/Haparanda%2FKalix> a :ARegion;
+    :code "69" ;
+    :label "Haparanda/Kalix"@sv;
+    :locatedIn </geo/Sverige/Norrbotten> .
+
+</geo/Sverige/Norrbotten> a :ARegion;
+    :label "Norrbotten"@sv;
+    :locatedIn </geo/Sverige> .
+
+</geo/Sverige/Norrbotten/Kiruna%2FG%C3%A4llivare> a :ARegion;
+    :code "70" ;
+    :label "Kiruna/Gällivare"@sv;
+    :locatedIn </geo/Sverige/Norrbotten> .
+
+</geo/Sverige/Norrbotten/Lule%C3%A5%2FBoden> a :ARegion;
+    :code "68" ;
+    :label "Luleå/Boden"@sv;
+    :locatedIn </geo/Sverige/Norrbotten> .
+
+</geo/Sverige/Norrbotten/Pite%C3%A5> a :ARegion;
+    :code "67" ;
+    :label "Piteå"@sv;
+    :locatedIn </geo/Sverige/Norrbotten> .
+
+</geo/Sverige/S%C3%B6dermanland/Eskilstuna> a :ARegion;
+    :code "07" ;
+    :label "Eskilstuna"@sv;
+    :locatedIn </geo/Sverige/S%C3%B6dermanland> .
+
+</geo/Sverige/S%C3%B6dermanland> a :ARegion;
+    :label "Södermanland"@sv;
+    :locatedIn </geo/Sverige> .
+
+</geo/Sverige/S%C3%B6dermanland/Katrineholm> a :ARegion;
+    :code "06" ;
+    :label "Katrineholm"@sv;
+    :locatedIn </geo/Sverige/S%C3%B6dermanland> .
+
+</geo/Sverige/S%C3%B6dermanland/Nyk%C3%B6ping> a :ARegion;
+    :code "05" ;
+    :label "Nyköping"@sv;
+    :locatedIn </geo/Sverige/S%C3%B6dermanland> .
+
+</geo/Sverige/Sk%C3%A5ne/%C3%84ngelholm> a :ARegion;
+    :code "26" ;
+    :label "Ängelholm"@sv;
+    :locatedIn </geo/Sverige/Sk%C3%A5ne> .
+
+</geo/Sverige/Sk%C3%A5ne> a :ARegion;
+    :label "Skåne"@sv;
+    :locatedIn </geo/Sverige> .
+
+</geo/Sverige/Sk%C3%A5ne/Esl%C3%B6v> a :ARegion;
+    :code "30" ;
+    :label "Eslöv"@sv;
+    :locatedIn </geo/Sverige/Sk%C3%A5ne> .
+
+</geo/Sverige/Sk%C3%A5ne/H%C3%A4ssleholm> a :ARegion;
+    :code "25" ;
+    :label "Hässleholm"@sv;
+    :locatedIn </geo/Sverige/Sk%C3%A5ne> .
+
+</geo/Sverige/Sk%C3%A5ne/Helsingborg%2FLandskrona> a :ARegion;
+    :code "27" ;
+    :label "Helsingborg/Landskrona"@sv;
+    :locatedIn </geo/Sverige/Sk%C3%A5ne> .
+
+</geo/Sverige/Sk%C3%A5ne/Kristianstad> a :ARegion;
+    :code "24" ;
+    :label "Kristianstad"@sv;
+    :locatedIn </geo/Sverige/Sk%C3%A5ne> .
+
+</geo/Sverige/Sk%C3%A5ne/Malm%C3%B6%2FLund%2FTrelleborg> a :ARegion;
+    :code "28" ;
+    :label "Malmö/Lund/Trelleborg"@sv;
+    :locatedIn </geo/Sverige/Sk%C3%A5ne> .
+
+</geo/Sverige/Sk%C3%A5ne/Ystad%2FSimrishamn> a :ARegion;
+    :code "29" ;
+    :label "Ystad/Simrishamn"@sv;
+    :locatedIn </geo/Sverige/Sk%C3%A5ne> .
+
+</geo/Sverige/Stockholm/Norrt%C3%A4lje> a :ARegion;
+    :code "02" ;
+    :label "Norrtälje"@sv;
+    :locatedIn </geo/Sverige/Stockholm> .
+
+</geo/Sverige/Stockholm> a :ARegion;
+    :label "Stockholm"@sv;
+    :locatedIn </geo/Sverige> .
+
+</geo/Sverige/Stockholm/Stockholm%2FS%C3%B6dert%C3%A4lje> a :ARegion;
+    :code "01" ;
+    :label "Stockholm/Södertälje"@sv;
+    :locatedIn </geo/Sverige/Stockholm> .
+
+</geo/Sverige/Uppsala/Enk%C3%B6ping> a :ARegion;
+    :code "03" ;
+    :label "Enköping"@sv;
+    :locatedIn </geo/Sverige/Uppsala> .
+
+</geo/Sverige/Uppsala> a :ARegion;
+    :label "Uppsala"@sv;
+    :locatedIn </geo/Sverige> .
+
+</geo/Sverige/Uppsala/Uppsala> a :ARegion;
+    :code "04" ;
+    :label "Uppsala"@sv;
+    :locatedIn </geo/Sverige/Uppsala> .
+
+</geo/Sverige/V%C3%A4rmland/Arvika> a :ARegion;
+    :code "44" ;
+    :label "Arvika"@sv;
+    :locatedIn </geo/Sverige/V%C3%A4rmland> .
+
+</geo/Sverige/V%C3%A4rmland> a :ARegion;
+    :label "Värmland"@sv;
+    :locatedIn </geo/Sverige> .
+
+</geo/Sverige/V%C3%A4rmland/Karlstad> a :ARegion;
+    :code "42" ;
+    :label "Karlstad"@sv;
+    :locatedIn </geo/Sverige/V%C3%A4rmland> .
+
+</geo/Sverige/V%C3%A4rmland/Kristinehamn%2FFilipstad> a :ARegion;
+    :code "41" ;
+    :label "Kristinehamn/Filipstad"@sv;
+    :locatedIn </geo/Sverige/V%C3%A4rmland> .
+
+</geo/Sverige/V%C3%A4rmland/S%C3%A4ffle%2F%C3%85m%C3%A5l> a :ARegion;
+    :code "43" ;
+    :label "Säffle/Åmål"@sv;
+    :locatedIn </geo/Sverige/V%C3%A4rmland> .
+
+</geo/Sverige/V%C3%A4sterbotten/Lycksele> a :ARegion;
+    :code "66" ;
+    :label "Lycksele"@sv;
+    :locatedIn </geo/Sverige/V%C3%A4sterbotten> .
+
+</geo/Sverige/V%C3%A4sterbotten> a :ARegion;
+    :label "Västerbotten"@sv;
+    :locatedIn </geo/Sverige> .
+
+</geo/Sverige/V%C3%A4sterbotten/Skellefte%C3%A5> a :ARegion;
+    :code "65" ;
+    :label "Skellefteå"@sv;
+    :locatedIn </geo/Sverige/V%C3%A4sterbotten> .
+
+</geo/Sverige/V%C3%A4sterbotten/Ume%C3%A5> a :ARegion;
+    :code "64" ;
+    :label "Umeå"@sv;
+    :locatedIn </geo/Sverige/V%C3%A4sterbotten> .
+
+</geo/Sverige/V%C3%A4sternorrland/%C3%96rnsk%C3%B6ldsvik> a :ARegion;
+    :code "62" ;
+    :label "Örnsköldsvik"@sv;
+    :locatedIn </geo/Sverige/V%C3%A4sternorrland> .
+
+</geo/Sverige/V%C3%A4sternorrland> a :ARegion;
+    :label "Västernorrland"@sv;
+    :locatedIn </geo/Sverige> .
+
+</geo/Sverige/V%C3%A4sternorrland/H%C3%A4rn%C3%B6sand%2FKramfors> a :ARegion;
+    :code "60" ;
+    :label "Härnösand/Kramfors"@sv;
+    :locatedIn </geo/Sverige/V%C3%A4sternorrland> .
+
+</geo/Sverige/V%C3%A4sternorrland/Sollefte%C3%A5> a :ARegion;
+    :code "61" ;
+    :label "Sollefteå"@sv;
+    :locatedIn </geo/Sverige/V%C3%A4sternorrland> .
+
+</geo/Sverige/V%C3%A4stmanland/Fagersta> a :ARegion;
+    :code "50" ;
+    :label "Fagersta"@sv;
+    :locatedIn </geo/Sverige/V%C3%A4stmanland> .
+
+</geo/Sverige/V%C3%A4stmanland> a :ARegion;
+    :label "Västmanland"@sv;
+    :locatedIn </geo/Sverige> .
+
+</geo/Sverige/V%C3%A4stmanland/K%C3%B6ping> a :ARegion;
+    :code "49" ;
+    :label "Köping"@sv;
+    :locatedIn </geo/Sverige/V%C3%A4stmanland> .
+
+</geo/Sverige/V%C3%A4stmanland/Sala> a :ARegion;
+    :code "51" ;
+    :label "Sala"@sv;
+    :locatedIn </geo/Sverige/V%C3%A4stmanland> .
+
+</geo/Sverige/V%C3%A4stmanland/V%C3%A4ster%C3%A5s> a :ARegion;
+    :code "48" ;
+    :label "Västerås"@sv;
+    :locatedIn </geo/Sverige/V%C3%A4stmanland> .
+
+</geo/Sverige/V%C3%A4stra%20G%C3%B6taland/Bor%C3%A5s> a :ARegion;
+    :code "36" ;
+    :label "Borås"@sv;
+    :locatedIn </geo/Sverige/V%C3%A4stra%20G%C3%B6taland> .
+
+</geo/Sverige/V%C3%A4stra%20G%C3%B6taland> a :ARegion;
+    :label "Västra Götaland"@sv;
+    :locatedIn </geo/Sverige> .
+
+</geo/Sverige/V%C3%A4stra%20G%C3%B6taland/Falk%C3%B6ping> a :ARegion;
+    :code "38" ;
+    :label "Falköping"@sv;
+    :locatedIn </geo/Sverige/V%C3%A4stra%20G%C3%B6taland> .
+
+</geo/Sverige/V%C3%A4stra%20G%C3%B6taland/G%C3%B6teborg%2FAlings%C3%A5s> a :ARegion;
+    :code "33" ;
+    :label "Göteborg/Alingsås"@sv;
+    :locatedIn </geo/Sverige/V%C3%A4stra%20G%C3%B6taland> .
+
+</geo/Sverige/V%C3%A4stra%20G%C3%B6taland/Lidk%C3%B6ping%2FSkara> a :ARegion;
+    :code "37" ;
+    :label "Lidköping/Skara"@sv;
+    :locatedIn </geo/Sverige/V%C3%A4stra%20G%C3%B6taland> .
+
+</geo/Sverige/V%C3%A4stra%20G%C3%B6taland/Mariestad> a :ARegion;
+    :code "40" ;
+    :label "Mariestad"@sv;
+    :locatedIn </geo/Sverige/V%C3%A4stra%20G%C3%B6taland> .
+
+</geo/Sverige/V%C3%A4stra%20G%C3%B6taland/Sk%C3%B6vde> a :ARegion;
+    :code "39" ;
+    :label "Skövde"@sv;
+    :locatedIn </geo/Sverige/V%C3%A4stra%20G%C3%B6taland> .
+
+</geo/Sverige/V%C3%A4stra%20G%C3%B6taland/Trollh%C3%A4ttan%2FV%C3%A4nersborg> a :ARegion;
+    :code "35" ;
+    :label "Trollhättan/Vänersborg"@sv;
+    :locatedIn </geo/Sverige/V%C3%A4stra%20G%C3%B6taland> .
+
+</geo/Sverige/V%C3%A4stra%20G%C3%B6taland/Uddevalla> a :ARegion;
+    :code "34" ;
+    :label "Uddevalla"@sv;
+    :locatedIn </geo/Sverige/V%C3%A4stra%20G%C3%B6taland> .

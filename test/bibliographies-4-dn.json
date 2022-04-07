@@ -1,0 +1,2353 @@
+{
+  "bibliographicInfo": {
+    "idTitle": "DAGENS NYHETER",
+    "idTitleId": 4,
+    "periodOfPublication": "1864-12-23 -- ",
+    "titles": [
+      {
+        "title": "DAGENS NYHETER.",
+        "id": 25616,
+        "fromDate": "1864-12-23",
+        "toDate": "1994-05-18"
+      },
+      {
+        "title": "DAGENS NYHETER. SÖNDAG",
+        "id": 25617,
+        "fromDate": "1970-03-29",
+        "toDate": "1981-09-13"
+      },
+      {
+        "title": "DAGENS NYHETER",
+        "id": 25618,
+        "fromDate": "1994-05-19",
+        "toDate": "1994-05-25"
+      },
+      {
+        "title": "DAGENS NYHETER.",
+        "id": 25619,
+        "fromDate": "1994-05-26",
+        "toDate": "2014-12-22"
+      },
+      {
+        "title": "HURRA, HURRA.",
+        "id": 141766,
+        "fromDate": "2014-12-23",
+        "toDate": "2014-12-23"
+      },
+      {
+        "title": "DAGENS NYHETER.",
+        "id": 141767,
+        "fromDate": "2014-12-24",
+        "toDate": "2017-12-05"
+      },
+      {
+        "title": "PÄIVÄN UUTISET.",
+        "id": 151839,
+        "fromDate": "2017-12-06",
+        "toDate": "2017-12-06"
+      },
+      {
+        "title": " DAGENS NYHETER.  ",
+        "id": 151840,
+        "fromDate": "2017-12-07",
+        "toDate": ""
+      }
+    ],
+    "librisIds": [
+      {
+        "librisId": "8224221",
+        "id": 139678,
+        "type": "Libris ID tryck",
+        "period": "1864-12-23--"
+      },
+      {
+        "librisId": "13991099",
+        "id": 139679,
+        "type": "Libris ID elektronisk",
+        "period": "1864-12-23--"
+      }
+    ],
+    "frequencies": [
+      {
+        "frequency": "6/v",
+        "id": 138034,
+        "daysOfWeek": "må, ti, on, to, fre, lö",
+        "timeOfDay": "morg",
+        "period": "1876-01-03--1902-11-29"
+      },
+      {
+        "frequency": "7/v",
+        "id": 19473,
+        "daysOfWeek": "må, ti, on, to, fre, lö, sö",
+        "timeOfDay": "morg",
+        "period": "1898-11-28--"
+      },
+      {
+        "frequency": "6/v",
+        "id": 19474,
+        "daysOfWeek": "må, ti, on, to, fre, lö",
+        "timeOfDay": "morg",
+        "period": "1900-01-03--1902-11-29"
+      },
+      {
+        "frequency": "7/v",
+        "id": 138053,
+        "daysOfWeek": "må, ti, on, to, fre, lö, sö",
+        "timeOfDay": "morg",
+        "period": "1902-12-01--1902-12-31"
+      },
+      {
+        "frequency": "2/v",
+        "id": 19475,
+        "daysOfWeek": "on, lö",
+        "timeOfDay": "morg",
+        "period": "1911-06-17--1924-11-12"
+      },
+      {
+        "frequency": "6/v",
+        "id": 19476,
+        "daysOfWeek": "må, ti, on, to, fre, lö",
+        "timeOfDay": "morg",
+        "period": "1940-11-01--1940-11-30"
+      }
+    ],
+    "languages": [
+      {
+        "language": "svenska",
+        "id": 138842,
+        "period": "1864-01-01--"
+      }
+    ],
+    "aRegions": [
+      {
+        "aRegion": "00",
+        "id": 143964,
+        "period": "1864-12-13--"
+      },
+      {
+        "aRegion": "01",
+        "id": 97160,
+        "period": "1864-12-23--"
+      }
+    ],
+    "politicalTendencies": [
+      {
+        "politicalTendency": "frisinnad",
+        "id": 40222,
+        "period": "1908-01-01--1910-12-31"
+      },
+      {
+        "politicalTendency": "liberal",
+        "id": 40223,
+        "period": "1912-01-01--1912-12-31"
+      },
+      {
+        "politicalTendency": "frisinnad",
+        "id": 40224,
+        "period": "1915-01-01--1923-12-31"
+      },
+      {
+        "politicalTendency": "liberal",
+        "id": 40225,
+        "period": "1924-01-01--1973-12-31"
+      },
+      {
+        "politicalTendency": "oberoende",
+        "id": 40226,
+        "period": "1974-01-01--1998-12-31"
+      },
+      {
+        "politicalTendency": "oberoende liberal",
+        "id": 41066,
+        "period": "1998-01-01--"
+      }
+    ],
+    "sectionTitles": [
+      {
+        "sectionTitle": "DAGENS NYHETER. A",
+        "id": 10508,
+        "frequency": "7/v",
+        "daysOfWeek": "må, ti, on, to, fre, lö, sö",
+        "period": "1990-02-01--2003-01-19"
+      },
+      {
+        "sectionTitle": "DN. KULTUR & NÖJEN B",
+        "id": 10509,
+        "frequency": "7/v",
+        "daysOfWeek": "",
+        "period": "1990-02-01--1996-08-18"
+      },
+      {
+        "sectionTitle": "DN. ARBETE & PENGAR C",
+        "id": 10510,
+        "frequency": "6/v",
+        "daysOfWeek": "må, ti, on, to, fre, lö",
+        "period": "1990-02-01--1996-08-18"
+      },
+      {
+        "sectionTitle": "DN. STOCKHOLM D",
+        "id": 10511,
+        "frequency": "7/v",
+        "daysOfWeek": "",
+        "period": "1990-02-01--1990-08-26"
+      },
+      {
+        "sectionTitle": "DN. ANNONSMARKNADER E",
+        "id": 10512,
+        "frequency": "6/v",
+        "daysOfWeek": "må, ti, on, to, fre, lö",
+        "period": "1990-02-01--1990-06-20"
+      },
+      {
+        "sectionTitle": "DN. SÖNDAG C",
+        "id": 10513,
+        "frequency": "1/v",
+        "daysOfWeek": "sö",
+        "period": "1990-02-04--1994-12-31"
+      },
+      {
+        "sectionTitle": "DN. PLATSANNONSER E",
+        "id": 10514,
+        "frequency": "1/v",
+        "daysOfWeek": "sö",
+        "period": "1990-02-04--1990-06-17"
+      },
+      {
+        "sectionTitle": "DN. SPORTEN D",
+        "id": 10515,
+        "frequency": "1/v",
+        "daysOfWeek": "må",
+        "period": "1990-08-27--1991-02-25"
+      },
+      {
+        "sectionTitle": "DN. STOCKHOLM D",
+        "id": 10516,
+        "frequency": "6/v",
+        "daysOfWeek": "ti, on, to, fre, lö, sö",
+        "period": "1990-08-28--1991-02-24"
+      },
+      {
+        "sectionTitle": "DN. STOCKHOLM D",
+        "id": 10517,
+        "frequency": "5/v",
+        "daysOfWeek": "ti, on, to, fre, lö",
+        "period": "1991-02-26--1994-09-27"
+      },
+      {
+        "sectionTitle": "DN. SPORTEN D",
+        "id": 10518,
+        "frequency": "2/v",
+        "daysOfWeek": "må, sö",
+        "period": "1991-03-03--1994-09-25"
+      },
+      {
+        "sectionTitle": "DN. STOCKHOLM D",
+        "id": 10519,
+        "frequency": "6/v",
+        "daysOfWeek": "må, ti, on, to, fre, lö",
+        "period": "1994-09-26--1996-08-18"
+      },
+      {
+        "sectionTitle": "DN. SPORTEN D",
+        "id": 10520,
+        "frequency": "7/v",
+        "daysOfWeek": "",
+        "period": "1994-09-28--1996-08-18"
+      },
+      {
+        "sectionTitle": "DN. SPORTEN D",
+        "id": 10521,
+        "frequency": "1/v",
+        "daysOfWeek": "sö",
+        "period": "1994-10-02--1996-08-18"
+      },
+      {
+        "sectionTitle": "DN. SPORTEN C",
+        "id": 10522,
+        "frequency": "1/v",
+        "daysOfWeek": "må",
+        "period": "1994-10-03--1996-08-18"
+      },
+      {
+        "sectionTitle": "DN. ARBETE & PENGAR C",
+        "id": 10523,
+        "frequency": "5/v",
+        "daysOfWeek": "må, ti, on, to, fre, lö",
+        "period": "1994-10-03--1996-08-18"
+      },
+      {
+        "sectionTitle": "DN. ARBETE & PENGAR C",
+        "id": 10524,
+        "frequency": "5/v",
+        "daysOfWeek": "ti, on, to, fre, lö",
+        "period": "1994-10-04--1996-08-18"
+      },
+      {
+        "sectionTitle": "KULTUR/NÖJEN B",
+        "id": 10525,
+        "frequency": "7/v",
+        "daysOfWeek": "må, ti, on, to, fre, lö, sö",
+        "period": "1996-08-19--1999-08-31"
+      },
+      {
+        "sectionTitle": "STOCKHOLM C",
+        "id": 10526,
+        "frequency": "5/v",
+        "daysOfWeek": "ti, on, to, fre, lö",
+        "period": "1996-08-19--1996-10-19"
+      },
+      {
+        "sectionTitle": "SPORT C",
+        "id": 10527,
+        "frequency": "2/v",
+        "daysOfWeek": "må, sö",
+        "period": "1996-08-19--1996-10-14"
+      },
+      {
+        "sectionTitle": "STOCKHOLM/SPORT C",
+        "id": 10528,
+        "frequency": "7/v",
+        "daysOfWeek": "må, ti, on, to, fre, lö, sö",
+        "period": "1996-10-20--2000-08-31"
+      },
+      {
+        "sectionTitle": "PLATSANNONSER D",
+        "id": 10529,
+        "frequency": "2/v",
+        "daysOfWeek": "to, sö",
+        "period": "1999-06-20--1999-08-08"
+      },
+      {
+        "sectionTitle": "KULTUR B",
+        "id": 10530,
+        "frequency": "7/v",
+        "daysOfWeek": "må, ti, on, to, fre, lö, sö",
+        "period": "1999-09-01--2003-01-19"
+      },
+      {
+        "sectionTitle": "EKONOMI / SPORT  C",
+        "id": 10531,
+        "frequency": "5/v",
+        "daysOfWeek": "ti, on, to, fre, lö",
+        "period": "2000-09-01--2000-09-14"
+      },
+      {
+        "sectionTitle": "SPORT / EKONOMI  C",
+        "id": 10532,
+        "frequency": "2/v",
+        "daysOfWeek": "må, sö",
+        "period": "2000-09-01--2000-09-11"
+      },
+      {
+        "sectionTitle": "OS SPORT / EKONOMI",
+        "id": 10533,
+        "frequency": "7/v",
+        "daysOfWeek": "må, ti, on, to, fre, lö, sö",
+        "period": "2000-09-15--2000-10-02"
+      },
+      {
+        "sectionTitle": "EKONOMI / SPORT C",
+        "id": 10534,
+        "frequency": "5/v",
+        "daysOfWeek": "ti, on, to, fre, lö",
+        "period": "2000-10-03--2000-12-31"
+      },
+      {
+        "sectionTitle": "SPORT / EKONOMI C",
+        "id": 10535,
+        "frequency": "2/v",
+        "daysOfWeek": "må, sö",
+        "period": "2000-10-08--2000-12-31"
+      },
+      {
+        "sectionTitle": "EKONOMI / SPORT C",
+        "id": 10536,
+        "frequency": "6/v",
+        "daysOfWeek": "ti, on, to, fre, lö, sö",
+        "period": "2001-01-02--2003-01-19"
+      },
+      {
+        "sectionTitle": "KONSUMENT / EKONOMI C",
+        "id": 10537,
+        "frequency": "1/v",
+        "daysOfWeek": "må",
+        "period": "2001-01-08--2002-02-18"
+      },
+      {
+        "sectionTitle": "SPORT D",
+        "id": 102996,
+        "frequency": "1/v",
+        "daysOfWeek": "må",
+        "period": "2002-01-28--2003-01-19"
+      },
+      {
+        "sectionTitle": "EKONOMI C",
+        "id": 103341,
+        "frequency": "1/v",
+        "daysOfWeek": "må",
+        "period": "2002-02-25--2002-03-18"
+      },
+      {
+        "sectionTitle": "EKONOMI / KONSUMENT C",
+        "id": 103895,
+        "frequency": "1/v",
+        "daysOfWeek": "må",
+        "period": "2002-03-25--2003-01-19"
+      },
+      {
+        "sectionTitle": "DAGENS NYHETER.",
+        "id": 107859,
+        "frequency": "7/v",
+        "daysOfWeek": "må, ti, on, to, fre, lö, sö",
+        "period": "2003-01-20--"
+      },
+      {
+        "sectionTitle": "EKONOMI.; SPORT.",
+        "id": 107861,
+        "frequency": "6/v",
+        "daysOfWeek": "må, ti, on, to, fre, lö",
+        "period": "2003-01-20--2003-03-31"
+      },
+      {
+        "sectionTitle": "SPORT.",
+        "id": 107862,
+        "frequency": "1/v",
+        "daysOfWeek": "sö",
+        "period": "2003-01-20--2003-03-31"
+      },
+      {
+        "sectionTitle": "KULTUR.",
+        "id": 107860,
+        "frequency": "7/v",
+        "daysOfWeek": "må, ti, on, to, fre, lö, sö",
+        "period": "2003-01-20--2009-08-16"
+      },
+      {
+        "sectionTitle": "EKONOMI.; SPORT.",
+        "id": 108791,
+        "frequency": "7/v",
+        "daysOfWeek": "må, ti, on, to, fre, lö, sö",
+        "period": "2003-04-01--2008-03-02"
+      },
+      {
+        "sectionTitle": "DIN EKONOMI",
+        "id": 130142,
+        "frequency": "1/v",
+        "daysOfWeek": "sö",
+        "period": "2008-03-09--2010-06-20"
+      },
+      {
+        "sectionTitle": "EKONOMI.; SPORT.",
+        "id": 130141,
+        "frequency": "6/v",
+        "daysOfWeek": "må, ti, on, to, fre, lö",
+        "period": "2008-03-09--2011-07-10"
+      },
+      {
+        "sectionTitle": "KULTUR",
+        "id": 132118,
+        "frequency": "5/v",
+        "daysOfWeek": "må, ti, on, to, fre",
+        "period": "2009-08-17--2009-10-23"
+      },
+      {
+        "sectionTitle": "BOKLÖRDAG",
+        "id": 132119,
+        "frequency": "1/v",
+        "daysOfWeek": "lö",
+        "period": "2009-08-22--2010-06-30"
+      },
+      {
+        "sectionTitle": "KULTURSÖNDAG",
+        "id": 132120,
+        "frequency": "1/v",
+        "daysOfWeek": "sö",
+        "period": "2009-08-23--2011-09-18"
+      },
+      {
+        "sectionTitle": "KULTUR",
+        "id": 132206,
+        "frequency": "4/v",
+        "daysOfWeek": "må, ti, on, to",
+        "period": "2009-10-29--2011-09-15"
+      },
+      {
+        "sectionTitle": "KULTUR - PÅ STAN",
+        "id": 132207,
+        "frequency": "1/v",
+        "daysOfWeek": "fre",
+        "period": "2009-10-30--2011-09-16"
+      },
+      {
+        "sectionTitle": "BOKSOMMAR",
+        "id": 133379,
+        "frequency": "",
+        "daysOfWeek": "",
+        "period": "2010-07-03--2010-08-14"
+      },
+      {
+        "sectionTitle": "DIN EKONOMI",
+        "id": 133430,
+        "frequency": "1/v",
+        "daysOfWeek": "sö",
+        "period": "2010-08-15--2011-07-10"
+      },
+      {
+        "sectionTitle": "BOKLÖRDAG",
+        "id": 133429,
+        "frequency": "1/v",
+        "daysOfWeek": "lö",
+        "period": "2010-08-21--2011-06-30"
+      },
+      {
+        "sectionTitle": "BOKSOMMAR",
+        "id": 134542,
+        "frequency": "1/v",
+        "daysOfWeek": "lö",
+        "period": "2011-07-02--2011-08-13"
+      },
+      {
+        "sectionTitle": "EKONOMI.; SPORT.",
+        "id": 134541,
+        "frequency": "7/v",
+        "daysOfWeek": "må, ti, on, to, fre, lö, sö",
+        "period": "2011-07-11--2011-07-31"
+      },
+      {
+        "sectionTitle": "EKONOMI.; SPORT.",
+        "id": 134559,
+        "frequency": "6/v",
+        "daysOfWeek": "må, ti, on, to, fre, lö",
+        "period": "2011-08-06--2011-09-17"
+      },
+      {
+        "sectionTitle": "DIN EKONOMI",
+        "id": 134561,
+        "frequency": "1/v",
+        "daysOfWeek": "sö",
+        "period": "2011-08-07--2011-09-18"
+      },
+      {
+        "sectionTitle": "BOKLÖRDAG",
+        "id": 134560,
+        "frequency": "1/v",
+        "daysOfWeek": "lö",
+        "period": "2011-08-20--2011-09-17"
+      },
+      {
+        "sectionTitle": "DN. STHLM",
+        "id": 134585,
+        "frequency": "6/v",
+        "daysOfWeek": "må, ti, on, to, fre, lö",
+        "period": "2011-09-19--2014-01-23"
+      },
+      {
+        "sectionTitle": "KULTUR",
+        "id": 134586,
+        "frequency": "7/v",
+        "daysOfWeek": "må, ti, on, to, fre, lö, sö",
+        "period": "2011-09-19--2014-01-26"
+      },
+      {
+        "sectionTitle": "DN. STHLM",
+        "id": 138732,
+        "frequency": "5/v",
+        "daysOfWeek": "må, ti, on, to, lö",
+        "period": "2014-01-24--2016-08-26"
+      },
+      {
+        "sectionTitle": "DN. KULTUR",
+        "id": 139798,
+        "frequency": "6/v",
+        "daysOfWeek": "må, ti, on, to, fre, lö",
+        "period": "2014-01-27--2020-06-21"
+      },
+      {
+        "sectionTitle": "DN. STHLM ",
+        "id": 146918,
+        "frequency": "6/v",
+        "daysOfWeek": "må, ti, on, to, fre, lö",
+        "period": "2016-09-02--2020-04-11"
+      },
+      {
+        "sectionTitle": "DN. KULTUR",
+        "id": 165174,
+        "frequency": "7/v",
+        "daysOfWeek": "må, ti, on, to, fre, lö, sö",
+        "period": "2020-06-22--"
+      }
+    ],
+    "editionDesignationLocations": [
+      {
+        "printingLocation": null,
+        "designations": []
+      },
+      {
+        "printingLocation": "",
+        "designations": []
+      },
+      {
+        "printingLocation": "Borås",
+        "designations": [
+          {
+            "designation": "• A 1",
+            "id": 134587,
+            "frequency": "7/v",
+            "daysOfWeek": "må, ti, on, to, fre, lö, sö",
+            "timeOfDay": "",
+            "period": "2011-09-07--"
+          }
+        ]
+      },
+      {
+        "printingLocation": "Eskilstuna",
+        "designations": []
+      },
+      {
+        "printingLocation": "Jönköping",
+        "designations": []
+      },
+      {
+        "printingLocation": "Malmö",
+        "designations": []
+      },
+      {
+        "printingLocation": "Stockholm",
+        "designations": [
+          {
+            "designation": "• A 4",
+            "id": 134592,
+            "frequency": "7/v",
+            "daysOfWeek": "må, ti, on, to, fre, lö, sö",
+            "timeOfDay": "",
+            "period": "2011-09-07--"
+          },
+          {
+            "designation": "• A 5",
+            "id": 165813,
+            "frequency": "7/v",
+            "daysOfWeek": "må, ti, on, to, fre, lö, sö",
+            "timeOfDay": "",
+            "period": "2020-07-01--"
+          },
+          {
+            "designation": "• A 1",
+            "id": 165814,
+            "frequency": "7/v",
+            "daysOfWeek": "må, ti, on, to, fre, lö, sö",
+            "timeOfDay": "",
+            "period": "2021-04-07--"
+          }
+        ]
+      },
+      {
+        "printingLocation": "Umeå",
+        "designations": [
+          {
+            "designation": "• A 1",
+            "id": 134588,
+            "frequency": "7/v",
+            "daysOfWeek": "må, ti, on, to, fre, lö, sö",
+            "timeOfDay": "",
+            "period": "2011-09-07--"
+          }
+        ]
+      },
+      {
+        "printingLocation": "Västerås",
+        "designations": []
+      }
+    ],
+    "periodicalSupplements": [
+      {
+        "supplementTitle": "SMÅBRUKAREN / TIDNING FÖR DET MINDRE JORDBRUKET OCH DESS BINÄRINGAR SAMT FÖR LANTMÄNNENS ANDELSFÖRETAG OCH FÖRENINGSVÄSENDE. / DAGENS NYHETER. / NATIONALUPPLAGA / LÖRDAGSBILAGA",
+        "id": 37182,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "lö",
+        "period": "1908-01-04--1911-12-31"
+      },
+      {
+        "supplementTitle": "SMÅBRUKAREN / TIDNING FÖR DET MINDRE JORDBRUKET OCH DESS BINÄRINGAR SAMT FÖR LANTMÄNNENS ANDELSFÖRETAG OCH FÖRENINGSVÄSENDE. / MEDFÖLJER DAGENS NYHETERS HALVVECKOUPPLAGA ONSDAGAR.",
+        "id": 37183,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "on",
+        "period": "1911-06-21--1911-12-31"
+      },
+      {
+        "supplementTitle": "SMÅBRUKAREN",
+        "id": 37184,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "on",
+        "period": "1912-01-02--1924-11-12"
+      },
+      {
+        "supplementTitle": "DAGENS NYHETER. / DJUPTRYCKSBILAGA / BIHANG TILL SÖNDAGSNUMRET",
+        "id": 37185,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "1919-03-09--1919-03-09"
+      },
+      {
+        "supplementTitle": "DAGENS NYHETER. / BIHANG TILL SÖNDAGSNUMRET",
+        "id": 37186,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "1919-03-16--1925-11-22"
+      },
+      {
+        "supplementTitle": "KRING BYGDERNA / BILAGA TILL DAGENS NYHETER HALVVECKOUPPLAGA",
+        "id": 37187,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "lö",
+        "period": "1919-12-06--1924-11-08"
+      },
+      {
+        "supplementTitle": "DAGENS NYHETER. / NYTT OCH NYTTIGT FÖR STORA OCH SMÅ / BILAGA TILL SÖNDAGSNUMRET",
+        "id": 37188,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "1923-09-23--1924-04-27"
+      },
+      {
+        "supplementTitle": "DAGENS NYHETER. / BILAGA TILL SÖNDAGSNUMRET",
+        "id": 37189,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "1924-05-04--1925-11-22"
+      },
+      {
+        "supplementTitle": "DAGENS NYHETER SÖNDAGSBILAGAN",
+        "id": 37190,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "1925-11-29--1925-12-27"
+      },
+      {
+        "supplementTitle": "DAGENS NYHETERS SÖNDAGSBILAGA",
+        "id": 37191,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "1926-01-03--1940-12-08"
+      },
+      {
+        "supplementTitle": "FÖR DE UNGA OCH DE YNGSTA",
+        "id": 37192,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "1926-01-31--1939-09-17"
+      },
+      {
+        "supplementTitle": "DAGENS NYHETER. / SÖNDAGSBILAGAN",
+        "id": 37193,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "1940-12-22--1945-09-30"
+      },
+      {
+        "supplementTitle": "DN - / JUNIOR",
+        "id": 37194,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "on",
+        "period": "1954-09-22--1962-01-31"
+      },
+      {
+        "supplementTitle": "DAGENS NYHETER. / MOTOR TRAFIK",
+        "id": 37195,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "lö",
+        "period": "1961-04-08--1963-03-09"
+      },
+      {
+        "supplementTitle": "DN HELGEXTRA",
+        "id": 164943,
+        "frequency": "1/v",
+        "type": "allmän",
+        "daysOfWeek": "lö",
+        "period": "1962-11-17--1962-12-29"
+      },
+      {
+        "supplementTitle": "DAGENS NYHETER. / SÖNDAGSBILAGAN",
+        "id": 37196,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "1965-02-28--1970-03-22"
+      },
+      {
+        "supplementTitle": "DAGENS NYHETER. / DN / NORDVÄST / STOR / STOCKHOLM / VÄSTERORT, JÄRFÄLLA, MÄLARÖARNA, BRO",
+        "id": 37197,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "on",
+        "period": "1967-03-15--1967-10-24"
+      },
+      {
+        "supplementTitle": "DAGENS NYHETER. / DN / SYDVÄST / STOR / STOCKHOLM / HÄGERSTEN, BREDÄNG, SKÄRHOLMEN, VÅRBY-BOTKYRKA, TUMBA, RÖNNINGE, SÖDERTÄLJE",
+        "id": 37198,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "on",
+        "period": "1967-09-13--1968-10-23"
+      },
+      {
+        "supplementTitle": "DAGENS NYHETER. / DN / SYD / STOR / STOCKHOLM / JOHANNESHOV, ENSKEDE, VANTÖR, SKARPNÄCK, FARSTA-HUDDINGE",
+        "id": 37199,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "on",
+        "period": "1967-11-01--1968-10-23"
+      },
+      {
+        "supplementTitle": "DAGENS NYHETER. / DN / NORDVÄST / STOR / STOCKHOLM / VÄSTERORT, JÄRFÄLLA, MÄLARÖARNA, BRO",
+        "id": 37200,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "to",
+        "period": "1967-11-02--1968-10-24"
+      },
+      {
+        "supplementTitle": "DAGENS NYHETER. / DN / NORD / STOR / STOCKHOLM / SOLNA, SUNDBYBERG, SOLLENTUNA, UPPLANDS VÄSBY, MÄRSTA, SIGTUNA",
+        "id": 37201,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "to",
+        "period": "1967-12-07--1968-10-24"
+      },
+      {
+        "supplementTitle": "DAGENS NYHETER / DN / NORDOST / STOR / STOCKHOLM / LIDINGÖ, DJURSHOLM, DANDERYD, TÄBY, VALLENTUNA, VAXHOLM, ÖSTERÅKER",
+        "id": 37202,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "to",
+        "period": "1968-04-04--1968-10-24"
+      },
+      {
+        "supplementTitle": "DN SYD / JOHANNESHOV, ENSKEDE, HÖGDALEN, SKARPNÄCK, FARSTA, TYRESÖ, VÄSTERHANINGE, ÖSTERHANINGE",
+        "id": 37203,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "on",
+        "period": "1968-10-30--1970-12-23"
+      },
+      {
+        "supplementTitle": "DN SYDVÄST / HÄGERSTEN, BREDÄNG, SKÄRHOLMEN, HUDDINGE, BOTKYRKA, SALEM, SÖDERTÄLJE, JÄRNA",
+        "id": 37204,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "on",
+        "period": "1968-10-30--1970-12-23"
+      },
+      {
+        "supplementTitle": "DN NORDOST / LIDINGÖ, DJURSHOLM, DANDERYD, TÄBY, VALLENTUNA, VAXHOLM, ÖSTERÅKER, ÖSSEBY",
+        "id": 37205,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "to",
+        "period": "1968-10-31--1971-01-07"
+      },
+      {
+        "supplementTitle": "DN NORDVÄST / VÄSTERORT, JÄRFÄLLA, MÄLARÖARNA, BRO, HÅBO",
+        "id": 37206,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "to",
+        "period": "1968-10-31--1977-08-26"
+      },
+      {
+        "supplementTitle": "DN NORD / SOLNA, SUNDBYBERG, SOLLENTUNA, UPPLANDS VÄSBY, MÄRSTA, SIGTUNA",
+        "id": 37207,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "to",
+        "period": "1968-10-31--1981-09-10"
+      },
+      {
+        "supplementTitle": "DN SYD / JOHANNESHOV, ENSKEDE, HÖGDALEN, SKARPNÄCK, FARSTA, TYRESÖ, VÄSTERHANINGE, ÖSTERHANINGE",
+        "id": 37208,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "fre",
+        "period": "1971-01-08--1971-04-02"
+      },
+      {
+        "supplementTitle": "DN SYDVÄST / HÄGERSTEN, BREDÄNG, SKÄRHOLMEN, HUDDINGE, BOTKYRKA, SALEM, SÖDERTÄLJE, JÄRNA",
+        "id": 37209,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "fre",
+        "period": "1971-01-08--1971-04-02"
+      },
+      {
+        "supplementTitle": "DN NORDOST / LIDINGÖ, DJURSHOLM, DANDERYD, TÄBY, VALLENTUNA, VAXHOLM, ÖSTERÅKER, ÖSSEBY",
+        "id": 37210,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "on",
+        "period": "1971-01-13--1971-03-31"
+      },
+      {
+        "supplementTitle": "DN SYD / JOHANNESHOV, ENSKEDE, HÖGDALEN, SKARPNÄCK, FARSTA, TYRESÖ, VÄSTERHANINGE, ÖSTERHANINGE",
+        "id": 37211,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "on",
+        "period": "1971-04-07--1972-02-08"
+      },
+      {
+        "supplementTitle": "DN SYDVÄST / HÄGERSTEN, BREDÄNG, SKÄRHOLMEN, HUDDINGE, BOTKYRKA, SALEM, SÖDERTÄLJE",
+        "id": 37212,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "on",
+        "period": "1971-04-07--1981-09-09"
+      },
+      {
+        "supplementTitle": "DN NORDOST / LIDINGÖ, DJURSHOLM, DANDERYD, TÄBY, VALLENTUNA, VAXHOLM, ÖSTERÅKER, ÖSSEBY",
+        "id": 37213,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "to",
+        "period": "1971-04-22--1981-09-10"
+      },
+      {
+        "supplementTitle": "DN SYD / JOHANNESHOV, ENSKEDE, HÖGDALEN, SKARPNÄCK, FARSTA, TYRESÖ, HANINGE, SKOGÅS",
+        "id": 37214,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "on",
+        "period": "1972-02-16--1981-09-09"
+      },
+      {
+        "supplementTitle": "DN / PÅ STAN",
+        "id": 37215,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "lö",
+        "period": "1975-02-08--1993-06-19"
+      },
+      {
+        "supplementTitle": "DN NORDVÄST / VÄSTERORT, JÄRFÄLLA, EKERÖ, UPPLANDS-BRO, HÅBO",
+        "id": 37216,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "to",
+        "period": "1977-09-01--1981-09-10"
+      },
+      {
+        "supplementTitle": "DN SYDOST / NACKA VÄRMDÖ",
+        "id": 37217,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "on",
+        "period": "1977-09-07--1981-09-09"
+      },
+      {
+        "supplementTitle": "DN. / SÖNDAG",
+        "id": 37218,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "1979-01-07--1981-09-13"
+      },
+      {
+        "supplementTitle": "DN / NORD / SOLNA, SUNDBYBERG, SOLLENTUNA, UPPLANDS VÄSBY, MÄRSTA, SIGTUNA",
+        "id": 37219,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "to",
+        "period": "1981-09-17--1983-03-24"
+      },
+      {
+        "supplementTitle": "DN / NORDOST / LIDINGÖ, DANDERYD, TÄBY, VALLENTUNA, VAXHOLM",
+        "id": 37220,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "to",
+        "period": "1981-09-17--1983-03-24"
+      },
+      {
+        "supplementTitle": "DN / NORDVÄST / VÄSTERORT, JÄRFÄLLA, EKERÖ, UPPLANDS BRO, HÅBO",
+        "id": 37221,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "to",
+        "period": "1981-09-17--1983-03-24"
+      },
+      {
+        "supplementTitle": "DN / SYD / JOHANNESHOV, ENSKEDE, HÖGDALEN, SKARPNÄCK, FARSTA, TYRESÖ, HANINGE, SKOGÅS",
+        "id": 37222,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "to",
+        "period": "1981-09-17--1983-03-24"
+      },
+      {
+        "supplementTitle": "DN / SYDOST / NACKA VÄRMDÖ",
+        "id": 37223,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "to",
+        "period": "1981-09-17--1983-03-24"
+      },
+      {
+        "supplementTitle": "DN / SYDVÄST / HÄGERSTEN, BREDÄNG, SKÄRHOLMEN, HUDDINGE, BOTKYRKA, SALEM, SÖDERTÄLJE",
+        "id": 37224,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "to",
+        "period": "1981-09-17--1983-03-24"
+      },
+      {
+        "supplementTitle": "DAGENS NYHETER. / SÖNDAG.",
+        "id": 37225,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "1981-09-20--1983-03-27"
+      },
+      {
+        "supplementTitle": "DN / RUNT STAN / BOTKYRKA SALEM",
+        "id": 37226,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "on",
+        "period": "1983-04-06--1986-06-18"
+      },
+      {
+        "supplementTitle": "DN / RUNT STAN / HUDDINGE",
+        "id": 37227,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "on",
+        "period": "1983-04-06--1986-06-18"
+      },
+      {
+        "supplementTitle": "DN / RUNT STAN / FARSTA VANTÖR ENSKEDE SKARPNÄCK",
+        "id": 37228,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "on",
+        "period": "1983-04-06--1987-12-16"
+      },
+      {
+        "supplementTitle": "DN / RUNT STAN / HANINGE TYRESÖ",
+        "id": 37229,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "on",
+        "period": "1983-04-06--1987-12-16"
+      },
+      {
+        "supplementTitle": "DN / RUNT STAN / NACKA VÄRMDÖ",
+        "id": 37230,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "on",
+        "period": "1983-04-06--1987-12-16"
+      },
+      {
+        "supplementTitle": "DN / RUNT STAN / SKÄRHOLMEN BRÄNNKYRKA HÄGERSTEN",
+        "id": 37231,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "on",
+        "period": "1983-04-06--1987-12-16"
+      },
+      {
+        "supplementTitle": "DN / RUNT STAN / JÄRFÄLLA",
+        "id": 37232,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "to",
+        "period": "1983-04-07--1984-01-12"
+      },
+      {
+        "supplementTitle": "DN / RUNT STAN / SOLLENTUNA KISTA",
+        "id": 37233,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "to",
+        "period": "1983-04-07--1984-01-12"
+      },
+      {
+        "supplementTitle": "DN / RUNT STAN / TÄBY DANDERYD",
+        "id": 37234,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "to",
+        "period": "1983-04-07--1984-01-12"
+      },
+      {
+        "supplementTitle": "DN / RUNT STAN / VÄLLINGBY HÄSSELBY BROMMA SPÅNGA VÄSTERLED",
+        "id": 37235,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "to",
+        "period": "1983-04-07--1984-08-30"
+      },
+      {
+        "supplementTitle": "DN / RUNT STAN / LIDINGÖ",
+        "id": 37236,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "to",
+        "period": "1983-04-07--1987-06-18"
+      },
+      {
+        "supplementTitle": "DN / RUNT STAN / SOLNA SUNDBYBERG",
+        "id": 37237,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "to",
+        "period": "1983-04-07--1987-12-17"
+      },
+      {
+        "supplementTitle": "DN / RUNT STAN / VAXHOLM ÖSTERÅKER",
+        "id": 37238,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "to",
+        "period": "1983-04-07--1987-12-17"
+      },
+      {
+        "supplementTitle": "DN / RUNT STAN / SOLLENTUNA VÄSBY NORRA JÄRVA",
+        "id": 37239,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "to",
+        "period": "1984-01-19--1985-01-31"
+      },
+      {
+        "supplementTitle": "DN / RUNT STAN / JÄRFÄLLA UPPLANDS BRO",
+        "id": 37240,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "to",
+        "period": "1984-01-19--1987-12-17"
+      },
+      {
+        "supplementTitle": "DN / RUNT STAN / TÄBY DANDERYD VALLENTUNA",
+        "id": 37241,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "to",
+        "period": "1984-01-19--1987-12-17"
+      },
+      {
+        "supplementTitle": "DN / RUNT STAN / VÄLLINGBY HÄSSELBY BROMMA SPÅNGA JÄRVA",
+        "id": 37242,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "to",
+        "period": "1984-09-06--1987-12-17"
+      },
+      {
+        "supplementTitle": "DN / RUNT STAN / SOLLENTUNA VÄSBY",
+        "id": 37243,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "to",
+        "period": "1985-02-07--1987-12-17"
+      },
+      {
+        "supplementTitle": "DN. / TV / KABEL SATELLIT RADIO & VIDEO",
+        "id": 37244,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "1986-08-24--1991-06-16"
+      },
+      {
+        "supplementTitle": "DAGENS NYHETER. / ORUBRICERADE PLATSANNONSER / TORSDAG",
+        "id": 37245,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "to",
+        "period": "1988-08-25--1990-01-25"
+      },
+      {
+        "supplementTitle": "DN. / STOCKHOLMS / SPORTEN",
+        "id": 37246,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "to",
+        "period": "1988-10-20--1990-06-14"
+      },
+      {
+        "supplementTitle": "DAGENS NYHETER. / DN. 3 / PLATSANNONSER",
+        "id": 37247,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "1989-01-08--1990-01-28"
+      },
+      {
+        "supplementTitle": "DAGENS NYHETER. / RUBRICERADE / PLATSANNONSER",
+        "id": 37248,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "on",
+        "period": "1989-04-12--1989-12-27"
+      },
+      {
+        "supplementTitle": "DN. PLATSANNONSER",
+        "id": 37249,
+        "frequency": "2/v",
+        "type": "",
+        "daysOfWeek": "to, sö",
+        "period": "1990-08-09--1991-06-16"
+      },
+      {
+        "supplementTitle": "DN. PLATSANNONSER",
+        "id": 37250,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "1991-08-18--1991-12-15"
+      },
+      {
+        "supplementTitle": "DN. / TV & RADIO",
+        "id": 37251,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "1991-09-08--1992-05-03"
+      },
+      {
+        "supplementTitle": "DN. PLATSANNONSER",
+        "id": 37252,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "1992-01-19--1992-02-23"
+      },
+      {
+        "supplementTitle": "DN. / PÅ JOBBET / MED PLATSANNONSER",
+        "id": 37253,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "1992-03-01--1992-12-13"
+      },
+      {
+        "supplementTitle": "DN. / TEMA",
+        "id": 37254,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "varierande",
+        "period": "1992-05-07--1992-10-29"
+      },
+      {
+        "supplementTitle": "DN. / RADIO / TV",
+        "id": 37255,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "lö",
+        "period": "1992-05-09--1993-06-19"
+      },
+      {
+        "supplementTitle": "DN. / TEMA",
+        "id": 37256,
+        "frequency": "1/m",
+        "type": "",
+        "daysOfWeek": "",
+        "period": "1992-11-01--1993-02-28"
+      },
+      {
+        "supplementTitle": "DN. / RADIO / TV",
+        "id": 37258,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "fre",
+        "period": "1993-06-25--1997-03-14"
+      },
+      {
+        "supplementTitle": "PÅ STAN",
+        "id": 37257,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "fre",
+        "period": "1993-06-25--2006-04-13"
+      },
+      {
+        "supplementTitle": "DN. / PÅ JOBBET & UTBILDNING / MED PLATSANNONSER",
+        "id": 37259,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "1994-02-06--1995-01-08"
+      },
+      {
+        "supplementTitle": "DN. PLATSANNONSER",
+        "id": 37260,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "to",
+        "period": "1994-04-07--1995-03-07"
+      },
+      {
+        "supplementTitle": "SÖNDAG",
+        "id": 37261,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "1995-01-15--1999-01-10"
+      },
+      {
+        "supplementTitle": "ARBETET @ PENGAR 2 / DATA & TELE / MED  PLATSANNONSER",
+        "id": 37262,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "to",
+        "period": "1995-03-26--1996-08-15"
+      },
+      {
+        "supplementTitle": "DAGENS NYHETERS MÅNADSMAGASINET",
+        "id": 37263,
+        "frequency": "1/m",
+        "type": "",
+        "daysOfWeek": "lö",
+        "period": "1995-08-26--1996-11-30"
+      },
+      {
+        "supplementTitle": "LÖRDAG",
+        "id": 37264,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "lö",
+        "period": "1996-06-09--1999-01-09"
+      },
+      {
+        "supplementTitle": "IT / MED PLATSANNONSER",
+        "id": 37265,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "to",
+        "period": "1996-08-22--1997-09-30"
+      },
+      {
+        "supplementTitle": "ARBETE/PENGAR / SÖNDAG / MED PLATSANNONSER",
+        "id": 37266,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "1996-08-25--1997-05-18"
+      },
+      {
+        "supplementTitle": "TV / RADIO",
+        "id": 37267,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "to",
+        "period": "1997-03-20--1998-03-26"
+      },
+      {
+        "supplementTitle": "EKONOMI / SÖNDAG",
+        "id": 37268,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "1997-05-25--1999-02-21"
+      },
+      {
+        "supplementTitle": "IT",
+        "id": 37269,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "to",
+        "period": "1997-10-01--1999-10-21"
+      },
+      {
+        "supplementTitle": "BIL",
+        "id": 37270,
+        "frequency": "10/år",
+        "type": "",
+        "daysOfWeek": "",
+        "period": "1998-03-28--2000-12-31"
+      },
+      {
+        "supplementTitle": "TV / RADIO",
+        "id": 37271,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "on",
+        "period": "1998-04-01--2000-03-01"
+      },
+      {
+        "supplementTitle": "RESOR",
+        "id": 37272,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "1998-11-08--2004-06-20"
+      },
+      {
+        "supplementTitle": "BOSTAD",
+        "id": 37273,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "1999-01-10--2001-09-02"
+      },
+      {
+        "supplementTitle": "LÖRDAGSÖNDAG",
+        "id": 37274,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "lö",
+        "period": "1999-01-16--2003-12-20"
+      },
+      {
+        "supplementTitle": "KUNSKAP",
+        "id": 37275,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "1999-02-28--2000-06-18"
+      },
+      {
+        "supplementTitle": "HEMTEKNIK",
+        "id": 37276,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "to",
+        "period": "1999-10-28--2000-02-24"
+      },
+      {
+        "supplementTitle": "PLATSANNONSER",
+        "id": 37277,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "to",
+        "period": "1999-10-28--2000-04-27"
+      },
+      {
+        "supplementTitle": "TV / DN.",
+        "id": 37278,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "on",
+        "period": "2000-03-08--2003-01-15"
+      },
+      {
+        "supplementTitle": "E / DN.",
+        "id": 37279,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "on",
+        "period": "2000-03-08--2000-06-07"
+      },
+      {
+        "supplementTitle": "MOTOR",
+        "id": 37280,
+        "frequency": "6/år",
+        "type": "",
+        "daysOfWeek": "",
+        "period": "2000-04-29--2001-05-19"
+      },
+      {
+        "supplementTitle": "JOBB",
+        "id": 37281,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "to",
+        "period": "2000-05-04--2000-06-22"
+      },
+      {
+        "supplementTitle": "JOBB",
+        "id": 37282,
+        "frequency": "2/v",
+        "type": "",
+        "daysOfWeek": "to, sö",
+        "period": "2000-06-25--2000-12-31"
+      },
+      {
+        "supplementTitle": "JOBB 1",
+        "id": 37283,
+        "frequency": "2/v",
+        "type": "",
+        "daysOfWeek": "to, sö",
+        "period": "2001-01-07--2001-07-31"
+      },
+      {
+        "supplementTitle": "JOBB 2",
+        "id": 37284,
+        "frequency": "2/v",
+        "type": "",
+        "daysOfWeek": "to, sö",
+        "period": "2001-01-07--2001-07-31"
+      },
+      {
+        "supplementTitle": "JOBB 1",
+        "id": 37285,
+        "frequency": "2/v",
+        "type": "",
+        "daysOfWeek": "to, sö",
+        "period": "2001-08-01--2001-09-30"
+      },
+      {
+        "supplementTitle": "JOBB 2",
+        "id": 37286,
+        "frequency": "2/v",
+        "type": "",
+        "daysOfWeek": "to, sö",
+        "period": "2001-08-01--2001-09-30"
+      },
+      {
+        "supplementTitle": "JOBB",
+        "id": 37287,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "to",
+        "period": "2001-08-01--2001-07-31"
+      },
+      {
+        "supplementTitle": "MOTOR",
+        "id": 100796,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "lö",
+        "period": "2001-09-01--2004-06-19"
+      },
+      {
+        "supplementTitle": "BOSTAD 1",
+        "id": 100640,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "2001-09-09--2001-12-30"
+      },
+      {
+        "supplementTitle": "BOSTAD 2",
+        "id": 100641,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "2001-09-09--2001-12-30"
+      },
+      {
+        "supplementTitle": "JOBB",
+        "id": 101384,
+        "frequency": "2/v",
+        "type": "",
+        "daysOfWeek": "to, sö",
+        "period": "2001-10-01--2002-11-14"
+      },
+      {
+        "supplementTitle": "BOSTAD",
+        "id": 102995,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "2002-01-06--2002-02-10"
+      },
+      {
+        "supplementTitle": "BOSTAD",
+        "id": 103343,
+        "frequency": "2/v",
+        "type": "",
+        "daysOfWeek": "to, sö",
+        "period": "2002-02-14--2002-08-31"
+      },
+      {
+        "supplementTitle": "SOMMAR",
+        "id": 105226,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "fre",
+        "period": "2002-06-14--2002-08-09"
+      },
+      {
+        "supplementTitle": "BOSTAD",
+        "id": 105844,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "2002-09-01--2003-08-31"
+      },
+      {
+        "supplementTitle": "JOBB",
+        "id": 107481,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "2002-11-21--2002-11-30"
+      },
+      {
+        "supplementTitle": "JOBB",
+        "id": 107615,
+        "frequency": "2/m",
+        "type": "",
+        "daysOfWeek": "to, sö",
+        "period": "2002-12-01--2003-08-31"
+      },
+      {
+        "supplementTitle": "TV & RADIO",
+        "id": 107864,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "on",
+        "period": "2003-01-22--2008-10-22"
+      },
+      {
+        "supplementTitle": "BOSTAD 1",
+        "id": 109941,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "2003-09-01--2003-12-21"
+      },
+      {
+        "supplementTitle": "BOSTAD 2",
+        "id": 109942,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "2003-09-01--2003-12-21"
+      },
+      {
+        "supplementTitle": "JOBB",
+        "id": 109943,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "2003-09-01--2004-01-31"
+      },
+      {
+        "supplementTitle": "BOSTAD",
+        "id": 111433,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "lö",
+        "period": "2004-01-10--2005-06-18"
+      },
+      {
+        "supplementTitle": "NOTAR / BOSTAD",
+        "id": 112064,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "lö",
+        "period": "2004-01-10--2005-06-19"
+      },
+      {
+        "supplementTitle": "SÖNDAG",
+        "id": 111434,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "2004-01-18--2004-06-20"
+      },
+      {
+        "supplementTitle": "JOBB",
+        "id": 111788,
+        "frequency": "2/v",
+        "type": "",
+        "daysOfWeek": "to, sö",
+        "period": "2004-02-01--2004-06-20"
+      },
+      {
+        "supplementTitle": "S0MMARSÖNDAG",
+        "id": 113045,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "2004-06-27--2004-08-15"
+      },
+      {
+        "supplementTitle": "JOBB",
+        "id": 113604,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "2004-08-08--2005-06-19"
+      },
+      {
+        "supplementTitle": "MOTOR",
+        "id": 113605,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "lö",
+        "period": "2004-08-21--2005-06-18"
+      },
+      {
+        "supplementTitle": "SÖNDAG",
+        "id": 113606,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "2004-08-22--2005-06-19"
+      },
+      {
+        "supplementTitle": "RESOR",
+        "id": 113608,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "2004-08-22--2005-06-19"
+      },
+      {
+        "supplementTitle": "JOBB",
+        "id": 113607,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "to",
+        "period": "2004-08-26--2005-06-16"
+      },
+      {
+        "supplementTitle": "SOMMARSÖNDAG",
+        "id": 119018,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "2005-06-26--2005-08-14"
+      },
+      {
+        "supplementTitle": "BOSTAD",
+        "id": 119418,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "lö",
+        "period": "2005-07-02--2006-04-21"
+      },
+      {
+        "supplementTitle": "NOTAR / BOSTAD",
+        "id": 119419,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "lö",
+        "period": "2005-07-02--2006-04-21"
+      },
+      {
+        "supplementTitle": "JOBB",
+        "id": 119417,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "2005-07-03--2006-06-30"
+      },
+      {
+        "supplementTitle": "SÖNDAG",
+        "id": 120368,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "2005-08-21--2006-06-18"
+      },
+      {
+        "supplementTitle": "RESOR",
+        "id": 120369,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "2005-08-21--2006-06-30"
+      },
+      {
+        "supplementTitle": "JOBB",
+        "id": 120371,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "to",
+        "period": "2005-08-25--2006-06-22"
+      },
+      {
+        "supplementTitle": "MOTOR",
+        "id": 120370,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "lö",
+        "period": "2005-08-27--2011-09-17"
+      },
+      {
+        "supplementTitle": "PÅ STAN",
+        "id": 125105,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "to",
+        "period": "2006-04-20--2009-10-22"
+      },
+      {
+        "supplementTitle": "NOTAR / BOSTAD",
+        "id": 125107,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "fre",
+        "period": "2006-04-28--2008-06-30"
+      },
+      {
+        "supplementTitle": "BOSTAD",
+        "id": 125106,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "fre",
+        "period": "2006-04-28--2011-01-25"
+      },
+      {
+        "supplementTitle": "BOSTAD",
+        "id": 125308,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "må",
+        "period": "2006-05-15--2006-06-19"
+      },
+      {
+        "supplementTitle": "SOMMARSÖNDAG",
+        "id": 125488,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "2006-06-25--2006-08-13"
+      },
+      {
+        "supplementTitle": "JOBB",
+        "id": 125821,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "2006-08-13--2006-09-03"
+      },
+      {
+        "supplementTitle": "JOBB",
+        "id": 125822,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "to",
+        "period": "2006-08-17--2009-10-30"
+      },
+      {
+        "supplementTitle": "RESOR",
+        "id": 125824,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "2006-08-20--2007-06-30"
+      },
+      {
+        "supplementTitle": "SÖNDAG",
+        "id": 125823,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "2006-08-20--2013-09-30"
+      },
+      {
+        "supplementTitle": "JOBB",
+        "id": 126425,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "2006-10-01--2008-03-02"
+      },
+      {
+        "supplementTitle": "BOSTAD",
+        "id": 126426,
+        "frequency": "3/m",
+        "type": "",
+        "daysOfWeek": "må",
+        "period": "2006-10-09--2006-12-31"
+      },
+      {
+        "supplementTitle": "BOSTAD",
+        "id": 127187,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "må",
+        "period": "2007-01-15--2008-01-31"
+      },
+      {
+        "supplementTitle": "LÄGET",
+        "id": 127907,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "fre",
+        "period": "2007-01-26--2007-11-30"
+      },
+      {
+        "supplementTitle": "BOSTAD / PLUS",
+        "id": 129809,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "fre",
+        "period": "2008-01-18--2008-12-31"
+      },
+      {
+        "supplementTitle": "LÄGET",
+        "id": 130047,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "fre",
+        "period": "2008-02-01--2009-05-31"
+      },
+      {
+        "supplementTitle": "MERA SPORT.",
+        "id": 130143,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "2008-03-09--2010-06-20"
+      },
+      {
+        "supplementTitle": "TV & RADIO",
+        "id": 131147,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "fre",
+        "period": "2009-01-23--2009-10-23"
+      },
+      {
+        "supplementTitle": "TV & RADIO",
+        "id": 132208,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "to",
+        "period": "2009-10-29--2010-09-09"
+      },
+      {
+        "supplementTitle": "MERA SPORT; EKONOMI",
+        "id": 133323,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "2010-06-27--2010-08-08"
+      },
+      {
+        "supplementTitle": "MERA SPORT.",
+        "id": 133434,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "2010-08-15--2011-07-10"
+      },
+      {
+        "supplementTitle": "TV & RADIO",
+        "id": 133462,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "on",
+        "period": "2010-09-15--2012-12-31"
+      },
+      {
+        "supplementTitle": "DN. / VÄRLDEN",
+        "id": 133562,
+        "frequency": "1/m",
+        "type": "",
+        "daysOfWeek": "",
+        "period": "2010-10-25--2012-11-26"
+      },
+      {
+        "supplementTitle": "BOSTAD;  DRÖMHEM",
+        "id": 133882,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "fre",
+        "period": "2011-02-04--2011-04-29"
+      },
+      {
+        "supplementTitle": "DRÖMHEM",
+        "id": 134477,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "fre",
+        "period": "2011-05-06--2011-06-30"
+      },
+      {
+        "supplementTitle": "BOSTAD",
+        "id": 134476,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "fre",
+        "period": "2011-05-06--2011-08-05"
+      },
+      {
+        "supplementTitle": "MERA SPORT.",
+        "id": 134563,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "2011-08-07--2011-09-18"
+      },
+      {
+        "supplementTitle": "BOSTAD; DRÖMHEM",
+        "id": 134562,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "fre",
+        "period": "2011-08-12--2012-08-31"
+      },
+      {
+        "supplementTitle": "JOBB",
+        "id": 134594,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "to",
+        "period": "2011-09-22--2011-09-30"
+      },
+      {
+        "supplementTitle": "PÅ STAN",
+        "id": 134595,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "fre",
+        "period": "2011-09-23--2012-09-07"
+      },
+      {
+        "supplementTitle": "LÖRDAG",
+        "id": 134596,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "lö",
+        "period": "2011-09-24--2013-09-29"
+      },
+      {
+        "supplementTitle": "SPORT",
+        "id": 134597,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "2011-09-25--2014-02-23"
+      },
+      {
+        "supplementTitle": "JOBB",
+        "id": 134629,
+        "frequency": "2/v",
+        "type": "",
+        "daysOfWeek": "to, sö",
+        "period": "2011-10-01--2011-12-31"
+      },
+      {
+        "supplementTitle": "JOBB",
+        "id": 134800,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "2012-01-02--2012-11-30"
+      },
+      {
+        "supplementTitle": "BOSTAD",
+        "id": 135747,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "fre",
+        "period": "2012-09-01--2014-01-17"
+      },
+      {
+        "supplementTitle": "DN. TV & RADIO",
+        "id": 136034,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "to",
+        "period": "2013-01-02--2019-01-31"
+      },
+      {
+        "supplementTitle": "DN Världen",
+        "id": 136192,
+        "frequency": "6/år",
+        "type": "",
+        "daysOfWeek": "varierande",
+        "period": "2013-01-28--2013-10-28"
+      },
+      {
+        "supplementTitle": "LÖRDAG + motor",
+        "id": 138324,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "lö",
+        "period": "2013-09-30--2014-01-18"
+      },
+      {
+        "supplementTitle": "SÖNDAG + resor",
+        "id": 138325,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "2013-10-01--2014-01-19"
+      },
+      {
+        "supplementTitle": "FREDAG STHLM.",
+        "id": 138733,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "fre",
+        "period": "2014-01-24--2016-08-26"
+      },
+      {
+        "supplementTitle": "DAGENS NYHETER. LÖRDAG",
+        "id": 138730,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "lö",
+        "period": "2014-01-25--2020-11-30"
+      },
+      {
+        "supplementTitle": "SÖNDAG KULTUR. ",
+        "id": 138731,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "2014-01-26--2020-11-30"
+      },
+      {
+        "supplementTitle": "DAGENS NYHETER. MAGASIN",
+        "id": 146158,
+        "frequency": "1/v",
+        "type": "allmän",
+        "daysOfWeek": "fre",
+        "period": "2016-04-08--2017-09-08"
+      },
+      {
+        "supplementTitle": "DAGENS NYHETER. HEMMA",
+        "id": 149635,
+        "frequency": "1/m",
+        "type": "bostad",
+        "daysOfWeek": "",
+        "period": "2017-04-23--2017-11-26"
+      },
+      {
+        "supplementTitle": "DAGENS NYHETER. RESOR",
+        "id": 149903,
+        "frequency": "1/m",
+        "type": "fritid",
+        "daysOfWeek": "",
+        "period": "2017-05-26--2017-12-15"
+      },
+      {
+        "supplementTitle": "DN. TV & RADIO",
+        "id": 157384,
+        "frequency": "1/v",
+        "type": "tv",
+        "daysOfWeek": "fre",
+        "period": "2019-02-08--"
+      },
+      {
+        "supplementTitle": "DAGENS NYHETER. LÖRDAG",
+        "id": 168436,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "lö",
+        "period": "2021-01-30--"
+      }
+    ],
+    "newsBill": [
+      {
+        "frequency": "en eller flera per utgivningsdag",
+        "id": 36336,
+        "comment": "KBL",
+        "period": "1923-06-02--1923-12-31"
+      },
+      {
+        "frequency": "en eller flera per utgivningsdag",
+        "id": 36337,
+        "comment": "KBL",
+        "period": "1924-01-01--1924-11-30"
+      },
+      {
+        "frequency": "en eller flera per utgivningsdag",
+        "id": 36338,
+        "comment": "KBL",
+        "period": "1925-07-01--1953-12-31"
+      },
+      {
+        "frequency": "förmodligen med luckor",
+        "id": 36339,
+        "comment": "PAL",
+        "period": "1954-01-01--1954-12-31"
+      },
+      {
+        "frequency": "en eller flera per utgivningsdag",
+        "id": 36340,
+        "comment": "KBL",
+        "period": "1955-01-01--"
+      }
+    ],
+    "productionComments": [
+      {
+        "comment": "En rullsvit:\r\nH: huvudedition \r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n\r\nFärgsymbol:\r\nsymbolen används närhelst annan tryckfärg än svart förekommer\r\n\r\nFörlaga:\r\nUppsala universitetsbiblioteks exemplar, kompletterade med Kungl. bibliotekets m fl\r\n\r\n\r\n",
+        "id": 104385,
+        "period": "1905-01-02--1905-12-31"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH: huvudedition\r\nE: A1 [Umeå] i sin helhet; övriga editioner i form av ändrade sidor\r\nL: löpsedlar\r\n\r\nTryckort: [Jönköping] \r\n1 ed: • 1  [A1] \r\n\r\nTryckort: [Malmö]\r\n1 ed: • 1   [A1]\r\n\r\nTryckort: [Umeå]\r\n1 ed: • 1   [A1]\r\n\r\nTryckort:  [Stockholm]\r\n1 ed: • 2    [A2]\r\n2 ed: • 3    [A3] \r\n3 ed: • 4    [A4]\r\n4 ed: • 5    [A5]\r\n5 ed: •6    [A6]\r\n[sista editionen för dagen är huvudedition]\r\n\r\nAnm: A1 [Jönköping] och A1 [Malmö] filmas ej eftersom de är exakt likadana som A1 [Umeå]\r\n\r\nTillfälligabilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.",
+        "id": 100642,
+        "period": "2001-09-01--2002-12-31"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH: huvudedition\r\nE: A1 [Umeå] i sin helhet; övriga editioner i form av ändrade sidor\r\nL: löpsedlar\r\n\r\nTryckort: [Borås] \r\n1 ed: • 1 [A1] \r\n\r\nTryckort: [Malmö]\r\n1 ed: • 1 [A1]\r\n\r\nTryckort: [Umeå]\r\n1 ed: • 1 [A1]\r\n\r\nTryckort: [Stockholm]\r\n1 ed: • 2 [A2]\r\n2 ed: • 3 [A3] \r\n3 ed: • 4 [A4]\r\n4 ed: • 5 [A5]\r\n5 ed: •6 [A6]\r\n[sista editionen för dagen är huvudedition]\r\n\r\nAnm: A1 [Borås] och A1 [Malmö] filmas ej eftersom de är exakt likadana som A1 [Umeå]\r\n\r\nTillfälligabilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.",
+        "id": 107868,
+        "period": "2003-01-02--2004-08-31"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH: huvudedition\r\nE: A1 [Umeå] i sin helhet; övriga editioner i form av ändrade sidor\r\nL: löpsedlar\r\n\r\nTryckort: [Borås] \r\n1 ed: • 1 [A1] \r\n\r\nTryckort: [Malmö] [--2004 09 14]\r\n1 ed: • 1 [A1]\r\n\r\nTryckort: [Umeå]\r\n1 ed: • 1 [A1]\r\n\r\nTryckort: [Stockholm]\r\n1 ed: • 2 [A2]\r\n2 ed: • 3 [A3] \r\n3 ed: • 4 [A4]\r\n4 ed: • 5 [A5]\r\n5 ed: •6 [A6]\r\n[sista editionen för dagen är huvudedition]\r\n\r\nAnm: A1 [Borås] och A1 [Malmö] filmas ej eftersom de är exakt likadana som A1 [Umeå]\r\n\r\nTillfälligabilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.",
+        "id": 113887,
+        "period": "2004-09-01--2004-09-30"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH: huvudedition\r\nE: A1 [Umeå] i sin helhet; övriga editioner i form av ändrade sidor\r\nL: löpsedlar\r\n\r\nTryckort: [Borås] \r\n1 ed: • 1 [A1] \r\n\r\nTryckort: [Umeå]\r\n1 ed: • 1 [A1]\r\n\r\nTryckort: [Stockholm]\r\n1 ed: • 2 [A2]\r\n2 ed: • 3 [A3] \r\n3 ed: • 4 [A4]\r\n4 ed: • 5 [A5]\r\n5 ed: •6 [A6]\r\n[sista editionen för dagen är huvudedition]\r\n\r\nAnm: A1 [Borås] och A1 [Malmö] filmas ej eftersom de är exakt likadana som A1 [Umeå]\r\n\r\nTillfälligabilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.",
+        "id": 114980,
+        "period": "2004-10-01--2004-11-30"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH: huvudedition\r\nE: A1 [Umeå] i sin helhet; övriga editioner i form av ändrade sidor\r\nL: löpsedlar\r\n\r\nTryckort: [Borås] \r\n1 ed: • 1 [A1] \r\n\r\nTryckort: [Umeå]\r\n1 ed: • 1 [A1]\r\n\r\nTryckort: [Stockholm]\r\n1 ed: • 2 [A2]\r\n2 ed: • 3 [A3] [--2004 12 21] \r\n3 ed: • 4 [A4]\r\n4 ed: • 5 [A5]\r\n5 ed: •6 [A6]\r\n[sista editionen för dagen är huvudedition]\r\n\r\nAnm: A1 [Borås] filmas ej eftersom de är exakt likadana som A1 [Umeå]\r\n\r\nTillfälligabilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.",
+        "id": 115849,
+        "period": "2004-12-01--2004-12-31"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH: huvudedition\r\nE: A1 [Umeå] i sin helhet; övriga editioner i form av ändrade sidor\r\nL: löpsedlar\r\n\r\nTryckort: [Borås] \r\n1 ed: • 1 [A1] \r\n\r\nTryckort: [Umeå]\r\n1 ed: • 1 [A1]\r\n\r\nTryckort: [Stockholm]\r\n1 ed: • 2 [A2]\r\n2 ed: • 4 [A4]\r\n3 ed: • 5 [A5]\r\n4 ed: • 6 [A6]\r\n[sista editionen för dagen är huvudedition]\r\n\r\nAnm: A1 [Borås] filmas ej eftersom de är exakt likadana som A1 [Umeå]\r\n\r\nTillfälligabilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.",
+        "id": 116306,
+        "period": "2005-01-02--2005-06-30"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH: huvudedition\r\nE: A1 [Umeå] i sin helhet; övriga editioner i form av ändrade sidor\r\nL: löpsedlar\r\n\r\nTryckort: [Borås] \r\n1 ed: • 1 [A1] \r\n\r\nTryckort: [Umeå]\r\n1 ed: • 1 [A1]\r\n\r\nTryckort: [Stockholm]\r\n1 ed: • 2 [A2]\r\n2 ed: • 4 [A4]\r\n3 ed: • 5 [A5]\r\n[sista editionen för dagen är huvudedition]\r\n\r\nAnm: A1 [Borås] filmas ej eftersom de är exakt likadana som A1 [Umeå]\r\n\r\nTillfälligabilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.",
+        "id": 119420,
+        "period": "2005-07-01--2005-08-31"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH: huvudedition\r\nE: A1 [Umeå] i sin helhet; övriga editioner i form av ändrade sidor\r\nL: löpsedlar\r\n\r\nTryckort: [Borås] \r\n1 ed: • 1 [A1] \r\n\r\nTryckort: [Umeå]\r\n1 ed: • 1 [A1]\r\n\r\nTryckort: [Västerås]\r\n1 ed: • 1 [A1]\r\n\r\nTryckort: [Stockholm]\r\n1 ed: • 2 [A2] [--2005 09 19]\r\n2 ed: • 4 [A4]\r\n3 ed: • 5 [A5]\r\n4 ed: • 6 [A6]\r\n[sista editionen för dagen är huvudedition]\r\n\r\nAnm: A1 [Borås] filmas ej eftersom de är exakt likadana som A1 [Umeå]\r\n\r\nTillfälligabilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.",
+        "id": 121167,
+        "period": "2005-09-01--2005-09-30"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH: huvudedition\r\nE: A1 [Umeå] i sin helhet; övriga editioner i form av ändrade sidor\r\nL: löpsedlar\r\n\r\nTryckort: [Borås] \r\n1 ed: • 1 [A1] \r\n\r\nTryckort: [Umeå]\r\n1 ed: • 1 [A1]\r\n\r\nTryckort: [Västerås]\r\n1 ed: • 1 [A1]\r\n\r\nTryckort: [Stockholm]\r\n1 ed: • 2 [A2] \r\n2 ed: • 4 [A4]\r\n3 ed: • 5 [A5]\r\n4 ed: • 6 [A6]\r\n[sista editionen för dagen är huvudedition]\r\n\r\nAnm: A1 [Borås] filmas ej eftersom de är exakt likadana som A1 [Umeå]\r\n\r\nTillfälligabilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.",
+        "id": 122039,
+        "period": "2005-10-01--2005-12-31"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH: huvudedition\r\nE: A1 [Umeå] i sin helhet; övriga editioner i form av ändrade sidor\r\nL: löpsedlar\r\n\r\nTryckort: [Borås] \r\n1 ed: • 1  \r\n\r\nTryckort: [Umeå]\r\n1 ed: • 1 \r\n\r\nTryckort: [Västerås]\r\n1 ed: • 1 \r\n\r\nTryckort: [Stockholm]\r\n1 ed: • 2  \r\n2 ed: • 4 \r\n3 ed: • 5 \r\n\r\n[sista editionen för dagen är huvudedition]\r\n\r\nAnm: A1 [Borås] filmas ej eftersom de är exakt likadana som A1 [Umeå]\r\n\r\nTillfälligabilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.",
+        "id": 123376,
+        "period": "2006-01-01--2006-03-31"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH: huvudedition\r\nE: A1 [Umeå] i sin helhet; övriga editioner i form av ändrade sidor\r\nL: löpsedlar\r\n\r\nTryckort: [Borås] \r\n1 ed: • 1 \r\n\r\nTryckort: [Umeå]\r\n1 ed: • 1 \r\n\r\nTryckort: [Västerås]\r\n1 ed: • 1 \r\n\r\nTryckort: [Stockholm]\r\n1 ed: • 4 \r\n2 ed: • 5 \r\n\r\n[sista editionen för dagen är huvudedition]\r\n\r\nAnm: A1 [Borås] filmas ej eftersom de är exakt likadana som A1 [Umeå]\r\n\r\nTillfälligabilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.",
+        "id": 125108,
+        "period": "2006-04-01--2006-04-30"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH: huvudedition\r\nE: A1 [Umeå] i sin helhet; övriga editioner i form av ändrade sidor\r\nL: löpsedlar\r\n\r\nTryckort: [Borås] \r\n1 ed: • 1 \r\n\r\nTryckort: [Umeå]\r\n1 ed: • 1 \r\n\r\nTryckort: [Västerås]\r\n1 ed: • 1 \r\n\r\nTryckort: [Stockholm]\r\n1 ed: • 4 \r\n2 ed: • 5\r\n3 ed: • 6 \r\n\r\n[sista editionen för dagen är huvudedition]\r\n\r\nAnm: A1 [Borås] filmas ej eftersom de är exakt likadana som A1 [Umeå]\r\n\r\nTillfälligabilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.",
+        "id": 125309,
+        "period": "2006-05-02--2006-07-31"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH: huvudedition\r\nE: A1 [Umeå] i sin helhet; övriga editioner i form av ändrade sidor\r\nL: löpsedlar\r\n\r\nTryckort: [Borås] \r\n1 ed: • 1 \r\n\r\nTryckort: [Umeå]\r\n1 ed: • 1 \r\n\r\nTryckort: [Västerås]\r\n1 ed: • 1 \r\n\r\nTryckort: [Stockholm]\r\n1 ed: • 4 \r\n2 ed: • 5\r\n\r\n[sista editionen för dagen är huvudedition]\r\n\r\nAnm: A1 [Borås] filmas ej eftersom de är exakt likadana som A1 [Umeå]\r\n\r\nTillfälligabilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.",
+        "id": 125825,
+        "period": "2006-08-01--2006-08-31"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH: huvudedition\r\nE: A1 [Umeå] i sin helhet; övriga editioner i form av ändrade sidor\r\nL: löpsedlar\r\n\r\nTryckort: [Borås] \r\n1 ed: • 1 \r\n\r\nTryckort: [Umeå]\r\n1 ed: • 1 \r\n\r\nTryckort: [Västerås]\r\n1 ed: • 1 \r\n\r\nTryckort: [Stockholm]\r\n1 ed: • 4 \r\n2 ed: • 5\r\n3 ed: • 6\r\n\r\n[sista editionen för dagen är huvudedition]\r\n\r\nAnm: A1 [Borås] filmas ej eftersom de är exakt likadana som A1 [Umeå]\r\n\r\nTillfälligabilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.",
+        "id": 126179,
+        "period": "2006-09-01--2006-09-30"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH: huvudedition\r\nE: A1 [Umeå] i sin helhet; övriga editioner i form av ändrade sidor\r\nL: löpsedlar\r\n\r\nTryckort: [Borås] \r\n1 ed: • 1 \r\n\r\nTryckort: [Umeå]\r\n1 ed: • 1 \r\n\r\nTryckort: [Västerås]\r\n1 ed: • 1 \r\n\r\nTryckort: [Stockholm]\r\n1 ed: • 4 \r\n2 ed: • 5\r\n\r\n[sista editionen för dagen är huvudedition]\r\n\r\nAnm: A1 [Borås] filmas ej eftersom de är exakt likadana som A1 [Umeå]\r\n\r\nTillfälligabilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.",
+        "id": 126424,
+        "period": "2006-10-01--2006-12-31"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH: huvudedition\r\nE: A1 [Umeå] i sin helhet; övriga editioner i form av ändrade sidor\r\nL: löpsedlar\r\n\r\nTryckort: [Borås] \r\n1 ed: • 1 \r\n\r\nTryckort: [Umeå]\r\n1 ed: • 1 \r\n\r\nTryckort: [Västerås] [--2007 01 15]\r\n1 ed: • 1 \r\n\r\nTryckort: [Stockholm]\r\n1 ed: • 3 [2007 01 16--]\r\n2 ed: • 4 \r\n3 ed: • 5\r\n\r\n[sista editionen för dagen är huvudedition]\r\n\r\nAnm: A1 [Borås] filmas ej eftersom de är exakt likadana som A1 [Umeå]\r\n\r\nTillfälligabilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.",
+        "id": 127185,
+        "period": "2007-01-02--2007-01-31"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH: huvudedition\r\nE: A1 [Umeå] i sin helhet; övriga editioner i form av ändrade sidor\r\nL: löpsedlar\r\n\r\nTryckort: [Borås] \r\n1 ed: • 1 \r\n\r\nTryckort: [Umeå]\r\n1 ed: • 1 \r\n\r\nTryckort: [Stockholm]\r\n1 ed: • 3 \r\n2 ed: • 4 \r\n3 ed: • 5\r\n\r\n[sista editionen för dagen är huvudedition]\r\n\r\nAnm: A1 [Borås] filmas ej eftersom de är exakt likadana som A1 [Umeå]\r\n\r\nTillfälligabilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.",
+        "id": 127905,
+        "period": "2007-02-01--2008-01-31"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH: huvudedition\r\nE: A1 [Umeå] i sin helhet; övriga editioner i form av ändrade sidor\r\nL: löpsedlar\r\n\r\nTryckort: [Borås] \r\n1 ed: • 1 \r\n\r\nTryckort: [Umeå]\r\n1 ed: • 1 \r\n\r\nTryckort: [Stockholm]\r\n1 ed: • 3 \r\n2 ed: • 4 \r\n3 ed: • 5\r\n4 ed: • 6\r\n\r\n[sista editionen för dagen är huvudedition]\r\n\r\nAnm: A1 [Borås] filmas ej eftersom de är exakt likadana som A1 [Umeå]\r\n\r\nTillfälligabilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.",
+        "id": 130046,
+        "period": "2008-02-01--2008-03-31"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH: huvudedition\r\nE: A1 [Umeå] i sin helhet; övriga editioner i form av ändrade sidor\r\nL: löpsedlar\r\n\r\nTryckort: [Borås] \r\n1 ed: • 1 \r\n\r\nTryckort: [Umeå]\r\n1 ed: • 1 \r\n\r\nTryckort: [Stockholm]\r\n1 ed: • 3 \r\n2 ed: • 4 \r\n3 ed: • 5\r\n[sista editionen för dagen är huvudedition]\r\n\r\nAnm: A1 [Borås] filmas ej eftersom de är exakt likadana som A1 [Umeå]\r\n\r\nTillfälligabilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.",
+        "id": 130609,
+        "period": "2008-04-01--2008-04-30"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH: huvudedition\r\nE: A1 [Umeå] i sin helhet; övriga editioner i form av ändrade sidor\r\nL: löpsedlar\r\n\r\nTryckort: [Borås] \r\n1 ed: • 1 \r\n\r\nTryckort: [Umeå]\r\n1 ed: • 1 \r\n\r\nTryckort: [Stockholm]\r\n1 ed: • 3 \r\n2 ed: • 4 \r\n3 ed: • 5\r\n4 ed: • 6\r\n[sista editionen för dagen är huvudedition]\r\n\r\nAnm: A1 [Borås] filmas ej eftersom de är exakt likadana som A1 [Umeå]\r\n\r\nTillfälligabilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.",
+        "id": 130690,
+        "period": "2008-05-02--2008-05-31"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH: huvudedition\r\nE: A1 [Umeå] i sin helhet; övriga editioner i form av ändrade sidor\r\nL: löpsedlar\r\n\r\nTryckort: [Borås] \r\n1 ed: • 1 \r\n\r\nTryckort: [Umeå]\r\n1 ed: • 1 \r\n\r\nTryckort: [Stockholm]\r\n1 ed: • 3 \r\n2 ed: • 4 \r\n3 ed: • 5\r\n[sista editionen för dagen är huvudedition]\r\n\r\nAnm: A1 [Borås] filmas ej eftersom de är exakt likadana som A1 [Umeå]\r\n\r\nTillfälligabilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.",
+        "id": 130731,
+        "period": "2008-06-01--2008-10-31"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH: huvudedition\r\nE: A1 [Umeå] i sin helhet; övriga editioner i form av ändrade sidor\r\nL: löpsedlar\r\n\r\nTryckort: [Borås] \r\n1 ed: • 1 \r\n\r\nTryckort: [Umeå]\r\n1 ed: • 1 \r\n\r\nTryckort: [Stockholm]\r\n1 ed: • 3 \r\n2 ed: • 4 \r\n3 ed: • 5\r\n4 ed: • 6\r\n[sista editionen för dagen är huvudedition]\r\n\r\nAnm: A1 [Borås] filmas ej eftersom de är exakt likadana som A1 [Umeå]\r\n\r\nTillfälligabilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.",
+        "id": 131004,
+        "period": "2008-11-01--2008-11-30"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH: huvudedition\r\nE: A1 [Umeå] i sin helhet; övriga editioner i form av ändrade sidor\r\nL: löpsedlar\r\n\r\nTryckort: [Borås] \r\n1 ed: • 1 \r\n\r\nTryckort: [Umeå]\r\n1 ed: • 1 \r\n\r\nTryckort: [Stockholm]\r\n1 ed: • 3 \r\n2 ed: • 4 \r\n3 ed: • 5\r\n[sista editionen för dagen är huvudedition]\r\n\r\nAnm: A1 [Borås] filmas ej eftersom de är exakt likadana som A1 [Umeå]\r\n\r\nTillfälligabilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.",
+        "id": 131046,
+        "period": "2008-12-01--2008-12-31"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH: huvudedition\r\nE: A1 [Umeå] i sin helhet; övriga editioner i form av ändrade sidor\r\nL: löpsedlar\r\n\r\nTryckort: [Borås] \r\n1 ed: • 1 \r\n\r\nTryckort: [Umeå]\r\n1 ed: • 1 \r\n\r\nTryckort: [Stockholm]\r\n1 ed: • 3 \r\n2 ed: • 4 \r\n3 ed: • 5\r\n4 ed: • 6 [2009 01 04; 2009 01 07]\r\n[sista editionen för dagen är huvudedition]\r\n\r\nAnm: A1 [Borås] filmas ej eftersom de är exakt likadana som A1 [Umeå]\r\n\r\nTillfälligabilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.",
+        "id": 131148,
+        "period": "2009-01-01--2009-01-31"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH: huvudedition\r\nE: A1 [Umeå] i sin helhet, övriga editioner i form av ändrade sidor [--2009-02-02]\r\nE: RIKS * [Stockholm] i sin helhet, övriga editioner i form av ändrade sidor [2009-02-03--]\r\n\r\nL: löpsedlar\r\n\r\nTryckort: [Borås] \r\n1 ed: • 1 [--2009-02-02]\r\n1 ed: RIKS * [2009-02-03--]\r\n\r\nTryckort: [Umeå]\r\n1 ed: • 1 [--2009-02-02]\r\n1 ed: RIKS * [2009-02-03--]\r\n\r\nTryckort: [Stockholm]\r\n1 ed: • 3 [--2009-02-02]\r\n2 ed: • 4 [--2009-02-02]\r\n3 ed: • 5 [--2009-02-02]\r\n\r\n1 ed: RIKS * [2009-02-03--]\r\n2 ed: STHLM * [2009-02-03--]\r\n3 ed: STHLM * * [2009-02-03--]\r\n4 ed: STHLM * * * [2009-02-03--]\r\n5 ed: STHLM * * * * [2009 02 07; 2009 02 18]\r\n[sista editionen för dagen är huvudedition]\r\n\r\nAnm: E: RIKS *[Borås] och RIKS *[Umeå] filmas ej eftersom de är exakt likadana som RIKS * [Stockholm]\r\n\r\nTillfälligabilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.",
+        "id": 131381,
+        "period": "2009-02-01--2009-02-28"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH: huvudedition\r\nE: RIKS * [Stockholm] i sin helhet, övriga editioner i form av ändrade sidor \r\n\r\nL: löpsedlar\r\n\r\nTryckort: [Borås] \r\n1 ed: RIKS * \r\n\r\nTryckort: [Umeå]\r\n1 ed: RIKS * \r\n\r\nTryckort: [Stockholm]\r\n1 ed: RIKS * \r\n2 ed: STHLM * \r\n3 ed: STHLM * * \r\n4 ed: STHLM * * * \r\n5 ed: STHLM * * * *\r\n[sista editionen för dagen är huvudedition]\r\n\r\nAnm: E: RIKS *[Borås] och RIKS *[Umeå] filmas ej eftersom de är exakt likadana som RIKS * [Stockholm]\r\n\r\nTillfälligabilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.",
+        "id": 131485,
+        "period": "2009-03-01--2009-07-31"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH: huvudedition\r\nE: RIKS * [Stockholm] i sin helhet, övriga editioner i form av ändrade sidor \r\n\r\nL: löpsedlar\r\n\r\nTryckort: [Borås] \r\n1 ed: RIKS * \r\n\r\nTryckort: [Umeå]\r\n1 ed: RIKS * \r\n\r\nTryckort: [Stockholm]\r\n1 ed: RIKS * \r\n2 ed: STHLM * \r\n3 ed: STHLM * * \r\n4 ed: STHLM * * * \r\n[sista editionen för dagen är huvudedition]\r\n\r\nAnm: E: RIKS *[Borås] och RIKS *[Umeå] filmas ej eftersom de är exakt likadana som RIKS * [Stockholm]\r\n\r\nTillfälligabilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.",
+        "id": 132121,
+        "period": "2009-08-01--2009-09-30"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH: huvudedition\r\nE: RIKS * [Stockholm] i sin helhet, övriga editioner i form av ändrade sidor \r\n\r\nL: löpsedlar\r\n\r\nTryckort: [Borås] \r\n1 ed: RIKS * \r\n\r\nTryckort: [Umeå]\r\n1 ed: RIKS * \r\n\r\nTryckort: [Stockholm]\r\n1 ed: RIKS * \r\n2 ed: STHLM * \r\n3 ed: STHLM * * \r\n4 ed: STHLM * * * \r\n5 ed: STHLM * * * *\r\n[sista editionen för dagen är huvudedition]\r\n\r\nAnm: Ed: RIKS *[Borås] och RIKS *[Umeå] filmas ej eftersom de är exakt likadana som RIKS * [Stockholm]\r\n\r\nTillfälligabilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.",
+        "id": 132209,
+        "period": "2009-10-01--2011-08-31"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH: huvudedition\r\nE: RIKS * [Stockholm] i sin helhet, övriga editioner i form av ändrade sidor \r\n\r\nL: löpsedlar\r\n\r\nTryckort: [Borås] \r\n1 ed: RIKS * [-- 2011-09-06]\r\n1 ed: • A 1 [2011-09-07--]\r\n\r\nTryckort: [Umeå]\r\n1 ed: RIKS * [--2011-09-06]\r\n1 ed: • A 1 [2011-09-07--]\r\n\r\nTryckort: [Stockholm]\r\n1 ed: RIKS * [--2011-09-06]\r\n2 ed: STHLM * [--2011-09-06]\r\n3 ed: STHLM * * [--2011-09-06]\r\n4 ed: STHLM * * * [--2011-09-06]\r\n5 ed: STHLM * * * * [--2011-09-06]\r\n\r\n1 ed: • A 1 [2011-09-07--]\r\n2 ed: • A 3 [2011-09-07--]\r\n3 ed: • A 4 [2011-09-07--]\r\n4 ed: • A 5 [2011-09-07--]\r\n[sista editionen för dagen är huvudedition]\r\n\r\nAnm: Ed: • A 1[Borås] och • A 1[Umeå] filmas ej eftersom de är exakt likadana som • A 1[Stockholm]\r\n\r\nTillfälligabilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.",
+        "id": 134598,
+        "period": "2011-09-01--2011-09-30"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH: huvudedition\r\nE: • A 1 [Stockholm] i sin helhet, övriga editioner i form av ändrade sidor \r\n\r\nL: löpsedlar\r\n\r\nTryckort: [Borås] \r\n1 ed: • A 1 \r\n\r\nTryckort: [Umeå]\r\n1 ed: • A 1 \r\n\r\nTryckort: [Stockholm]\r\n1 ed: • A 1 \r\n2 ed: • A 3 \r\n3 ed: • A 4 \r\n4 ed: • A 5 \r\n5 ed: • A 6\r\n[sista editionen för dagen är huvudedition]\r\n\r\nAnm: Ed: • A 1[Borås] och • A 1[Umeå] filmas ej eftersom de är exakt likadana som • A 1[Stockholm]\r\n\r\nTillfälligabilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.",
+        "id": 134628,
+        "period": "2011-10-01--2013-12-31"
+      },
+      {
+        "comment": " Tryckort: [Borås] \r\n1 ed: • A 1 Tryckort:\r\n\r\n [Umeå]\r\n 1 ed: • A 1 \r\n\r\nTryckort: [Stockholm]\r\n1 ed: • A 1\r\n2 ed: • A 4 \r\n3 ed: • A 5\r\n4 ed: • A 6\r\n[sista editionen för dagen är huvudedition]\r\n\r\nAnm: Ed: • A 1[Borås] och • A 1[Umeå] Scannas ej eftersom de är exakt likadana som • A 1[Stockholm]\r\n\r\nÖvriga editioner digitaliseras i sin helhet från och med 2014-12-01 samt 2014-01-01--2014-02-28\r\n\r\nTillfälligabilagor: \r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.  ",
+        "id": 138734,
+        "period": "2014-01-01--2014-12-15"
+      },
+      {
+        "comment": " Tryckort: [Malmö]\r\n1 ed: • A 1 \r\n\r\nTryckort: [Borås] \r\n1 ed: • A 1 \r\n\r\nTryckort: [Umeå] \r\n1 ed: • A 1 \r\n\r\nTryckort: [Stockholm] \r\n1 ed: • A 1 \r\n2 ed: • A 4 \r\n3 ed: • A 5 \r\n4 ed: • A 6 \r\n[sista editionen för dagen är huvudedition] \r\n\r\nAnm: Ed: • A 1[Borås], • A 1[Umeå] och • A 1[Malmö]  Scannas ej eftersom de är exakt likadana som • A 1[Stockholm] \r\n\r\nÖvriga editioner digitaliseras i sin helhet från och med 2014-12-01 samt 2014-01-01--2014-02-28 \r\n\r\nTillfälligabilagor: \r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.",
+        "id": 141782,
+        "period": "2014-12-16--2019-02-28"
+      },
+      {
+        "comment": "Tryckort: [Borås] \r\n1 ed: • A 1 \r\n\r\nTryckort: [Umeå] \r\n1 ed: • A 1 \r\n\r\nTryckort: [Stockholm] \r\n1 ed: • A 1 \r\n2 ed: • A 4 \r\n3 ed: • A 5 \r\n4 ed: • A 6 \r\n[sista editionen för dagen är huvudedition] \r\n\r\nAnm: Ed: • A 1 [Borås] och • A 1 [Umeå] digitaliseras ej eftersom de är exakt likadana som • A 1 [Stockholm].\r\n\r\nÖvriga editioner digitaliseras i sin helhet från och med 2014-12-01 samt 2014-01-01--2014-02-28.\r\n\r\nTillfälliga bilagor: \r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid digitaliseringen. De kan därför vara svåra att lokalisera vid användning av det digitaliserade materialet.",
+        "id": 159737,
+        "period": "2019-03-01--2020-02-17"
+      },
+      {
+        "comment": "Tryckort: [Borås] \r\n1 ed: • A 1 \r\n\r\nTryckort: [Umeå] \r\n1 ed: • A 1 \r\n\r\nTryckort: [Stockholm] \r\n1 ed: • A 1 (trycks sporadisk)\r\n2 ed: • A 4 \r\n3 ed: • A 5 \r\n[sista editionen för dagen är huvudedition] \r\n\r\nAnm: Edition • A 1 (Borås) digitaliseras medan edition • A 1 [Umeå] digitaliseras ej eftersom de är exakt likadana.\r\n\r\nÖvriga editioner digitaliseras i sin helhet från och med 2014-12-01 samt 2014-01-01--2014-02-28.\r\n\r\nTillfälliga bilagor: \r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid digitaliseringen. De kan därför vara svåra att lokalisera vid användning av det digitaliserade materialet. ",
+        "id": 165172,
+        "period": "2020-07-01--"
+      }
+    ]
+  }
+}

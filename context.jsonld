@@ -1,0 +1,151 @@
+{
+  "@context": {
+    "@vocab": "https://id.kb.se/vocab/",
+    "type": "@type",
+
+    "bibliographicInfo": "@graph",
+    "idTitle": "title",
+    "idTitleId": "id",
+    "periodOfPublication": "temporalCoverage",
+
+    "titles": {
+      "@id": "hasTitle",
+      "@context": {
+        "title": "mainTitle",
+        "id": null,
+        "fromDate": "fromDate",
+        "toDate": "toDate"
+      }
+    },
+    "librisIds": {
+      "@id": "hasInstance",
+      "@context": {
+        "librisId": "librisId",
+        "librisId": {"@id": "sameAs", "@type": "@id", "@context": {"@base": "http://libris.kb.se/resource/bib/"}},
+        "id": "id",
+        "Libris ID tryck": "Print",
+        "Libris ID elektronisk": "Electronic",
+        "period": "@annotation.temporal"
+      }
+    },
+    "frequencies": {
+      "@id": "pubFrequency",
+      "@context": {
+        "frequency": "code",
+        "id": null,
+        "daysOfWeek": "daysOfWeek",
+        "timeOfDay": "timeOfDay",
+        "period": "@annotation.temporal"
+      }
+    },
+    "languages": {
+      "@id": "language",
+      "@context": {
+        "language": "label",
+        "id": null,
+        "period": "@annotation.temporal"
+      }
+    },
+    "aRegions": {
+      "@id": "distributionCoverage",
+      "@context": {
+        "aRegion": "regionCode",
+        "id": null,
+        "period": "@annotation.temporal"
+      }
+    },
+    "politicalTendencies": {
+      "@id": "selfDeclaredPoliticalTendency",
+      "@context": {
+        "politicalTendency": "label",
+        "id": null,
+        "period": "@annotation.temporal"
+      }
+    },
+    "sectionTitles": {
+      "@id": "hasPart",
+      "@context": {
+        "sectionTitle": "title",
+        "id": "id",
+        "frequency": "pubFrequency",
+        "daysOfWeek": "daysOfWeek",
+        "period": "temporalCoverage"
+      }
+    },
+    "editionDesignationLocations": {
+      "@id": "manufacture",
+      "@context": [
+        {
+          "printingLocation": {"@id": "place", "@type": "@id"},
+          "designations": {
+            "@id": "generatedEdition",
+            "@context": {
+              "designation": "editionStatement",
+              "id": "id",
+              "frequency": "pubFrequency",
+              "daysOfWeek": "daysOfWeek",
+              "timeOfDay": "timeOfDay",
+              "period": "temporalCoverage"
+            }
+          }
+        },
+        "context-places.jsonld"
+      ]
+    },
+    "periodicalSupplements": {
+      "@id": "hasSupplement",
+      "@context": {
+        "supplementTitle": "title",
+        "id": "id",
+        "frequency": "pubFrequency",
+        "daysOfWeek": "daysOfWeek",
+        "period": "temporalCoverage",
+
+        "type": {
+          "@id": "subject",
+          "@type": "@vocab",
+          "@context": {
+            "@vocab": null,
+            "allmän": "https://id.kb.se/term/sao/Allm%E4n",
+            "annonser": "https://id.kb.se/term/sao/Annonser",
+            "bostad": "https://id.kb.se/term/sao/Bostad",
+            "bostad, helg": "https://id.kb.se/term/sao/Bostad%2C%20helg",
+            "bostad, motor": "https://id.kb.se/term/sao/Bostad%2C%20motor",
+            "ekonomi": "https://id.kb.se/term/sao/Ekonomi",
+            "fritid": "https://id.kb.se/term/sao/Fritid",
+            "helg": "https://id.kb.se/term/sao/Helg",
+            "helg, kultur, tv": "https://id.kb.se/term/sao/Helg%2C%20kultur%2C%20tv",
+            "kultur": "https://id.kb.se/term/sao/Kultur",
+            "kultur, nÃ¶je, tv": "https://id.kb.se/term/sao/Kultur%2C%20n%C3%B6je%2C%20tv",
+            "lantbruk": "https://id.kb.se/term/sao/Lantbruk",
+            "livsstil": "https://id.kb.se/term/sao/Livsstil",
+            "mat": "https://id.kb.se/term/sao/Mat",
+            "motor": "https://id.kb.se/term/sao/Motor",
+            "nöje": "https://id.kb.se/term/sao/N%F6je",
+            "regional": "https://id.kb.se/term/sao/Regional",
+            "samhÃ¤lle": "https://id.kb.se/term/sao/Samh%C3%A4lle",
+            "sport": "https://id.kb.se/term/sao/Sport",
+            "tv": "https://id.kb.se/term/sao/TV"
+          }
+        }
+      }
+    },
+    "newsBill": {
+      "@id": "associatedNewsBill",
+      "@context": {
+        "frequency": "pubFrequency",
+        "id": "id",
+        "comment": "comment",
+        "period": "temporalCoverage"
+      }
+    },
+    "productionComments": {
+      "@id": "hasNote",
+      "@context": {
+        "comment": "label",
+        "id": null,
+        "period": "temporal"
+      }
+    }
+  }
+}

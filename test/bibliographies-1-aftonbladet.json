@@ -1,0 +1,2375 @@
+{
+  "bibliographicInfo": {
+    "idTitle": "AFTONBLADET",
+    "idTitleId": 1,
+    "periodOfPublication": "1830-12-06 -- ",
+    "titles": [
+      {
+        "title": "AFTONBLADET",
+        "id": 22896,
+        "fromDate": "1900-01-02",
+        "toDate": ""
+      }
+    ],
+    "librisIds": [
+      {
+        "librisId": "4112678",
+        "id": 139630,
+        "type": "Libris ID tryck",
+        "period": "1830-12-06--"
+      },
+      {
+        "librisId": "4345612",
+        "id": 139631,
+        "type": "Libris ID elektronisk",
+        "period": "1830-12-06--"
+      },
+      {
+        "librisId": "123456789zxcvbnm",
+        "id": 152618,
+        "type": "Libris ID tryck",
+        "period": "2018-01-01--2018-01-02"
+      }
+    ],
+    "frequencies": [
+      {
+        "frequency": "6/v",
+        "id": 19465,
+        "daysOfWeek": "må, ti, on, to, fre, lö",
+        "timeOfDay": "kv",
+        "period": "1900-01-02--1909-10-16"
+      },
+      {
+        "frequency": "7/v",
+        "id": 19466,
+        "daysOfWeek": "må, ti, on, to, fre, lö, sö",
+        "timeOfDay": "e m",
+        "period": "1909-10-17--1930-12-31"
+      },
+      {
+        "frequency": "6/v",
+        "id": 19467,
+        "daysOfWeek": "må, ti, on, to, fre, lö",
+        "timeOfDay": "e m",
+        "period": "1931-01-02--1931-12-05"
+      },
+      {
+        "frequency": "7/v",
+        "id": 19468,
+        "daysOfWeek": "må, ti, on, to, fre, lö, sö",
+        "timeOfDay": "",
+        "period": "1931-12-06--"
+      }
+    ],
+    "languages": [
+      {
+        "language": "svenska",
+        "id": 138808,
+        "period": "1830-01-01--"
+      }
+    ],
+    "aRegions": [
+      {
+        "aRegion": "00, 01",
+        "id": 97157,
+        "period": "1830-12-06--"
+      }
+    ],
+    "politicalTendencies": [
+      {
+        "politicalTendency": "frisinnad",
+        "id": 39155,
+        "period": "1900-01-01--1915-12-31"
+      },
+      {
+        "politicalTendency": "moderat",
+        "id": 39156,
+        "period": "1920-01-01--1931-12-31"
+      },
+      {
+        "politicalTendency": "neutral",
+        "id": 39157,
+        "period": "1932-01-01--1932-12-31"
+      },
+      {
+        "politicalTendency": "liberal",
+        "id": 39158,
+        "period": "1933-01-01--1942-12-31"
+      },
+      {
+        "politicalTendency": "oberoende",
+        "id": 39159,
+        "period": "1943-01-01--1961-12-31"
+      },
+      {
+        "politicalTendency": "socialdemokratisk",
+        "id": 39160,
+        "period": "1962-01-01--1997-12-31"
+      },
+      {
+        "politicalTendency": "oberoende socialdemokratisk",
+        "id": 40897,
+        "period": "1998-01-01--"
+      }
+    ],
+    "sectionTitles": [
+      {
+        "sectionTitle": "[Del 1]",
+        "id": 141259,
+        "frequency": "7/v",
+        "daysOfWeek": "må, ti, on, to, fre, lö, sö",
+        "period": "2000-05-08--"
+      },
+      {
+        "sectionTitle": "[Del 2] Sport / bladet",
+        "id": 141260,
+        "frequency": "7/v",
+        "daysOfWeek": "må, ti, on, to, fre, lö, sö",
+        "period": "2000-05-08--"
+      }
+    ],
+    "editionDesignationLocations": [
+      {
+        "printingLocation": null,
+        "designations": []
+      },
+      {
+        "printingLocation": "",
+        "designations": []
+      },
+      {
+        "printingLocation": "Göteborg",
+        "designations": []
+      },
+      {
+        "printingLocation": "Härnösand",
+        "designations": []
+      },
+      {
+        "printingLocation": "Karlskrona",
+        "designations": []
+      },
+      {
+        "printingLocation": "Landvetter",
+        "designations": [
+          {
+            "designation": "x x x x x [Göteborg: ändrade sidor]",
+            "id": 135621,
+            "frequency": "7/v",
+            "daysOfWeek": "må, ti, on, to, fre, lö, sö",
+            "timeOfDay": "",
+            "period": "2012-05-01--"
+          },
+          {
+            "designation": "xxxxx",
+            "id": 141379,
+            "frequency": "sporadisk",
+            "daysOfWeek": "",
+            "timeOfDay": "",
+            "period": "2014-05-08--"
+          }
+        ]
+      },
+      {
+        "printingLocation": "Luleå",
+        "designations": []
+      },
+      {
+        "printingLocation": "Norrköping",
+        "designations": []
+      },
+      {
+        "printingLocation": "Norrtälje",
+        "designations": []
+      },
+      {
+        "printingLocation": "Stockholm",
+        "designations": []
+      },
+      {
+        "printingLocation": "Södertälje",
+        "designations": [
+          {
+            "designation": "x x x [Stockholmsupplagan]",
+            "id": 119570,
+            "frequency": "7/v",
+            "daysOfWeek": "må, ti, on, to, fre, lö, sö",
+            "timeOfDay": "",
+            "period": "2005-07-15--"
+          },
+          {
+            "designation": "xxxxx",
+            "id": 169612,
+            "frequency": "7/v",
+            "daysOfWeek": "må, ti, on, to, fre, lö, sö",
+            "timeOfDay": "",
+            "period": "2021-04-01--"
+          }
+        ]
+      },
+      {
+        "printingLocation": "Södertälje ",
+        "designations": [
+          {
+            "designation": "x x x [Stockholmsupplagan]",
+            "id": 119570,
+            "frequency": "7/v",
+            "daysOfWeek": "må, ti, on, to, fre, lö, sö",
+            "timeOfDay": "",
+            "period": "2005-07-15--"
+          },
+          {
+            "designation": "xxxxx",
+            "id": 169612,
+            "frequency": "7/v",
+            "daysOfWeek": "må, ti, on, to, fre, lö, sö",
+            "timeOfDay": "",
+            "period": "2021-04-01--"
+          }
+        ]
+      },
+      {
+        "printingLocation": "Umeå",
+        "designations": [
+          {
+            "designation": "xxxxx",
+            "id": 152295,
+            "frequency": "7/v",
+            "daysOfWeek": "må, ti, on, to, fre, lö, sö",
+            "timeOfDay": "",
+            "period": "2018-02-01--"
+          }
+        ]
+      },
+      {
+        "printingLocation": "Västerås",
+        "designations": []
+      },
+      {
+        "printingLocation": "Växjö",
+        "designations": []
+      },
+      {
+        "printingLocation": "Örnsköldsvik",
+        "designations": []
+      }
+    ],
+    "periodicalSupplements": [
+      {
+        "supplementTitle": "Landtmannabladet",
+        "id": 127109,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "",
+        "period": "1902-12-06--1940-10-30"
+      },
+      {
+        "supplementTitle": "SÖNDAGSBILAGA",
+        "id": 37058,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "1926-01-02--1930-12-28"
+      },
+      {
+        "supplementTitle": "AFTONBLADET/S / FÄRGSERIER",
+        "id": 37059,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "",
+        "period": "1936-11-29--1937-01-17"
+      },
+      {
+        "supplementTitle": "FÄRGLÅDAN / AFTONBLADETS VECKOSERIER",
+        "id": 37060,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "",
+        "period": "1937-01-24--1939-09-03"
+      },
+      {
+        "supplementTitle": "AFTONBLADETS SPORT",
+        "id": 37061,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "1941-03-30--1947-11-09"
+      },
+      {
+        "supplementTitle": "BROKIGA BLAD",
+        "id": 134604,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "1944-08-27--1945-09-30"
+      },
+      {
+        "supplementTitle": "SÖNDAG / MED / AFTONBLADET",
+        "id": 37062,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "1964-10-04--1964-11-08"
+      },
+      {
+        "supplementTitle": "SÖNDAG MED / AFTONBLADET",
+        "id": 37063,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "1964-11-15--1977-02-20"
+      },
+      {
+        "supplementTitle": "MAGASINET",
+        "id": 37064,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "1977-02-27--1978-09-24"
+      },
+      {
+        "supplementTitle": "TV",
+        "id": 37065,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "to",
+        "period": "1978-09-28--1981-10-29"
+      },
+      {
+        "supplementTitle": "FRI",
+        "id": 37066,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "1978-10-01--1979-09-09"
+      },
+      {
+        "supplementTitle": "UNG",
+        "id": 37067,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "1978-10-01--1982-05-02"
+      },
+      {
+        "supplementTitle": "BILAGAN",
+        "id": 37068,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "1979-09-16--1982-08-15"
+      },
+      {
+        "supplementTitle": "SPORT-EXTRA",
+        "id": 37069,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "må",
+        "period": "1980-04-01--1983-05-09"
+      },
+      {
+        "supplementTitle": "UNG",
+        "id": 37070,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "fre",
+        "period": "1982-05-07--1986-02-07"
+      },
+      {
+        "supplementTitle": "DEL / 2",
+        "id": 37071,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "1982-10-17--1982-10-31"
+      },
+      {
+        "supplementTitle": "DEL / 2 / EN EXTRA TIDNING MED AFTONBLADET SÖNDAGAR",
+        "id": 37072,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "1982-11-07--1982-11-28"
+      },
+      {
+        "supplementTitle": "DEL / 2 / EN EXTRA NYHETSTIDNING SÖNDAGAR / MED NÖJEN OCH TV-PROGRAMMET",
+        "id": 37073,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "1982-12-05--1984-01-08"
+      },
+      {
+        "supplementTitle": "BOSTADS / BLADET",
+        "id": 37074,
+        "frequency": "2/m",
+        "type": "",
+        "daysOfWeek": "to",
+        "period": "1983-04-14--1983-06-16"
+      },
+      {
+        "supplementTitle": "SPORT / BLADET",
+        "id": 37075,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "må",
+        "period": "1983-05-16--1989-09-25"
+      },
+      {
+        "supplementTitle": "BOSTADS / BLADET",
+        "id": 37076,
+        "frequency": "2/m",
+        "type": "",
+        "daysOfWeek": "on",
+        "period": "1983-08-31--1984-05-16"
+      },
+      {
+        "supplementTitle": "TV-BLADET",
+        "id": 37077,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "to",
+        "period": "1983-12-22--1988-08-25"
+      },
+      {
+        "supplementTitle": "SÖNDAGS / BLADET",
+        "id": 37078,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "1984-01-15--1989-01-22"
+      },
+      {
+        "supplementTitle": "BIL / & / TRAFIK",
+        "id": 37079,
+        "frequency": "9-13/år",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "1984-11-04--1987-11-22"
+      },
+      {
+        "supplementTitle": "HELG / BLADET",
+        "id": 37080,
+        "frequency": "6/år",
+        "type": "",
+        "daysOfWeek": "",
+        "period": "1984-12-26--1988-03-27"
+      },
+      {
+        "supplementTitle": "ÄNTLIGEN FREDAG!",
+        "id": 37081,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "fre",
+        "period": "1986-02-14--1988-08-26"
+      },
+      {
+        "supplementTitle": "HÄLSO / BLADET",
+        "id": 37082,
+        "frequency": "6/år",
+        "type": "",
+        "daysOfWeek": "",
+        "period": "1986-03-16--1987-08-23"
+      },
+      {
+        "supplementTitle": "SPEL / BLADET",
+        "id": 37083,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "ti",
+        "period": "1986-09-16--1989-09-19"
+      },
+      {
+        "supplementTitle": "SÖNDAGSKRYSSET",
+        "id": 37084,
+        "frequency": "10/år",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "1987-01-25--1988-08-28"
+      },
+      {
+        "supplementTitle": "HÄLSOBLADET",
+        "id": 37085,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "on",
+        "period": "1987-09-09--1989-09-20"
+      },
+      {
+        "supplementTitle": "BIL / & / TRAFIK",
+        "id": 37086,
+        "frequency": "6/år",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "1988-05-08--1988-08-19"
+      },
+      {
+        "supplementTitle": "TV / AFTONBLADET",
+        "id": 37087,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "to",
+        "period": "1988-09-01--1993-04-22"
+      },
+      {
+        "supplementTitle": "PULS / AFTONBLADET",
+        "id": 37088,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "fre",
+        "period": "1988-09-02--1993-04-23"
+      },
+      {
+        "supplementTitle": "BIL & / TRAFIK",
+        "id": 37089,
+        "frequency": "6/år",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "1988-11-20--1989-10-22"
+      },
+      {
+        "supplementTitle": "AFTONBLADET / SÖNDAG",
+        "id": 37090,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "1989-01-29--1991-09-29"
+      },
+      {
+        "supplementTitle": "HELG / AFTONBLADET",
+        "id": 37091,
+        "frequency": "6/år",
+        "type": "",
+        "daysOfWeek": "",
+        "period": "1989-09-15--1991-05-20"
+      },
+      {
+        "supplementTitle": "SPEL / AFTONBLADET",
+        "id": 37092,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "ti",
+        "period": "1989-09-26--1993-04-20"
+      },
+      {
+        "supplementTitle": "HÄLSA / AFTONBLADET",
+        "id": 37093,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "on",
+        "period": "1989-09-27--1990-06-13"
+      },
+      {
+        "supplementTitle": "SPORT / AFTONBLADET",
+        "id": 37094,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "må",
+        "period": "1989-10-02--1990-05-21"
+      },
+      {
+        "supplementTitle": "BIL / & BÅT / AFTONBLADET",
+        "id": 37095,
+        "frequency": "7/år",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "1990-02-25--1992-05-17"
+      },
+      {
+        "supplementTitle": "AFTONBLADET / KULTUR",
+        "id": 37096,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "1990-09-09--1991-05-19"
+      },
+      {
+        "supplementTitle": "AFTONBLADET / SERIE",
+        "id": 37097,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "lö",
+        "period": "1990-09-15--1991-01-05"
+      },
+      {
+        "supplementTitle": "PULS",
+        "id": 37098,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "fre",
+        "period": "1991-01-02--2004-07-30"
+      },
+      {
+        "supplementTitle": "SENIOR / AFTONBLADET",
+        "id": 37099,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "må",
+        "period": "1991-09-02--1993-04-19"
+      },
+      {
+        "supplementTitle": "SÖNDAG / AFTONBLADET",
+        "id": 37100,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "1991-10-06--1992-09-13"
+      },
+      {
+        "supplementTitle": "SPEL",
+        "id": 37101,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "ti",
+        "period": "1992-06-02--2000-05-02"
+      },
+      {
+        "supplementTitle": "VINN / MED / AFTONBLADET",
+        "id": 37102,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "on",
+        "period": "1992-06-07--1992-08-12"
+      },
+      {
+        "supplementTitle": "KVINNA / AFTONBLADET",
+        "id": 37103,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "on",
+        "period": "1992-09-02--1993-04-21"
+      },
+      {
+        "supplementTitle": "AFTONBLADET / SÖNDAGSTIDNINGEN",
+        "id": 37104,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "1993-03-28--1993-09-13"
+      },
+      {
+        "supplementTitle": "AFTONBLADET / SENIOR",
+        "id": 37105,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "må",
+        "period": "1993-04-26--1994-06-20"
+      },
+      {
+        "supplementTitle": "AFTONBLADET / TV",
+        "id": 37106,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "to",
+        "period": "1993-04-29--1994-08-11"
+      },
+      {
+        "supplementTitle": "KVINNA",
+        "id": 37107,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "on",
+        "period": "1993-09-02--1999-03-31"
+      },
+      {
+        "supplementTitle": "M / AFTONBLADET",
+        "id": 37108,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "lö",
+        "period": "1993-09-18--1993-12-18"
+      },
+      {
+        "supplementTitle": "AFTONBLADET / SÖNDAGS / TIDNINGEN",
+        "id": 37109,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "1993-09-20--1993-03-21"
+      },
+      {
+        "supplementTitle": "SPORT / BLADET",
+        "id": 37110,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "må",
+        "period": "1994-06-27--1995-04-03"
+      },
+      {
+        "supplementTitle": "SÖNDAGSTIDNINGEN",
+        "id": 37111,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "1994-08-07--1996-10-13"
+      },
+      {
+        "supplementTitle": "TV",
+        "id": 37112,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "to",
+        "period": "1994-08-18--1999-04-01"
+      },
+      {
+        "supplementTitle": "BILAR / MED GLENING",
+        "id": 37113,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "må",
+        "period": "1995-04-10--1995-06-26"
+      },
+      {
+        "supplementTitle": "NYTT HEM / BILAGA OM BOSTÄDER I / STOR / STOCKHOLM",
+        "id": 37114,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "lö",
+        "period": "1995-09-30--1996-07-31"
+      },
+      {
+        "supplementTitle": "SPORT / STOCKHOLM",
+        "id": 37115,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "må",
+        "period": "1996-01-22--1997-01-31"
+      },
+      {
+        "supplementTitle": "PULS / STOCKHOLM",
+        "id": 37116,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "fre",
+        "period": "1996-04-01--2004-07-30"
+      },
+      {
+        "supplementTitle": "NYTT HEM / BILAGA OM BOSTÄDER  / STOR / STOCKHOLM",
+        "id": 37117,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "fre",
+        "period": "1996-08-01--1996-10-04"
+      },
+      {
+        "supplementTitle": "ROMAN OM ETT BROTT",
+        "id": 37118,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "lö",
+        "period": "1996-08-02--1996-08-24"
+      },
+      {
+        "supplementTitle": "HÄLSA",
+        "id": 37119,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "lö",
+        "period": "1996-10-10--2001-08-25"
+      },
+      {
+        "supplementTitle": "NYTT HEM / BILAGA OM BOSTÄDER I / STOR  STOCKHOLM",
+        "id": 37120,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "lö",
+        "period": "1996-10-12--1997-04-05"
+      },
+      {
+        "supplementTitle": "SPELEXTRA",
+        "id": 37121,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "fre",
+        "period": "1996-10-18--2000-05-05"
+      },
+      {
+        "supplementTitle": "SÖNDAG",
+        "id": 37122,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "1996-10-20--"
+      },
+      {
+        "supplementTitle": "SPORT",
+        "id": 37123,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "må",
+        "period": "1997-02-01--1997-11-03"
+      },
+      {
+        "supplementTitle": "BOSTADSBILAGAN NYTT HEM",
+        "id": 37124,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "lö",
+        "period": "1997-04-12--1997-10-25"
+      },
+      {
+        "supplementTitle": "STOCKHOLM",
+        "id": 37125,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "to",
+        "period": "1997-06-12--1997-11-06"
+      },
+      {
+        "supplementTitle": "SVENSKA DECKARKLASSIKER",
+        "id": 37126,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "ti",
+        "period": "1997-06-24--1997-08-12"
+      },
+      {
+        "supplementTitle": "SPORT / GÖTEBORG",
+        "id": 37127,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "må",
+        "period": "1997-11-03--1998-06-30"
+      },
+      {
+        "supplementTitle": "FONDER & AKTIER",
+        "id": 37128,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "lö",
+        "period": "1997-11-08--1998-08-29"
+      },
+      {
+        "supplementTitle": "STOCKHOLM / SPORT",
+        "id": 37129,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "må",
+        "period": "1997-11-10--1997-11-30"
+      },
+      {
+        "supplementTitle": "FYNDA / STOCKHOLM",
+        "id": 37130,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "to",
+        "period": "1997-11-13--1998-06-18"
+      },
+      {
+        "supplementTitle": "SPORT / STOCKHOLM",
+        "id": 37131,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "må",
+        "period": "1997-12-01--2000-04-24"
+      },
+      {
+        "supplementTitle": "PULS / GÖTEBORG",
+        "id": 37132,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "fre",
+        "period": "1998-01-16--2000-05-26"
+      },
+      {
+        "supplementTitle": "OS EXTRA",
+        "id": 37133,
+        "frequency": "7/v",
+        "type": "",
+        "daysOfWeek": "må, ti, on, to, fre, lö, sö",
+        "period": "1998-02-05--1999-02-22"
+      },
+      {
+        "supplementTitle": "EXTRA SOMMARLÄSNING",
+        "id": 37134,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "ti",
+        "period": "1998-06-23--1998-08-11"
+      },
+      {
+        "supplementTitle": "SPORT / GÖTEBORG",
+        "id": 37135,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "må",
+        "period": "1998-08-17--2000-04-24"
+      },
+      {
+        "supplementTitle": "NYA / FONDER & AKTIER",
+        "id": 37136,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "lö",
+        "period": "1998-09-03--1998-11-21"
+      },
+      {
+        "supplementTitle": "IT",
+        "id": 37137,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "1998-09-20--1999-03-25"
+      },
+      {
+        "supplementTitle": "FONDER / & / AKTIER",
+        "id": 37138,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "lö",
+        "period": "1998-11-28--1999-03-20"
+      },
+      {
+        "supplementTitle": "BIL",
+        "id": 37139,
+        "frequency": "6/år",
+        "type": "",
+        "daysOfWeek": "",
+        "period": "1999-02-03--2000-08-29"
+      },
+      {
+        "supplementTitle": "NYA / FONDER / & / AKTIER",
+        "id": 37140,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "lö",
+        "period": "1999-03-27--1999-05-15"
+      },
+      {
+        "supplementTitle": "IT",
+        "id": 37141,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "må",
+        "period": "1999-04-05--1999-06-14"
+      },
+      {
+        "supplementTitle": "TV",
+        "id": 37142,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "on",
+        "period": "1999-04-07--2000-09-13"
+      },
+      {
+        "supplementTitle": "KVINNA",
+        "id": 37143,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "to",
+        "period": "1999-04-08--2000-05-05"
+      },
+      {
+        "supplementTitle": "FONDER / & / AKTIER",
+        "id": 37144,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "lö",
+        "period": "1999-05-22--1999-07-31"
+      },
+      {
+        "supplementTitle": "KORSORD",
+        "id": 37145,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "må",
+        "period": "1999-06-21--1999-08-09"
+      },
+      {
+        "supplementTitle": "IT",
+        "id": 37146,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "ti",
+        "period": "1999-06-22--1999-08-10"
+      },
+      {
+        "supplementTitle": "EKONOMI / MED FONDER OCH AKTIER",
+        "id": 37147,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "lö",
+        "period": "1999-08-14--1999-12-25"
+      },
+      {
+        "supplementTitle": "IT",
+        "id": 37148,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "må",
+        "period": "1999-08-16--2000-10-30"
+      },
+      {
+        "supplementTitle": "100 ÅR / MED / AFTONBLADET",
+        "id": 37149,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "1999-10-24--1999-12-26"
+      },
+      {
+        "supplementTitle": "EKONOMI",
+        "id": 37150,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "lö",
+        "period": "2000-01-08--2000-05-06"
+      },
+      {
+        "supplementTitle": "KRYSS",
+        "id": 37152,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "ti",
+        "period": "2000-06-27--2000-08-29"
+      },
+      {
+        "supplementTitle": "PARADISET / LIZA MARKLUND",
+        "id": 37153,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "2000-09-12--2000-10-15"
+      },
+      {
+        "supplementTitle": "TV",
+        "id": 37154,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "ti",
+        "period": "2000-09-19--2001-08-28"
+      },
+      {
+        "supplementTitle": "NYA / BIL",
+        "id": 37155,
+        "frequency": "2/m",
+        "type": "",
+        "daysOfWeek": "må",
+        "period": "2000-10-09--2000-10-23"
+      },
+      {
+        "supplementTitle": "RIKET VID VÄGENS SLUT / JAN GUILLOU",
+        "id": 37156,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "sö",
+        "period": "2000-10-31--2000-12-03"
+      },
+      {
+        "supplementTitle": "KRYSS",
+        "id": 37157,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "to",
+        "period": "2000-11-02--2001-06-28"
+      },
+      {
+        "supplementTitle": "BIL",
+        "id": 37158,
+        "frequency": "2/m",
+        "type": "",
+        "daysOfWeek": "må",
+        "period": "2000-11-06--2001-06-18"
+      },
+      {
+        "supplementTitle": "IT",
+        "id": 37159,
+        "frequency": "2/m",
+        "type": "",
+        "daysOfWeek": "må",
+        "period": "2000-11-13--2001-06-11"
+      },
+      {
+        "supplementTitle": "KRYSS",
+        "id": 37160,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "må",
+        "period": "2001-07-02--2005-02-28"
+      },
+      {
+        "supplementTitle": "RESA",
+        "id": 101112,
+        "frequency": "2/m",
+        "type": "",
+        "daysOfWeek": "lö",
+        "period": "2001-09-01--2006-11-30"
+      },
+      {
+        "supplementTitle": "HÄLSA",
+        "id": 101111,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "ti",
+        "period": "2001-09-04--2003-09-09"
+      },
+      {
+        "supplementTitle": "TV",
+        "id": 101110,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "on",
+        "period": "2001-09-05--2010-12-31"
+      },
+      {
+        "supplementTitle": "BIL",
+        "id": 101113,
+        "frequency": "2/m",
+        "type": "",
+        "daysOfWeek": "lö",
+        "period": "2001-09-08--2006-11-30"
+      },
+      {
+        "supplementTitle": "KROPP & HÄLSA",
+        "id": 110024,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "ti",
+        "period": "2003-09-15--2005-03-01"
+      },
+      {
+        "supplementTitle": "KLICK! / SVERIGES NÖJESTIDNING",
+        "id": 113755,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "fre",
+        "period": "2004-08-06--2004-09-30"
+      },
+      {
+        "supplementTitle": "KLICK! / STOCKHOLM",
+        "id": 113754,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "fre",
+        "period": "2004-08-06--2005-09-30"
+      },
+      {
+        "supplementTitle": "KLICK! / HELA SVERIGES NÖJESTIDNING",
+        "id": 114804,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "fre",
+        "period": "2004-10-01--2006-03-31"
+      },
+      {
+        "supplementTitle": "KROPP & HÄLSA",
+        "id": 117441,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "må",
+        "period": "2005-03-07--2005-03-31"
+      },
+      {
+        "supplementTitle": "KRYSS",
+        "id": 117440,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "ti",
+        "period": "2005-03-08--2005-06-21"
+      },
+      {
+        "supplementTitle": "BLOCKET.SE / STOCKHOLM, UPPSALA",
+        "id": 117512,
+        "frequency": "1/m",
+        "type": "",
+        "daysOfWeek": "",
+        "period": "2005-03-14--2005-06-13"
+      },
+      {
+        "supplementTitle": "BLOCKET.SE / MELLERSTA SVERIGE",
+        "id": 117513,
+        "frequency": "1/m",
+        "type": "",
+        "daysOfWeek": "",
+        "period": "2005-03-14--2005-06-13"
+      },
+      {
+        "supplementTitle": "MAT & VIN",
+        "id": 120563,
+        "frequency": "1/m",
+        "type": "",
+        "daysOfWeek": "varierande",
+        "period": "2005-03-21--2006-06-20"
+      },
+      {
+        "supplementTitle": "KROPP OCH HÄLSA",
+        "id": 118711,
+        "frequency": "1/m",
+        "type": "",
+        "daysOfWeek": "",
+        "period": "2005-05-02--2005-12-31"
+      },
+      {
+        "supplementTitle": "SOMMAR / KRYSS",
+        "id": 119030,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "ti",
+        "period": "2005-06-28--2005-06-28"
+      },
+      {
+        "supplementTitle": "KRYSS",
+        "id": 119572,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "må",
+        "period": "2005-07-04--2008-07-31"
+      },
+      {
+        "supplementTitle": "FAMILY",
+        "id": 123415,
+        "frequency": "1/m",
+        "type": "",
+        "daysOfWeek": "",
+        "period": "2005-12-06--2006-05-16"
+      },
+      {
+        "supplementTitle": "KROPP OCH HÄLSA",
+        "id": 126877,
+        "frequency": "9/år",
+        "type": "",
+        "daysOfWeek": "",
+        "period": "2006-01-10--2011-02-09"
+      },
+      {
+        "supplementTitle": "KLICK! ",
+        "id": 125133,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "fre",
+        "period": "2006-04-01--2019-05-03"
+      },
+      {
+        "supplementTitle": "MACHO",
+        "id": 125578,
+        "frequency": "1-2/m",
+        "type": "",
+        "daysOfWeek": "",
+        "period": "2006-04-02--2007-04-13"
+      },
+      {
+        "supplementTitle": "MATCHBLADET",
+        "id": 125180,
+        "frequency": "oregelbunden",
+        "type": "",
+        "daysOfWeek": "",
+        "period": "2006-04-02--2006-05-31"
+      },
+      {
+        "supplementTitle": "MATCHBLADET",
+        "id": 125747,
+        "frequency": "oregelbunden",
+        "type": "",
+        "daysOfWeek": "",
+        "period": "2006-07-16--2006-11-05"
+      },
+      {
+        "supplementTitle": "MAT & VIN",
+        "id": 125901,
+        "frequency": "1-2/m",
+        "type": "",
+        "daysOfWeek": "",
+        "period": "2006-08-08--2006-11-24"
+      },
+      {
+        "supplementTitle": "HÄRLIGT / HEMMA",
+        "id": 126874,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "lö",
+        "period": "2006-12-02--2015-07-27"
+      },
+      {
+        "supplementTitle": "BIL",
+        "id": 126875,
+        "frequency": "1/m",
+        "type": "",
+        "daysOfWeek": "",
+        "period": "2006-12-12--2007-03-31"
+      },
+      {
+        "supplementTitle": "RESA",
+        "id": 126876,
+        "frequency": "1/m",
+        "type": "",
+        "daysOfWeek": "",
+        "period": "2006-12-19--2009-01-13"
+      },
+      {
+        "supplementTitle": "BIL",
+        "id": 129140,
+        "frequency": "1-3/m",
+        "type": "",
+        "daysOfWeek": "varierande",
+        "period": "2007-04-02--2007-12-31"
+      },
+      {
+        "supplementTitle": "ALLSVENSKAN",
+        "id": 129139,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "lö",
+        "period": "2007-04-14--2007-10-27"
+      },
+      {
+        "supplementTitle": "KLICK!",
+        "id": 129404,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "ti",
+        "period": "2007-07-03--2007-07-31"
+      },
+      {
+        "supplementTitle": "FETBONUS",
+        "id": 129549,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "to",
+        "period": "2007-09-27--2007-10-25"
+      },
+      {
+        "supplementTitle": "ELITSERIE",
+        "id": 129849,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "to",
+        "period": "2008-01-03--2008-03-13"
+      },
+      {
+        "supplementTitle": "MAT OCH VIN",
+        "id": 129847,
+        "frequency": "1/m",
+        "type": "",
+        "daysOfWeek": "",
+        "period": "2008-01-22--2008-12-17"
+      },
+      {
+        "supplementTitle": "SOFIS /  MODE",
+        "id": 129848,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "må",
+        "period": "2008-01-28--2009-04-06"
+      },
+      {
+        "supplementTitle": "BIL",
+        "id": 129846,
+        "frequency": "1/m",
+        "type": "",
+        "daysOfWeek": "",
+        "period": "2008-01-29--"
+      },
+      {
+        "supplementTitle": "NÖJESLIV / SCHLAGER",
+        "id": 130058,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "lö",
+        "period": "2008-02-09--2008-03-15"
+      },
+      {
+        "supplementTitle": "ALLSVENSKAN",
+        "id": 130627,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "lö",
+        "period": "2008-04-05--2008-05-10"
+      },
+      {
+        "supplementTitle": "BROTTEN SOM SKAKADE SVERIGE",
+        "id": 130836,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "on",
+        "period": "2008-07-02--2008-08-06"
+      },
+      {
+        "supplementTitle": "ALLSVENSKAN",
+        "id": 130835,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "lö",
+        "period": "2008-07-05--2008-11-30"
+      },
+      {
+        "supplementTitle": "KRYSS  & QUIZ",
+        "id": 130860,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "må",
+        "period": "2008-08-01--2019-10-14"
+      },
+      {
+        "supplementTitle": "NÖJESBLADET",
+        "id": 130965,
+        "frequency": "3/v",
+        "type": "",
+        "daysOfWeek": "fre, lö, sö",
+        "period": "2008-10-31--2010-01-31"
+      },
+      {
+        "supplementTitle": "DESTINATION",
+        "id": 131407,
+        "frequency": "1/m",
+        "type": "",
+        "daysOfWeek": "",
+        "period": "2009-02-17--2009-09-03"
+      },
+      {
+        "supplementTitle": "SOFIS / MODE",
+        "id": 131913,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "ti",
+        "period": "2009-04-14--2011-01-31"
+      },
+      {
+        "supplementTitle": "NÖJESBLADET",
+        "id": 132653,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "fre",
+        "period": "2010-02-01--2017-03-17"
+      },
+      {
+        "supplementTitle": "SCHLAGER",
+        "id": 132655,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "lö",
+        "period": "2010-02-06--2010-03-13"
+      },
+      {
+        "supplementTitle": "LEVANDE / HISTORIA",
+        "id": 133456,
+        "frequency": "1/m",
+        "type": "",
+        "daysOfWeek": "",
+        "period": "2010-08-26--2011-12-05"
+      },
+      {
+        "supplementTitle": "TV",
+        "id": 133641,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "ti",
+        "period": "2011-01-04--2014-12-09"
+      },
+      {
+        "supplementTitle": "SCHLAGER",
+        "id": 133869,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "lö",
+        "period": "2011-02-05--2011-03-12"
+      },
+      {
+        "supplementTitle": "SOFIS / MODE",
+        "id": 133867,
+        "frequency": "1/v",
+        "type": "",
+        "daysOfWeek": "må",
+        "period": "2011-02-07--2011-06-30"
+      },
+      {
+        "supplementTitle": "WELLNESS",
+        "id": 135220,
+        "frequency": "1/m",
+        "type": "",
+        "daysOfWeek": "",
+        "period": "2011-04-25--2016-02-03"
+      },
+      {
+        "supplementTitle": "SOFIS / MODE",
+        "id": 134550,
+        "frequency": "2/m",
+        "type": "",
+        "daysOfWeek": "on",
+        "period": "2011-07-13--2012-12-26"
+      },
+      {
+        "supplementTitle": "PAOLOS MAT",
+        "id": 135738,
+        "frequency": "1/m",
+        "type": "",
+        "daysOfWeek": "",
+        "period": "2012-04-26--2013-06-06"
+      },
+      {
+        "supplementTitle": "RESA",
+        "id": 141685,
+        "frequency": "1/m",
+        "type": "fritid",
+        "daysOfWeek": "",
+        "period": "2012-09-11--"
+      },
+      {
+        "supplementTitle": "SOFIS / MODE",
+        "id": 136199,
+        "frequency": "2/m",
+        "type": "",
+        "daysOfWeek": "to",
+        "period": "2013-01-11--2014-12-25"
+      },
+      {
+        "supplementTitle": "KRYSS & QUIZ",
+        "id": 161738,
+        "frequency": "1/v",
+        "type": "nöje",
+        "daysOfWeek": "må",
+        "period": "2013-04-16--"
+      },
+      {
+        "supplementTitle": "STORY /  TIDNINGEN FÖR VETGIRIGA",
+        "id": 138082,
+        "frequency": "1/v",
+        "type": "allmän",
+        "daysOfWeek": "sö",
+        "period": "2013-07-07--2014-08-31"
+      },
+      {
+        "supplementTitle": "TV",
+        "id": 141776,
+        "frequency": "1/v",
+        "type": "tv",
+        "daysOfWeek": "må",
+        "period": "2014-12-15--2014-12-29"
+      },
+      {
+        "supplementTitle": "TV",
+        "id": 142463,
+        "frequency": "1/v",
+        "type": "tv",
+        "daysOfWeek": "ti",
+        "period": "2015-01-06--2016-03-15"
+      },
+      {
+        "supplementTitle": "HÄRLIGT / HEMMA",
+        "id": 143635,
+        "frequency": "2/m",
+        "type": "bostad",
+        "daysOfWeek": "lö",
+        "period": "2015-07-11--2019-12-31"
+      },
+      {
+        "supplementTitle": "MAT & VIN",
+        "id": 146315,
+        "frequency": "1/m",
+        "type": "mat",
+        "daysOfWeek": "",
+        "period": "2016-02-22--2017-06-14"
+      },
+      {
+        "supplementTitle": "TV",
+        "id": 146126,
+        "frequency": "1/v",
+        "type": "tv",
+        "daysOfWeek": "må",
+        "period": "2016-03-21--"
+      },
+      {
+        "supplementTitle": "KRYSSBLADET",
+        "id": 146553,
+        "frequency": "1/v",
+        "type": "nöje",
+        "daysOfWeek": "lö",
+        "period": "2016-05-28--2018-06-16"
+      },
+      {
+        "supplementTitle": "THE GOOD LIFE",
+        "id": 148353,
+        "frequency": "8/år",
+        "type": "livsstil",
+        "daysOfWeek": "",
+        "period": "2016-11-15--2017-05-09"
+      },
+      {
+        "supplementTitle": "MODE & SKÖNHET",
+        "id": 147650,
+        "frequency": "1/m",
+        "type": "nöje",
+        "daysOfWeek": "",
+        "period": "2016-12-03--2017-12-06"
+      },
+      {
+        "supplementTitle": "WOMEN´S HEALTH & WELLNES",
+        "id": 147896,
+        "frequency": "8/år",
+        "type": "livsstil",
+        "daysOfWeek": "",
+        "period": "2017-01-05--2017-11-30"
+      },
+      {
+        "supplementTitle": "MOTORBLADET",
+        "id": 150101,
+        "frequency": "2-3/m",
+        "type": "motor",
+        "daysOfWeek": "to",
+        "period": "2017-02-23--2017-05-18"
+      },
+      {
+        "supplementTitle": "FEMPLUS / EN HEL TIDNING OM NÖJE & KULTUR / +++++",
+        "id": 148915,
+        "frequency": "1/v",
+        "type": "nöje",
+        "daysOfWeek": "fre",
+        "period": "2017-03-24--2020-02-21"
+      },
+      {
+        "supplementTitle": "MOTORBLADET",
+        "id": 150102,
+        "frequency": "1/v",
+        "type": "motor",
+        "daysOfWeek": "to",
+        "period": "2017-06-01--2017-06-29"
+      },
+      {
+        "supplementTitle": "MOTORBLADET",
+        "id": 153942,
+        "frequency": "2-3/m",
+        "type": "motor",
+        "daysOfWeek": "",
+        "period": "2017-08-01--"
+      },
+      {
+        "supplementTitle": "KRYSSEXTRA",
+        "id": 154421,
+        "frequency": "1/m",
+        "type": "nöje",
+        "daysOfWeek": "",
+        "period": "2018-01-16--"
+      },
+      {
+        "supplementTitle": "WEEKEND",
+        "id": 154420,
+        "frequency": "1/v",
+        "type": "allmän",
+        "daysOfWeek": "lö",
+        "period": "2018-06-30--2019-05-31"
+      },
+      {
+        "supplementTitle": "SVD JUNIOR",
+        "id": 159804,
+        "frequency": "1/v",
+        "type": "nöje",
+        "daysOfWeek": "lö",
+        "period": "2019-01-12--2019-10-26"
+      },
+      {
+        "supplementTitle": "GALA MAGAZINE",
+        "id": 157942,
+        "frequency": "2/m",
+        "type": "livsstil",
+        "daysOfWeek": "",
+        "period": "2019-02-23--2019-12-13"
+      },
+      {
+        "supplementTitle": "KLICK!",
+        "id": 159036,
+        "frequency": "1/v",
+        "type": "nöje",
+        "daysOfWeek": "to",
+        "period": "2019-05-09--"
+      },
+      {
+        "supplementTitle": "KRYSSBLADET",
+        "id": 159803,
+        "frequency": "1/v",
+        "type": "nöje",
+        "daysOfWeek": "lö",
+        "period": "2019-06-01--2020-03-28"
+      },
+      {
+        "supplementTitle": "KRYSS & QUIZ",
+        "id": 161026,
+        "frequency": "1/v",
+        "type": "nöje",
+        "daysOfWeek": "lö",
+        "period": "2019-10-19--2019-12-07"
+      },
+      {
+        "supplementTitle": "SPORTHELG",
+        "id": 161313,
+        "frequency": "1/v",
+        "type": "sport",
+        "daysOfWeek": "fre",
+        "period": "2019-11-01--2020-02-28"
+      },
+      {
+        "supplementTitle": "HÄRLIGT / HEMMA",
+        "id": 162702,
+        "frequency": "2-3/m",
+        "type": "bostad",
+        "daysOfWeek": "fre",
+        "period": "2020-01-03--"
+      },
+      {
+        "supplementTitle": "FREDAG",
+        "id": 162701,
+        "frequency": "1/v",
+        "type": "nöje",
+        "daysOfWeek": "fre",
+        "period": "2020-02-28--"
+      },
+      {
+        "supplementTitle": "SPORTHELG",
+        "id": 163643,
+        "frequency": "1/v",
+        "type": "sport",
+        "daysOfWeek": "to",
+        "period": "2020-03-05--2020-03-19"
+      },
+      {
+        "supplementTitle": "LÖRDAG",
+        "id": 164664,
+        "frequency": "1/v",
+        "type": "nöje",
+        "daysOfWeek": "lö",
+        "period": "2020-04-04--2020-12-26"
+      },
+      {
+        "supplementTitle": "KRYSSBLADET",
+        "id": 168439,
+        "frequency": "1/v",
+        "type": "nöje",
+        "daysOfWeek": "lö",
+        "period": "2021-01-02--"
+      }
+    ],
+    "newsBill": [
+      {
+        "frequency": "förmodligen med luckor",
+        "id": 35937,
+        "comment": null,
+        "period": "1935-01-01--1935-12-31"
+      },
+      {
+        "frequency": "förmodligen med luckor",
+        "id": 35938,
+        "comment": null,
+        "period": "1939-01-01--1940-12-31"
+      },
+      {
+        "frequency": "förmodligen med luckor",
+        "id": 35939,
+        "comment": null,
+        "period": "1943-01-01--1943-12-31"
+      },
+      {
+        "frequency": "förmodligen med luckor",
+        "id": 35940,
+        "comment": null,
+        "period": "1945-01-01--1945-12-31"
+      },
+      {
+        "frequency": "förmodligen med luckor",
+        "id": 35941,
+        "comment": null,
+        "period": "1946-01-01--1992-10-31"
+      },
+      {
+        "frequency": "flera per utgivningsdag",
+        "id": 35942,
+        "comment": null,
+        "period": "1992-11-01--"
+      }
+    ],
+    "productionComments": [
+      {
+        "comment": "Två rullsviter:\r\nH+E: huvudedition, ed.1 x x x x x [Väst] [Göteborg]  i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: [Göteborg] \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n3 ed: x [Göteborg] [2001 09 12]\r\n4 ed: x x x x x [Halmstad] [2001 09 19]\r\n\r\nTryckort: [Härnösand] \r\n5 ed: x x x x x \r\n6 ed: x [2001 09 17]\r\n\r\nTryckort: [Luleå] \r\n7 ed: x x x x x \r\n \r\nTryckort: [Norrköping]\r\n8 ed: x x x x x\r\n9 ed: x x x x x\r\n10 ed: x [2001 09 12]\r\n\r\nTryckort: [Växjö]\r\n11 ed:  x x x x x\r\n12 ed:  x x x x x \r\n\r\nTryckort: [Stockholm] \r\n13 ed: x x x x x\r\n14 ed: x x x\r\n15 ed: x EXTRA UPPLAGA \r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilaga till Stockholmseditionen PULS filmas i sin helhet tillsammans med ed. 13\r\n\r\nBilagorna  filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n\r\n",
+        "id": 100935,
+        "period": "2001-09-01--2001-09-30"
+      },
+      {
+        "comment": "Två rullsviter:\r\nH+E: huvudedition, ed.1 x x x x x [Väst] [Göteborg] i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: [Göteborg] \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n3 ed: x EXTRA UPPLAGA [Göteborg][2001 10 08]\r\n\r\nTryckort: [Härnösand] \r\n4 ed: x x x x x \r\n\r\nTryckort: [Luleå] \r\n5 ed: x x x x x\r\n6 ed: x x x x x \r\n\r\nTryckort: [Norrköping]\r\n7 ed: x x x x x\r\n8 ed: x x x x x\r\n\r\nTryckort: [Växjö]\r\n9 ed: x x x x x\r\n10 ed: x x x x x \r\n\r\nTryckort: [Stockholm] \r\n11 ed: x x x x x\r\n12 ed: x x x\r\n13 ed: x EXTRA UPPLAGA \r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilaga till Stockholmseditionen PULS filmas i sin helhet tillsammans med ed. 11\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 101488,
+        "period": "2001-10-01--2001-10-31"
+      },
+      {
+        "comment": "Två rullsviter:\r\nH+E: huvudedition, ed.1 x x x x x [Väst] [Göteborg] i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: [Göteborg] \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n\r\nTryckort: [Härnösand] \r\n3 ed: x x x x x \r\n\r\nTryckort: [Luleå] \r\n4 ed: x x x x x\r\n5 ed: x x x x x \r\n\r\nTryckort: [Norrköping]\r\n6 ed: x x x x x\r\n7 ed: x x x x x\r\n\r\nTryckort: [Växjö]\r\n8 ed: x x x x x\r\n9 ed: x x x x x \r\n\r\nTryckort: [Stockholm] \r\n10 ed: x x x x x\r\n11 ed: x x x\r\n12 ed: x x x \r\n13 ed: x EXTRA UPPLAGA \r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilaga till Stockholmseditionen PULS filmas i sin helhet tillsammans med ed. 11\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 102284,
+        "period": "2001-11-01--2002-02-28"
+      },
+      {
+        "comment": "Två rullsviter:\r\nH+E: huvudedition, ed.1 x x x x x [Väst] [Göteborg] i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: [Göteborg] \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n\r\nTryckort: [Luleå] \r\n3 ed: x x x x x\r\n4 ed: x x x x x \r\n\r\nTryckort: [Norrköping]\r\n5 ed: x x x x x\r\n6 ed: x x x x x\r\n\r\nTryckort: [Växjö]\r\n7 ed: x x x x x\r\n8 ed: x x x x x \r\n\r\nTryckort: Örnsköldsvik\r\n9 ed: x x x x x\r\n\r\nTryckort: [Stockholm] \r\n10 ed: x x x x x\r\n11 ed: x x x \r\n12 ed: x x x \r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilaga till Stockholmseditionen PULS filmas i sin helhet tillsammans med ed. 10\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 103998,
+        "period": "2002-03-01--2002-03-31"
+      },
+      {
+        "comment": "Två rullsviter:\r\nH+E: huvudedition, ed.1 x x x x x [Väst] [Göteborg] i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: [Göteborg] \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n3 ed: x EXTRA UPPLAGA [Väst] [2002-04-24]\r\n\r\nTryckort: [Luleå] \r\n4 ed: x x x x x\r\n5 ed: x x x x x \r\n\r\nTryckort: [Norrköping]\r\n6 ed: x x x x x\r\n7 ed: x x x x x\r\n\r\nTryckort: [Växjö]\r\n8 ed: x x x x x\r\n9 ed: x x x x x \r\n\r\nTryckort: Örnsköldsvik\r\n10 ed: x x x x x\r\n11 ed: x x x x x\r\n\r\nTryckort: [Stockholm] \r\n12 ed: x x x x x\r\n13 ed: x x x x x [2002-04-13]\r\n14 ed: x x x \r\n15 ed: x x x\r\n16 ed: x [EXTRA UPPLAGA] [2002-04-24] \r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilaga till Stockholmseditionen PULS filmas i sin helhet tillsammans med ed. 12\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 104438,
+        "period": "2002-04-01--2002-04-30"
+      },
+      {
+        "comment": "Två rullsviter:\r\nH+E: huvudedition, ed.1 x x x x x [Väst] [Göteborg] i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: [Göteborg] \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n3 ed: x EXTRA UPPLAGA [Väst] [2002-05-23]\r\n\r\nTryckort: [Luleå] \r\n4 ed: x x x x x\r\n5 ed: x x x x x \r\n\r\nTryckort: [Norrköping]\r\n6 ed: x x x x x\r\n7 ed: x x x x x\r\n\r\nTryckort: [Växjö]\r\n8 ed: x x x x x\r\n9 ed: x x x x x \r\n\r\nTryckort: Örnsköldsvik\r\n10 ed: x x x x x\r\n11 ed: x x x x x\r\n\r\nTryckort: [Stockholm] \r\n12 ed: x x x x x\r\n13 ed: x x x \r\n14 ed: x x x\r\n15 ed: x [EXTRA UPPLAGA]  \r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilaga till Stockholmseditionen PULS filmas i sin helhet tillsammans med ed. 12\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 104961,
+        "period": "2002-05-01--2002-05-31"
+      },
+      {
+        "comment": "Två rullsviter:\r\nH+E: huvudedition, ed.1 x x x x x [Väst] [Göteborg] i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: [Göteborg] \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n3 ed: x EXTRA UPPLAGA [Väst] \r\n\r\nTryckort: [Luleå] \r\n4 ed: x x x x x\r\n5 ed: x x x x x \r\n6 ed: x EXTRA UPPLAGA\r\n\r\nTryckort: [Norrköping]\r\n7 ed: x x x x x\r\n8 ed: x x x x x\r\n9 ed: x EXTRA UPPLAGA\r\n\r\nTryckort: [Växjö]\r\n10 ed: x x x x x\r\n11 ed: x x x x x\r\n12 ed: x EXTRA UPPLAGA\r\n\r\nTryckort: Örnsköldsvik\r\n13 ed: x x x x x\r\n14 ed: x x x x x\r\n15 ed: x EXTRA UPPLAGA\r\n\r\nTryckort: [Stockholm] \r\n16 ed: x x x x x\r\n17 ed: x x x \r\n18 ed: x x x\r\n19 ed: x EXTRA UPPLAGA \r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilaga till Stockholmseditionen PULS filmas isin helhet tillsammans med ed. 16\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 105262,
+        "period": "2002-06-01--2002-06-30"
+      },
+      {
+        "comment": "Två rullsviter:\r\nH+E: huvudedition, ed.1 x x x x x [Väst] [Göteborg] i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: [Göteborg] \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n\r\nTryckort: [Luleå] \r\n3 ed: x x x x x\r\n4 ed: x x x x x \r\n\r\nTryckort: [Norrköping]\r\n5 ed: x x x x x\r\n6 ed: x x x x x\r\n\r\nTryckort: [Växjö]\r\n7 ed: x x x x x\r\n8 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n9 ed: x x x x x\r\n10 ed: x x x x x\r\n\r\nTryckort: [Stockholm] \r\n11 ed: x x x xx\r\n12 ed: x x x \r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilaga till Stockholmseditionen PULS filmas i sin helhet tillsammans med ed. 11\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är iblandsvåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 105329,
+        "period": "2002-07-01--2002-07-31"
+      },
+      {
+        "comment": "Två rullsviter:\r\nH+E: huvudedition, ed.1 x x x x x [Väst] [Göteborg] i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: [Göteborg] \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n3 ed: x [Väst]\r\n\r\nTryckort: [Luleå] \r\n4 ed: x x x x x\r\n5 ed: x x x x x \r\n\r\nTryckort: [Norrköping]\r\n6 ed: x x x x x\r\n7 ed: x x x x x\r\n\r\nTryckort: [Växjö]\r\n8 ed: x x x x x\r\n9 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n10 ed: x x x x x\r\n11 ed: x x x x x\r\n\r\nTryckort: [Stockholm]\r\n12 ed: x x x x x\r\n13 ed: x x x\r\n14 ed: x x x\r\n15 ed: x [Extra upplaga] \r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilaga till Stockholmseditionen PULS filmas i sin helhet tillsammans med ed. 12\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är iblandsvåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 105735,
+        "period": "2002-08-01--2002-08-31"
+      },
+      {
+        "comment": "Två rullsviter:\r\nH+E: huvudedition, ed.1 x x x x x [Väst] [Göteborg] i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: [Göteborg] \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n\r\nTryckort: [Luleå] \r\n3 ed: x x x x x\r\n4 ed: x x x x x \r\n\r\nTryckort: [Norrköping]\r\n5 ed: x x x x x\r\n6 ed: x x x x x\r\n\r\nTryckort: [Växjö]\r\n7 ed: x x x x x\r\n8 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n9 ed: x x x x x\r\n10 ed: x x x x x\r\n\r\nTryckort: [Stockholm]\r\n11 ed: x x x x x\r\n12 ed: x x x\r\n13 ed: x x x\r\n14 ed: x [Extra upplaga] \r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilaga till Stockholmseditionen PULS filmas i sin helhet tillsammans med ed. 11\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är iblandsvåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 106203,
+        "period": "2002-09-01--2002-09-30"
+      },
+      {
+        "comment": "Två rullsviter:\r\nH+E: huvudedition, ed.1 x x x x x [Väst] [Göteborg] i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: [Göteborg] \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n3 ed: x [Extra upplaga][Göteborg]\r\n\r\nTryckort: [Luleå] \r\n4 ed: x x x x x\r\n5 ed: x x x x x \r\n\r\nTryckort: [Norrköping]\r\n6 ed: x x x x x\r\n7 ed: x x x x x\r\n8 ed: x [Extra upplaga]\r\n\r\nTryckort: [Växjö]\r\n9 ed: x x x x x\r\n10 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n11 ed: x x x xx\r\n12 ed: x x x x x\r\n\r\nTryckort: [Stockholm]\r\n13 ed: x x x x x\r\n14 ed: x x x\r\n15 ed: x x x\r\n16 ed: x [Extra upplaga] \r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilaga till Stockholmseditionen PULS filmas i sin helhet tillsammans med ed. 13\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är iblandsvåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n \r\n",
+        "id": 106687,
+        "period": "2002-10-01--2002-10-30"
+      },
+      {
+        "comment": "Två rullsviter:\r\nH+E: huvudedition, ed.1 x x x x x [Väst] [Göteborg] i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: [Göteborg] \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n\r\nTryckort: [Luleå] \r\n3 ed: x x x x x\r\n4 ed: x x x x x \r\n\r\nTryckort: [Norrköping]\r\n5 ed: x x x x x\r\n6 ed: x x x x x\r\n\r\nTryckort: [Växjö]\r\n7 ed: x x x x x\r\n8 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n9 ed: x x x xx\r\n10 ed: x x x x x\r\n\r\nTryckort: [Stockholm]\r\n11 ed: x x x x x\r\n12 ed: x x x\r\n13 ed: x x x\r\n14 ed: x [Extra upplaga] \r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilaga till Stockholmseditionen PULS filmas i sin helhet tillsammans med ed. 11\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är iblandsvåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 107568,
+        "period": "2002-11-01--2002-11-30"
+      },
+      {
+        "comment": "Två rullsviter:\r\nH+E: huvudedition, ed.1 x x x x x [Väst] [Göteborg] i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: [Göteborg] \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n3 ed: x [Göteborg][2002 12 05]\r\n\r\nTryckort: [Luleå] \r\n4 ed: x x x x x\r\n5 ed: x x x x x \r\n\r\nTryckort: [Norrköping]\r\n6 ed: x x x x x\r\n7 ed: x x x x x\r\n\r\nTryckort: [Växjö]\r\n8 ed: x x x x x\r\n9 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n10 ed: x x x xx\r\n11 ed: x x x x x\r\n\r\nTryckort: [Stockholm]\r\n12 ed: x x x x x \r\n13 ed: x x x\r\n14 ed: x x x\r\n15 ed: x [Extra upplaga] \r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilaga till Stockholmseditionen PULS filmas i sin helhet tillsammans med ed. 12\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är iblandsvåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 107679,
+        "period": "2002-12-01--2002-12-31"
+      },
+      {
+        "comment": "Två rullsviter:\r\nH+E: huvudedition, ed.1 x x x x x [Väst] [Göteborg] i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: [Göteborg] \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n\r\nTryckort: [Luleå] \r\n3 ed: x x x x x\r\n4 ed: x x x x x \r\n\r\nTryckort: [Norrköping]\r\n5 ed: x x x x x  [--2003-01-08]\r\n6 ed: x x x x x  [--2003-01-08]\r\n\r\nTryckort: Västerås\r\n5 ed: x x x x x [2003-01-09--]\r\n6 ed: x x x x x [2003-01-09--]\r\n\r\nTryckort: [Växjö]\r\n7 ed: x x x x x\r\n8 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n9 ed: x x x x x\r\n10 ed: x x x x x\r\n\r\nTryckort: [Stockholm]\r\n11 ed: x x x x x \r\n12 ed: x x x\r\n13 ed: x x x\r\n14 ed: x [Extra upplaga] \r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilaga till StockholmseditionenPULS filmas i sin helhet tillsammans med ed. 11\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är iblandsvåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 107909,
+        "period": "2003-01-01--2003-01-31"
+      },
+      {
+        "comment": "Två rullsviter:\r\nH+E: huvudedition, ed.1 x x x x x [Väst] [Göteborg] i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: [Göteborg] \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n\r\nTryckort: [Luleå] \r\n3 ed: x x x x x\r\n4 ed: x x x x x \r\n\r\nTryckort: Västerås\r\n5 ed: x x x x x \r\n\r\nTryckort: [Växjö]\r\n6 ed: x x x x x\r\n7 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n8 ed: x x x x x\r\n9 ed: x x x x x\r\n\r\nTryckort: [Stockholm]\r\n10 ed: x x x x x \r\n11 ed: x x x\r\n12 ed: x x x\r\n13 ed: x [Extra upplaga] \r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilaga till Stockholmseditionen PULS filmas i sin helhet tillsammans med ed. 10\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är iblandsvåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 108235,
+        "period": "2003-02-01--2003-02-28"
+      },
+      {
+        "comment": "Två rullsviter:\r\nH+E: huvudedition, ed.1 x x x x x [Väst] [Göteborg] i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: [Göteborg] \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n3 ed: x [Extra upplaga][Väst]\r\n\r\nTryckort: Västerås\r\n4 ed: x x x x x \r\n\r\nTryckort: [Växjö]\r\n5 ed: x x x x x\r\n6 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n7 ed: x x x x x\r\n8 ed: x x x x x\r\n\r\nTryckort: [Stockholm]\r\n9 ed: x x x x x \r\n10 ed: x x x \r\n11 ed: x x x A\r\n12 ed: x [Extra upplaga] \r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilaga till Stockholmseditionen PULS filmas i sin helhet tillsammans med ed. 9\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är iblandsvåraatt placera pårätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 108462,
+        "period": "2003-03-01--2003-04-30"
+      },
+      {
+        "comment": "Två rullsviter:\r\nH+E: huvudedition, ed.1 x x x x x [Väst] [Göteborg] i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: [Göteborg] \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n\r\nTryckort: Västerås\r\n3 ed: x x x x x \r\n\r\nTryckort: [Växjö]\r\n4 ed: x x x x x\r\n5 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n6 ed: x x x x x\r\n7 ed: x x x x x\r\n\r\nTryckort: [Stockholm]\r\n8 ed: x x x x x \r\n9 ed: x x x \r\n10 ed: x x x A\r\n11 ed: x [Extra upplaga] \r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilaga till Stockholmseditionen PULS filmas i sin helhet tillsammans med ed. 8\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är iblandsvåraatt placera pårätt utgivningsdagvid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 109006,
+        "period": "2003-05-01--2003-05-31"
+      },
+      {
+        "comment": "Två rullsviter:\r\nH+E: huvudedition, ed.1 x x x x x [Väst] [Göteborg] i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: [Göteborg] \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n\r\nTryckort: Västerås\r\n3 ed: x x x x x \r\n\r\nTryckort: [Växjö]\r\n4 ed: x x x x x\r\n5 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n6 ed: x x x x x\r\n7 ed: x x x x x\r\n\r\nTryckort: [Stockholm]\r\n8 ed: x x x x x\r\n9 ed: x x x x x \r\n10 ed: x x x \r\n11 ed: x x x A\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilaga till Stockholmseditionen PULS filmas i sin helhet tillsammans med ed. 8\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är iblandsvåraatt placera pårätt utgivningsdagvid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 109055,
+        "period": "2003-06-01--2003-07-31"
+      },
+      {
+        "comment": "Två rullsviter:\r\nH+E: huvudedition, ed.1 x x x x x [Väst] [Göteborg] i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: [Göteborg] \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n\r\nTryckort: Västerås\r\n3 ed: x x x x x \r\n\r\nTryckort: [Växjö]\r\n4 ed: x x x x x\r\n5 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n6 ed: x x x x x\r\n7 ed: x x x x x\r\n\r\nTryckort: [Stockholm]\r\n8 ed: x x x x x\r\n9 ed: x x x \r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilaga till Stockholmseditionen PULS filmas i sin helhet tillsammans med ed. 8\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är iblandsvåraatt placera pårätt utgivningsdagvid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 109493,
+        "period": "2003-08-01--2003-08-31"
+      },
+      {
+        "comment": "Två rullsviter:\r\nH+E: huvudedition, ed.1 x x x x x [Väst] [Göteborg] i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: [Göteborg] \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n3 ed: x x x [Extraupplaga] [2003 09 11]\r\n4 ed: x x [Extra upplaga] [2003 09 26]\r\n5 ed: x [Extra upplaga] [2003 09 15; 2003 09 19]\r\n\r\nTryckort: Västerås\r\n6 ed: x x x x x \r\n7 ed: x x x [Extra upplaga] [2003 09 11]\r\n\r\nTryckort: [Växjö]\r\n8 ed: x x x x x\r\n9 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n10 ed: x x x x x\r\n11 ed: x x x [Extra upplaga] [2003 09 11]\r\n\r\nTryckort: [Stockholm]\r\n12 ed: x x x x x\r\n13 ed: x x x\r\n14 ed: x x x [Extra upplaga] [2003 09 11--2003 09 12]\r\n15 ed: x x [Extra upplaga] [2003 09 26]\r\n16 ed: x [Extra upplaga] 2003 09 15--2003 09 19]\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilaga till Stockholmseditionen PULS filmas i sin helhet tillsammans med ed. 12\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är iblandsvåraatt placera pårätt utgivningsdagvid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 110023,
+        "period": "2003-09-01--2003-09-30"
+      },
+      {
+        "comment": "Två rullsviter:\r\nH+E: huvudedition, ed.1 x x x x x [Väst] [Göteborg] i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: [Göteborg] \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n3 ed: x x [Extra upplaga] [2003 10 06]\r\n\r\nTryckort: Västerås\r\n4 ed: x x x x x \r\n\r\nTryckort: [Växjö]\r\n5 ed: x x x x x\r\n6 ed: x x x x x\r\n7 ed: x [Extra upplaga] [2003 10 14]\r\n\r\nTryckort: Örnsköldsvik\r\n8 ed: x x x x x\r\n9 ed: x x  [Extra upplaga] [2003 10 06]\r\n10 ed: x [Extra upplaga] [2003 10 14]\r\n\r\nTryckort: [Stockholm]\r\n11 ed: x x x x x\r\n12 ed: x x x\r\n13 ed: x x [Extra upplaga] [2003 10 03; 2003 10 06]\r\n14 ed: x [Extra upplaga] [2003 10 14]\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilaga till Stockholmseditionen PULSfilmas i sin helhet tillsammans med ed. 11\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är iblandsvåraatt placera pårätt utgivningsdagvid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 110574,
+        "period": "2003-10-01--2003-10-31"
+      },
+      {
+        "comment": "Två rullsviter:\r\nH+E: huvudedition, ed.1 x x x x x [Väst] [Göteborg] i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: [Göteborg] \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n3 ed: x x x x [Extra upplaga] [2003 11 19]\r\n\r\nTryckort: Västerås\r\n4 ed: x x x x x \r\n\r\nTryckort: [Växjö]\r\n5 ed: x x x x x\r\n6 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n7 ed: x x x x x\r\n8 ed: x x x x x\r\n\r\nTryckort: [Stockholm]\r\n9 ed: x x x x x\r\n10 ed: x x x\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilaga till Stockholmseditionen PULSfilmas i sin helhet tillsammans med ed. 9\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är iblandsvåraatt placera pårätt utgivningsdagvid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 110829,
+        "period": "2003-11-01--2003-11-30"
+      },
+      {
+        "comment": "Två rullsviter:\r\nH+E: huvudedition, ed.1 x x x x x [Väst] [Göteborg] i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: [Göteborg] \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n\r\nTryckort: Västerås\r\n3 ed: x x x x x \r\n\r\nTryckort: [Växjö]\r\n4 ed: x x x x x\r\n5 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n6 ed: x x x x x\r\n7 ed: x x x x x\r\n\r\nTryckort: [Stockholm]\r\n8 ed: x x x x x\r\n9 ed: x x x\r\n10 ed: x x [Extra upplaga][2003 12 01; 2003 12 16]\r\n11 ed: x [Extra upplaga] [2003 12 14]\r\n\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilaga till Stockholmseditionen PULS filmas i sin helhet tillsammans med ed. 8\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är iblandsvåraatt placera pårätt utgivningsdagvid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 110940,
+        "period": "2003-12-01--2003-12-31"
+      },
+      {
+        "comment": "Två rullsviter:\r\nH+E: huvudedition, ed.1 x x x x x [Väst] [Göteborg] i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: [Göteborg] \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n3 ed: x [Extra upplaga][2004 01 07]\r\n\r\nTryckort: Västerås\r\n4 ed: x x x x x\r\n5 ed: x [Extra upplaga] [2004 01 07] \r\n\r\nTryckort: [Växjö]\r\n6 ed: x x x x x\r\n7 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n8 ed: x x x x x\r\n9 ed: x x x x x\r\n\r\nTryckort: [Stockholm]\r\n10 ed: x x x x x\r\n11 ed: x x x\r\n12 ed: x x [Extra upplaga]\r\n13 ed: x [Extra upplaga] \r\n\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilaga till Stockholmseditionen PULS filmas i sin helhet tillsammans med ed. 10\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är iblandsvåraatt placera pårätt utgivningsdagvid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 111262,
+        "period": "2004-01-01--2004-01-31"
+      },
+      {
+        "comment": "Två rullsviter:\r\nH+E: huvudedition, ed.1 x x x x x [Väst] [Göteborg] i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: [Göteborg] \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n\r\nTryckort: Västerås\r\n3 ed: x x x x x\r\n\r\nTryckort: [Växjö]\r\n4 ed: x x x x x\r\n5 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n6 ed: x x x x x\r\n7 ed: x x x x x\r\n\r\nTryckort: [Stockholm]\r\n8 ed: x x x x x\r\n9 ed: x x x\r\n10 ed: x x [Extra upplaga]\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilaga till Stockholmseditionen PULS filmas i sin helhet tillsammans med ed. 8\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är iblandsvåraatt placera pårätt utgivningsdagvid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 111800,
+        "period": "2004-02-01--2004-02-29"
+      },
+      {
+        "comment": "Två rullsviter:\r\nH+E: huvudedition, ed.1 x x x x x [Väst] [Göteborg] i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: [Göteborg] \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n3 ed: x [Göteborg]\r\n\r\nTryckort: Västerås\r\n4 ed: x x x x x\r\n\r\nTryckort: [Växjö]\r\n5 ed: x x x x x\r\n6 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n7 ed: x x x x x\r\n8 ed: x x x x x\r\n\r\nTryckort: [Stockholm]\r\n9 ed: x x x x x\r\n10 ed: x x x\r\n11 ed: x  [Extra upplaga]\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilaga till Stockholmseditionen PULS filmas i sin helhet tillsammans med ed. 9\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är iblandsvåraatt placera pårätt utgivningsdagvid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 112189,
+        "period": "2004-03-01--2004-03-31"
+      },
+      {
+        "comment": "Två rullsviter:\r\nH+E: huvudedition, ed.1 x x x x x [Väst] [Göteborg] i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: [Göteborg] \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n\r\nTryckort: Västerås\r\n3 ed: x x x x x\r\n\r\nTryckort: [Växjö]\r\n4 ed: x x x x x\r\n5 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n6 ed: x x x x x\r\n7 ed: x x x x x\r\n\r\nTryckort: [Stockholm]\r\n8 ed: x x x x x\r\n9 ed: x x x\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilaga till Stockholmseditionen PULS filmas i sin helhet tillsammans med ed. 8\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är iblandsvåraatt placera pårätt utgivningsdagvid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 112565,
+        "period": "2004-04-01--2004-04-30"
+      },
+      {
+        "comment": "Två rullsviter:\r\nH+E: huvudedition, ed.1 x x x x x [Väst] [Göteborg] i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: [Göteborg] \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n3 ed: x [extra upplaga]\r\n\r\nTryckort: Västerås\r\n4 ed: x x x x x\r\n\r\nTryckort: [Växjö]\r\n5 ed: x x x x x\r\n6 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n7 ed: x x x x x\r\n8 ed: x x x x x\r\n\r\nTryckort: [Stockholm]\r\n9 ed: x x x x x\r\n10 ed: x x x\r\n11 ed: x [extra upplaga]\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilaga till Stockholmseditionen PULS filmas i sin helhet tillsammans med ed. 9\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är iblandsvåraatt placera pårätt utgivningsdagvid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 112947,
+        "period": "2004-05-01--2004-05-31"
+      },
+      {
+        "comment": "Två rullsviter:\r\nH+E: huvudedition, ed.1 x x x x x [Väst] [Göteborg] i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: [Göteborg] \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n\r\nTryckort: Västerås\r\n3 ed: x x x x x\r\n\r\nTryckort: [Växjö]\r\n4 ed: x x x x x\r\n5 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n6 ed: x x x x x\r\n7 ed: x x x x x\r\n\r\nTryckort: [Stockholm]\r\n8 ed: x x x x x\r\n9 ed: x x x\r\n10 ed: x [extra upplaga]\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilaga till Stockholmseditionen PULS filmas i sin helhet tillsammans med ed. 8\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är iblandsvåraatt placera pårätt utgivningsdagvid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 113055,
+        "period": "2004-06-01--2004-06-30"
+      },
+      {
+        "comment": "Två rullsviter:\r\nH+E: huvudedition, ed.1 x x x x x [Väst] [Göteborg] i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: [Göteborg] \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n3 ed: x x x x x [Halmstad] [2004-07-14]\r\n\r\nTryckort: Västerås\r\n4 ed: x x x x x\r\n\r\nTryckort: [Växjö]\r\n5 ed: x x x x x\r\n6 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n7 ed: x x x x x\r\n8 ed: x x x x x\r\n\r\nTryckort: [Stockholm]\r\n9 ed: x x x x x [Norrtälje]\r\n10 ed: x x x\r\n11 ed: x x x\r\n12 ed: x x [extra upplaga] \r\n13 ed: x [extra upplaga]\r\n\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilaga till Stockholmseditionen PULS filmas i sin helhet tillsammans med ed. 9 eller 10\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är iblandsvåraatt placera pårätt utgivningsdagvid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 113252,
+        "period": "2004-07-01--2004-07-31"
+      },
+      {
+        "comment": "Två rullsviter:\r\nH+E: huvudedition, ed.1 x x x x x [Väst] [Göteborg] i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: [Göteborg] \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n\r\nTryckort: Västerås\r\n3 ed: x x x x x\r\n\r\nTryckort: [Växjö]\r\n4 ed: x x x x x\r\n5 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n6 ed: x x x x x\r\n7 ed: x x x x x\r\n\r\nTryckort: [Stockholm]\r\n8 ed: x x x x x \r\n9 ed: x x x\r\n10 ed: x x x\r\n11 ed: x x [extra upplaga] \r\n\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilaga Klick!/Sveriges nöjestidning filmas i sin helhet tillsammans med ed. 8 eller 9\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är iblandsvåraatt placera pårätt utgivningsdagvid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 113756,
+        "period": "2004-08-01--2004-08-31"
+      },
+      {
+        "comment": "Två rullsviter:\r\nH+E: huvudedition, ed.1 x x x x x [Väst] [Göteborg] i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: [Göteborg] \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n3 ed: x x x x x [Uddevalla] [2004 09 02]\r\n\r\nTryckort: Västerås\r\n4 ed: x x x x x\r\n\r\nTryckort: [Växjö]\r\n5 ed: x x x x x\r\n6 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n7 ed: x x x x x\r\n8 ed: x x x x x\r\n\r\nTryckort: [Stockholm]\r\n9 ed: x x x x x \r\n10 ed: x x x\r\n11 ed: x x x\r\n12 ed: x x [extra upplaga]\r\n13 ed: x [extra upplaga] \r\n\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilaga Klick!/Sveriges nöjestidning filmas i sin helhet tillsammans med ed. 9 eller 10\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 113971,
+        "period": "2004-09-01--2004-09-30"
+      },
+      {
+        "comment": "Två rullsviter:\r\nH+E: huvudedition, ed.1 x x x x x [Väst] [Göteborg] i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: [Göteborg] \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n\r\nTryckort: Västerås\r\n3 ed: x x x x x\r\n\r\nTryckort: [Växjö]\r\n4 ed: x x x x x\r\n5 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n6 ed: x x x x x\r\n7 ed: x x x x x\r\n\r\nTryckort: [Stockholm]\r\n8 ed: x x x x x \r\n9 ed: x x x\r\n10 ed: x x [extra upplaga]\r\n11 ed: x [extra upplaga] \r\n\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilaga Klick!/Sveriges nöjestidning filmas i sin helhet tillsammans med ed. 8 eller 9\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 114799,
+        "period": "2004-10-01--2004-10-31"
+      },
+      {
+        "comment": "Två rullsviter:\r\nH+E: huvudedition, ed.1 x x x x x [Väst] [Göteborg] i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: [Göteborg] \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n\r\nTryckort: Västerås\r\n3 ed: x x x x x\r\n\r\nTryckort: [Växjö]\r\n4 ed: x x x x x\r\n5 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n6 ed: x x x x x\r\n7 ed: x x x x x\r\n\r\nTryckort: [Stockholm]\r\n8 ed: x x x x x \r\n9 ed: x x x\r\n10 ed: x x x [2004 11 11]\r\n11 ed: x [extra upplaga] \r\n\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilaga Klick!/Sveriges nöjestidning filmas i sin helhet tillsammans med ed. 8 eller 9\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 115677,
+        "period": "2004-11-01--2004-11-30"
+      },
+      {
+        "comment": "Två rullsviter:\r\nH+E: huvudedition, ed.1 x x x x x [Väst] [Göteborg] i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: [Göteborg] \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n3 ed: x x x G [Göteborg] [2004 12 25]\r\n4 ed: x x [Väst] [2004 12 27]\r\n\r\nTryckort: Västerås\r\n5 ed: x x x x x\r\n\r\nTryckort: [Växjö]\r\n6 ed: x x x x x\r\n7 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n8 ed: x x x x x\r\n9 ed: x x x x x\r\n\r\nTryckort: [Stockholm][Norrtälje]\r\n10 ed: x x x x x \r\n11 ed: x x x\r\n12 ed: x x x \r\n13 ed: x x [extra upplaga]\r\n14 ed: x [extra upplaga] \r\n\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilaga Klick!/Sveriges nöjestidning filmas i sin helhet tillsammans med ed. 10 eller 11\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 115857,
+        "period": "2004-12-01--2004-12-31"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH: tidningar\r\nE: ed.1 x x x x x [Väst] [Göteborg] i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: [Göteborg] \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n3 ed: x [omärkt] [2005 01 19]\r\n\r\nTryckort: Västerås\r\n4 ed: x x x x x\r\n\r\nTryckort: [Växjö]\r\n5 ed: x x x x x\r\n6 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n7 ed: x x x x x\r\n8 ed: x x x x x\r\n\r\nTryckort: [Stockholm][Norrtälje]\r\n9 ed: x x x x x \r\n10 ed: x x x\r\n11 ed: x x x \r\n12 ed: x x [extra upplaga]\r\n13 ed: x [extra upplaga] \r\n\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilaga Klick!/Sveriges nöjestidning filmas i sin helhet tillsammans med ed. 9 eller 10\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 116292,
+        "period": "2005-01-01--2005-01-31"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH: tidningar\r\nE: ed.1 x x x x x [Väst] [Göteborg] i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: [Göteborg] \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n3 ed: x [omärkt] [2005 02 03]\r\n\r\nTryckort: Västerås\r\n4 ed: x x x x x\r\n5 ed: x x x x x\r\n\r\nTryckort: [Växjö]\r\n6 ed: x x x x x\r\n7 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n8 ed: x x x x x\r\n9 ed: x x x x x\r\n\r\nTryckort: [Stockholm][Norrtälje]\r\n10 ed: x x x x x \r\n11 ed: x x x\r\n12 ed: x x x \r\n13 ed: x x [extra upplaga]\r\n14 ed: x [extra upplaga] \r\n\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilaga Klick!/Sveriges nöjestidning filmas i sin helhet tillsammans med ed. 10 eller 11\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 117010,
+        "period": "2005-02-01--2005-02-28"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH: tidningar\r\nE: ed.1 x x x x x [Väst] Göteborg i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: Göteborg \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n\r\nTryckort: Västerås\r\n3 ed: x x x x x\r\n\r\nTryckort: Växjö\r\n4 ed: x x x x x\r\n5 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n6 ed: x x x x x\r\n7 ed: x x x x x\r\n\r\nTryckort: Stockholm, Norrtälje\r\n8 ed: x x x x x \r\n9 ed: x x x\r\n10 ed: x x x \r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilaga Klick!/Sveriges nöjestidning filmas i sin helhet tillsammans med ed. 8 eller 9.\r\n\r\nBilagan Blocket.se/Mellersta Sverige filmas i sin helhet tillsammans med ed. 3 [Västerås]\r\n\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 117439,
+        "period": "2005-03-01--2005-03-31"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH: tidningar\r\nE: ed.1 x x x x x [Väst] Göteborg i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: Göteborg \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n\r\nTryckort: Västerås\r\n3 ed: x x x x x\r\n\r\nTryckort: Växjö\r\n4 ed: x x x x x\r\n5 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n6 ed: x x x x x\r\n7 ed: x x x x x\r\n\r\nTryckort: Stockholm, Norrtälje\r\n8 ed: x x x x x \r\n9 ed: x x x\r\n10 ed: x x x [2005-04-04; 2005-04-15]\r\n11 ed: x x [Extra upplaga] [2005-04-04]\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilaga Klick!/Sveriges nöjestidning filmas i sin helhet tillsammans med ed. 8 eller 9.\r\n\r\nBilagan Blocket.se/Mellersta Sverige filmas i sin helhet tillsammans med ed. 3 [Västerås]\r\n\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 118353,
+        "period": "2005-04-01--2005-04-30"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH: tidningar\r\nE: ed.1 x x x x x [Väst] Göteborg i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: Göteborg \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n\r\nTryckort: Västerås\r\n3 ed: x x x x x\r\n\r\nTryckort: Växjö\r\n4 ed: x x x x x\r\n5 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n6 ed: x x x x x\r\n7 ed: x x x x x\r\n\r\nTryckort: Stockholm, Norrtälje\r\n8 ed: x x x x x \r\n9 ed: x x x\r\n10 ed: x x [Extra upplaga] [2005-05-16]\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilaga Klick!/Sveriges nöjestidning filmas i sin helhet tillsammans med ed. 8 eller 9.\r\n\r\nBilagan Blocket.se/Mellersta Sverige filmas i sin helhet tillsammans med ed. 3 [Västerås]\r\n\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 118712,
+        "period": "2005-05-01--2005-05-31"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH: tidningar\r\nE: ed.1 x x x x x [Väst] Göteborg i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: Göteborg \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n\r\nTryckort: Västerås\r\n3 ed: x x x x x\r\n\r\nTryckort: Växjö\r\n4 ed: x x x x x\r\n5 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n6 ed: x x x x x\r\n7 ed: x x x x x\r\n\r\nTryckort: Stockholm, Norrtälje\r\n8 ed: x x x x x \r\n9 ed: x x x\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilaga Klick!/Sveriges nöjestidning filmas i sin helhet tillsammans med ed. 8 \r\n\r\nBilagan Blocket.se/Mellersta Sverige filmas i sin helhet tillsammans med ed. 3 [Västerås]\r\n\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 119031,
+        "period": "2005-06-01--2005-06-30"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH: tidningar\r\nE: ed.1 x x x x x [Väst] Göteborg i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: Göteborg \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n\r\nTryckort: Västerås\r\n3 ed: x x x x x\r\n\r\nTryckort: Växjö\r\n4 ed: x x x x x\r\n5 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n6 ed: x x x x x\r\n\r\nTryckort: Stockholm, Norrtälje\r\n7 ed: x x x x x [Stockholmsupplaga]\r\n\r\nTryckort: Stockholm, Södertälje\r\n8 ed: x x x [Stockholmsupplaga]\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilaga Klick!/Sveriges nöjestidning filmas i sin helhet tillsammans med ed. 7 \r\n\r\nBilagan Blocket.se/Mellersta Sverige filmas i sin helhet tillsammans med ed. 3 [Västerås]\r\n\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 119573,
+        "period": "2005-07-01--2005-07-31"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH: tidningar\r\nE: ed.1 x x x x x [Väst] Göteborg i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: Göteborg \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n\r\nTryckort: Västerås\r\n3 ed: x x x x x\r\n\r\nTryckort: Växjö\r\n4 ed: x x x x x\r\n5 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n6 ed: x x x x x\r\n7 ed: x x x x x\r\n\r\nTryckort: Stockholm, Norrtälje\r\n8 ed: x x x x x [Stockholmsupplaga]\r\n\r\nTryckort: Stockholm, Södertälje\r\n9 ed: x x x [Stockholmsupplaga]\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilaga Klick!/Sveriges nöjestidning filmas i sin helhet tillsammans med ed. 8 \r\n\r\nBilagan Blocket.se/Mellersta Sverige filmas i sin helhet tillsammans med ed. 3 [Västerås]\r\n\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 120562,
+        "period": "2005-08-01--2005-08-31"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH: tidningar\r\nE: ed.1 x x x x x [Väst] Göteborg i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: Göteborg \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n\r\nTryckort: Västerås\r\n3 ed: x x x x x\r\n\r\nTryckort: Växjö\r\n4 ed: x x x x x\r\n5 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n6 ed: x x x x x\r\n7 ed: x x x x x\r\n\r\nTryckort: Stockholm, Norrtälje\r\n8 ed: x x x x x [Stockholmsupplagan]\r\n9 ed: x x x x x [Stockholmsupplagan][2005 09 19]\r\n\r\nTryckort: Stockholm, Södertälje\r\n10 ed: x x x [Stockholmsupplagan]\r\n11. ed: x x [Extra upplaga][2005 09 21]\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilaga Klick!/Sveriges nöjestidning filmas i sin helhet tillsammans med ed. 8 \r\n\r\nBilagorna filmas endast på utgivningsdagen\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 121421,
+        "period": "2005-09-01--2005-09-30"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH: tidningar\r\nE: ed.1 x x x x x [Väst] Göteborg i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: Göteborg \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n\r\nTryckort: Västerås\r\n3 ed: x x x x x\r\n\r\nTryckort: Växjö\r\n4 ed: x x x x x\r\n5 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n6 ed: x x x x x\r\n7 ed: x x x x x\r\n\r\nTryckort: Stockholm, Norrtälje\r\n8 ed: x x x x x [Stockholmsupplagan]\r\n\r\nTryckort: Stockholm, Södertälje\r\n9 ed: x x x [Stockholmsupplagan]\r\n10 ed: x x [Extra upplaga][2005 10 06]\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 122495,
+        "period": "2005-10-01--2005-10-31"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH: tidningar\r\nE: ed.1 x x x x x [Väst] Göteborg i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: Göteborg \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n\r\nTryckort: Västerås\r\n3 ed: x x x x x\r\n\r\nTryckort: Växjö\r\n4 ed: x x x x x\r\n5 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n6 ed: x x x x x\r\n7 ed: x x x x x\r\n\r\nTryckort: Stockholm, Norrtälje\r\n8 ed: x x x x x [Stockholmsupplagan]\r\n\r\nTryckort: Stockholm, Södertälje\r\n9 ed: x x x [Stockholmsupplagan]\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 123098,
+        "period": "2005-11-01--2005-11-30"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH: tidningar\r\nE: ed.1 x x x x x [Väst] Göteborg i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: Göteborg \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n3 ed: x x x x x [extra upplaga][Göteborg][2005-12-08]\r\n\r\nTryckort: Västerås\r\n4 ed: x x x x x\r\n\r\nTryckort: Växjö\r\n5 ed: x x x x x\r\n6 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n7 ed: x x x x x\r\n8 ed: x x x x x\r\n\r\nTryckort: Stockholm, Norrtälje\r\n9 ed: x x x x x [Stockholmsupplagan]\r\n\r\nTryckort: Stockholm, Södertälje\r\n10 ed: x x x [Stockholmsupplagan]\r\n11 ed: x x [Extra upplaga] [Stockholmsupplagan]\r\n           [2005 12 01; 2005 12 16]\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 123252,
+        "period": "2005-12-01--2005-12-31"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH: tidningar\r\nE: ed.1 x x x x x [Väst] Göteborg i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: Göteborg \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n\r\nTryckort: Västerås\r\n3 ed: x x x x x\r\n\r\nTryckort: Växjö\r\n4 ed: x x x x x\r\n5 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n6 ed: x x x x x\r\n7 ed: x x x x x\r\n\r\nTryckort: Stockholm, Norrtälje\r\n8 ed: x x x x x [Stockholmsupplagan]\r\n\r\nTryckort: Stockholm, Södertälje\r\n9 ed: x x x [Stockholmsupplagan]\r\n10 ed:x[extra upplaga][Stockholmsupplagan][2006 01 03]\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 123413,
+        "period": "2006-01-01--2006-01-31"
+      },
+      {
+        "comment": "H: tidningar\r\nE: ed.1 x x x x x [Väst] Göteborg i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: Göteborg \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n\r\nTryckort: Västerås\r\n3 ed: x x x x x\r\n\r\nTryckort: Växjö\r\n4 ed: x x x x x\r\n5 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n6 ed: x x x x x\r\n7 ed: x x x x x\r\n\r\nTryckort: Stockholm, Norrtälje\r\n8 ed: x x x x x [Stockholmsupplagan]\r\n\r\nTryckort: Stockholm, Södertälje\r\n 9 ed: x x x [Stockholmsupplagan]\r\n10 ed: x x [extra upplaga] [Stockholmsupplagan] [2006 02 14, 2006 02 22]\r\n11 ed: x [extra upplaga][Stockholmsupplagan][2006 02 28]\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 124219,
+        "period": "2006-02-01--2006-02-28"
+      },
+      {
+        "comment": "H: tidningar\r\nE: ed.1 x x x x x [Väst] Göteborg i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: Göteborg \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n\r\nTryckort: Västerås\r\n3 ed: x x x x x\r\n\r\nTryckort: Växjö\r\n4 ed: x x x x x\r\n5 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n6 ed: x x x x x\r\n7 ed: x x x x x\r\n\r\nTryckort: Stockholm, Norrtälje\r\n8 ed: x x x x x [Stockholmsupplagan]\r\n\r\nTryckort: Stockholm, Södertälje\r\n9 ed: x x x [Stockholmsupplagan]\r\n10 ed: x x [extra upplaga] [Stockholmsupplagan] [2006 03 21, 2006 03 27]\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 124729,
+        "period": "2006-03-01--2006-03-31"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH: tidningar\r\nE: ed.1 x x x x x [Väst] Göteborg i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: Göteborg \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n\r\nTryckort: Västerås\r\n3 ed: x x x x x\r\n\r\nTryckort: Växjö\r\n4 ed: x x x x x\r\n5 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n6 ed: x x x x x\r\n7 ed: x x x x x\r\n\r\nTryckort: Stockholm, Norrtälje\r\n8 ed: x x x x x [Stockholmsupplagan][--2006-04-18]\r\n9 ed: x x x [Stockholmsupplagan][2006-04-19--]\r\n\r\nTryckort: Stockholm, Södertälje\r\n10 ed: x x x [Stockholmsupplagan]\r\n11 ed: x x [extra upplaga] [Stockholmsupplagan] [2006 04 03, 2006 04 15]\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilagorna Matchbladet ges ut även i Göteborg och Växjö. Filmas tillsammans med respektive editioner.\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 125132,
+        "period": "2006-04-01--2006-04-30"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH:tidningar\r\nE: ed.1 x x x x x [Väst] Göteborg i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: Göteborg \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n\r\nTryckort: Västerås\r\n3 ed: x x x x x\r\n\r\nTryckort: Växjö\r\n4 ed: x x x x x\r\n5 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n6 ed: x x x x x\r\n7 ed: x x x x x\r\n\r\nTryckort: Stockholm, Norrtälje\r\n8 ed: x x x [Stockholmsupplagan]\r\n\r\nTryckort: Stockholm, Södertälje\r\n9 ed: x x x [Stockholmsupplagan]\r\n10 ed: x x x [extra upplaga] [Stockholmsupplagan] [2006 05 04, 2006 05 16]\r\n11 ed: x x [extra upplaga] [Stockholmsupplagan][2006 05 02]\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilagorna Matchbladet ges ut även i Göteborg och Växjö. Filmas tillsammans med respektive editioner.\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 125349,
+        "period": "2006-05-01--2006-05-31"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH:tidningar\r\nE: ed.1 x x x x x [Väst] Göteborg i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: Göteborg \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n3 ed: x x [extra upplaga] [Göteborg]\r\n\r\nTryckort: Västerås\r\n4 ed: x x x x x\r\n\r\nTryckort: Växjö\r\n5 ed: x x x x x\r\n6 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n7 ed: x x x x x\r\n8 ed: x x x x x\r\n9 ed: x x [extra upplaga]\r\n\r\nTryckort: Stockholm, Norrtälje\r\n10 ed: x x x [Stockholmsupplagan]\r\n\r\nTryckort: Stockholm, Södertälje\r\n11 ed: x x x [Stockholmsupplagan]\r\n12 ed: x x x [extra upplaga] [Stockholmsupplagan]\r\n13 ed: x x [extra upplaga] [Stockholmsupplagan]\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 125510,
+        "period": "2006-06-01--2006-06-30"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH:tidningar\r\nE: ed.1 x x x x x [Väst] Göteborg i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: Göteborg \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n\r\nTryckort: Västerås\r\n3 ed: x x x x x\r\n\r\nTryckort: Växjö\r\n4 ed: x x x x x\r\n5 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n6 ed: x x x x x\r\n7 ed: x x x x x\r\n\r\nTryckort: Stockholm, Norrtälje\r\n8 ed: x x x [Stockholmsupplagan]\r\n\r\nTryckort: Stockholm, Södertälje\r\n9 ed: x x x [Stockholmsupplagan]\r\n10 ed: x x x [extra upplaga] [Stockholmsupplagan]\r\n11 ed: x x [extra upplaga] [Stockholmsupplagan]\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 125632,
+        "period": "2006-07-01--2006-07-31"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH:tidningar\r\nE: ed.1 x x x x x [Väst] Göteborg i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: Göteborg \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n3 ed: x x x x [extra upplagan] [Göteborg][2006 08 08]\r\n\r\nTryckort: Karlskrona\r\n4 ed: x x x x x\r\n\r\nTryckort: Västerås\r\n5 ed: x x x x x\r\n\r\nTryckort: Växjö\r\n6 ed: x x x x x [--2006-08-14]\r\n7 ed: x x x x x [--2006-08-14]\r\n\r\nTryckort: Örnsköldsvik\r\n8 ed: x x x x x\r\n9 ed: x x x x x\r\n\r\nTryckort: Stockholm, Norrtälje\r\n10 ed: x x x [Stockholmsupplagan]\r\n11 ed: x x [Stockholmsupplagan][2006 08 11]\r\n\r\nTryckort: Stockholm, Södertälje\r\n12 ed: x x x [Stockholmsupplagan]\r\n13 ed: x x [extra upplaga] [Stockholmsupplagan][2006 08 10]\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 125900,
+        "period": "2006-08-01--2006-08-31"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH:tidningar\r\nE: ed.1 x x x x x [Väst] Göteborg i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: Göteborg \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n3 ed: x x x x [extra upplagan] [Göteborg][2006 09 18]\r\n\r\nTryckort: Karlskrona\r\n4 ed: x x x x x\r\n\r\nTryckort: Västerås\r\n5 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n6 ed: x x x x x\r\n7 ed: x x x x x\r\n\r\nTryckort: Stockholm, Norrtälje\r\n8 ed: x x x [Stockholmsupplagan]\r\n9 ed: x x [Stockholmsupplagan][2006 09 18]\r\n\r\nTryckort: Stockholm, Södertälje\r\n10 ed: x x x [Stockholmsupplagan]\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 126269,
+        "period": "2006-09-01--2006-09-30"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH:tidningar\r\nE: ed.1 x x x x x [Väst] Göteborg i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: Göteborg \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n3 ed: x x x x x [extra upplagan] [Göteborg][2006 10 06]\r\n\r\nTryckort: Karlskrona\r\n4 ed: x x x x x\r\n5 ed: x x x x x\r\n\r\nTryckort: Västerås\r\n6 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n7 ed: x x x x x\r\n8 ed: x x x x x\r\n\r\nTryckort: Stockholm, Norrtälje\r\n9 ed: x x x [Stockholmsupplagan]\r\n10 ed: x x x x x [extra upplaga][Stockholmsupplagan][2006 10 06]\r\n\r\nTryckort: Stockholm, Södertälje\r\n11 ed: x x x [Stockholmsupplagan]\r\n12 ed: x x [extra upplaga] [Stockholmsupplagan][2006 10 16; 2006 10 24]\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 126477,
+        "period": "2006-10-01--2006-10-30"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH:tidningar\r\nE: ed.1 x x x x x [Väst] Göteborg i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: Göteborg \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n\r\nTryckort: Karlskrona\r\n3 ed: x x x x x\r\n4 ed: x x x x x\r\n\r\nTryckort: Västerås\r\n5 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n6 ed: x x x x x\r\n7 ed: x x x x x\r\n\r\nTryckort: Stockholm, Norrtälje\r\n8 ed: x x x [Stockholmsupplagan] \r\n\r\nTryckort: Stockholm, Södertälje\r\n9 ed: x x x [Stockholmsupplagan]\r\n10 ed: x x [extra upplaga] [Stockholmsupplagan][2006 11 28]\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 126812,
+        "period": "2006-11-01--2006-11-30"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH:tidningar\r\nE: ed.1 x x x x x [Väst] Göteborg i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: Göteborg \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n\r\nTryckort: Karlskrona\r\n3 ed: x x x x x\r\n4 ed: x x x x x\r\n5 ed: x x x x x [2006 12 13]\r\n\r\nTryckort: Västerås\r\n6 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n7 ed: x x x x x\r\n8 ed: x x x x x\r\n\r\nTryckort: Stockholm, Norrtälje\r\n9 ed: x x x [Stockholmsupplagan]\r\n10 ed: x x x [Stockholmsupplagan] [2006 12 30]\r\n11 ed: x x [extra upplaga] (Stockholmsupplagan] [2006-12-21] \r\n\r\nTryckort: Stockholm, Södertälje\r\n12 ed: x x x [Stockholmsupplagan]\r\n13 ed: x x x [Stockholmsupplagan][2006 12 30]\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 126873,
+        "period": "2006-12-01--2006-12-31"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH:tidningar\r\nE: ed.1 x x x x x [Väst] Göteborg i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: Göteborg \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n\r\nTryckort: Karlskrona\r\n3 ed: x x x x x\r\n4 ed: x x x x x\r\n\r\nTryckort: Västerås\r\n5 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n6 ed: x x x x x\r\n7 ed: x x x x x\r\n\r\nTryckort: Stockholm, Norrtälje\r\n8 ed: x x x [Stockholmsupplagan]\r\n\r\nTryckort: Stockholm, Södertälje\r\n9 ed: x x x [Stockholmsupplagan]\r\n10 ed: x x [extra upplaga] [Stockholmsupplagan][2007-01-18]\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 127240,
+        "period": "2007-01-01--2007-01-31"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH:tidningar\r\nE: ed.1 x x x x x [Väst] Göteborg i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: Göteborg \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n\r\nTryckort: Karlskrona\r\n3 ed: x x x x x\r\n4 ed: x x x x x\r\n\r\nTryckort: Västerås\r\n5 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n6 ed: x x x x x\r\n7 ed: x x x x x\r\n\r\nTryckort: Stockholm, Norrtälje\r\n8 ed: x x x [Stockholmsupplagan]\r\n\r\nTryckort: Stockholm, Södertälje\r\n9 ed: x x x [Stockholmsupplagan]\r\n10 ed: x x x[Stockholmsupplagan]\r\n11 ed: x x [extra upplaga] [Stockholmsupplagan][2007 02 14, 2007 02 27]\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 127965,
+        "period": "2007-02-01--2007-02-28"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH:tidningar\r\nE: ed.1 x x x x x [Väst] Göteborg i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: Göteborg \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n\r\nTryckort: Karlskrona\r\n3 ed: x x x x x\r\n4 ed: x x x x x\r\n\r\nTryckort: Västerås\r\n5 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n6 ed: x x x x x\r\n7 ed: x x x x x\r\n\r\nTryckort: Stockholm, Norrtälje\r\n8 ed: x x x [Stockholmsupplagan]\r\n\r\nTryckort: Stockholm, Södertälje\r\n9 ed: x x x [Stockholmsupplagan]\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 128305,
+        "period": "2007-03-01--2007-04-30"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH:tidningar\r\nE: ed.1 x x x x x [Väst] Göteborg i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: Göteborg \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n\r\nTryckort: Karlskrona\r\n3 ed: x x x x x\r\n4 ed: x x x x x\r\n\r\nTryckort: Västerås\r\n5 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n6 ed: x x x x x\r\n7 ed: x x x x x\r\n\r\nTryckort: Stockholm, Norrtälje\r\n8 ed: x x x [Stockholmsupplagan]\r\n\r\nTryckort: Stockholm, Södertälje\r\n9 ed: x x x [Stockholmsupplagan]\r\n10 ed: x x x[Stockholmsupplagan][2007 05 31]                  \r\n\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 129286,
+        "period": "2007-05-01--2007-05-31"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH: tidningar\r\nE: ed.1 x x x x x [Väst] Göteborg i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: Göteborg \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n\r\nTryckort: Karlskrona\r\n3 ed: x x x x x\r\n4 ed: x x x x x\r\n\r\nTryckort: Västerås\r\n5 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n6 ed: x x x x x\r\n7 ed: x x x x x\r\n\r\nTryckort: Stockholm, Norrtälje\r\n8 ed: x x x x x [Stockholmsupplagan]\r\n\r\nTryckort: Stockholm, Södertälje\r\n9 ed: x x x [Stockholmsupplagan]\r\n10 ed: x x x [Stockholmsupplagan][2007 06 23] \r\n\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 129319,
+        "period": "2007-06-01--2007-06-30"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH: tidningar\r\nE: ed.1 x x x x x [Väst] Göteborg i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: Göteborg \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n\r\nTryckort: Karlskrona\r\n3 ed: x x x x x\r\n4 ed: x x x x x\r\n\r\nTryckort: Västerås\r\n5 ed: x x x x x\r\n6 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n7 ed: x x x x x\r\n\r\nTryckort: Stockholm, Norrtälje\r\n8 ed: x x x x x [Stockholmsupplagan]\r\n\r\nTryckort: Stockholm, Södertälje\r\n9 ed: x x x [Stockholmsupplagan]\r\n10 ed: x x x [Stockholmsupplagan][2007 07 06]\r\n11 ed: x x [Stockholmsupplaga] [2007-07-03] \r\n\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 129405,
+        "period": "2007-07-01--2007-07-31"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH: tidningar\r\nE: ed.1 x x x x x [Väst] Göteborg i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: Göteborg \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n\r\nTryckort: Karlskrona\r\n3 ed: x x x x x\r\n4 ed: x x x x x\r\n\r\nTryckort: Västerås\r\n5 ed: x x x x x\r\n6 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n7 ed: x x x x x\r\n\r\nTryckort: Stockholm, Norrtälje\r\n8 ed: x x x x x [Stockholmsupplagan]\r\n\r\nTryckort: Stockholm, Södertälje\r\n9 ed: x x x [Stockholmsupplagan]\r\n10 ed: x x x [Stockholmsupplagan][2007 08 21]\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 129501,
+        "period": "2007-08-01--2007-08-31"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH: tidningar\r\nE: ed.1 x x x x x [Väst] Göteborg i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: Göteborg \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n\r\nTryckort: Karlskrona\r\n3 ed: x x x x x\r\n4 ed: x x x x x\r\n\r\nTryckort: Västerås\r\n5 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n6 ed: x x x x x\r\n\r\nTryckort: Stockholm, Norrtälje\r\n7 ed: x x x x x [Stockholmsupplagan]\r\n\r\nTryckort: Stockholm, Södertälje\r\n8 ed: x x x [Stockholmsupplagan]\r\n9 ed: x x [Stockholmsupplagan][2007-09-05]\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 129551,
+        "period": "2007-09-01--2007-09-30"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH: tidningar\r\nE: ed.1 x x x x x [Väst] Göteborg i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: Göteborg \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n\r\nTryckort: Karlskrona\r\n3 ed: x x x x x\r\n4 ed: x x x x x\r\n\r\nTryckort: Västerås\r\n5 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n6 ed: x x x x x\r\n7 ed: x x x x x\r\n\r\nTryckort: Stockholm, Norrtälje\r\n8 ed: x x x x x [Stockholmsupplagan]\r\n9 ed: x x x x x [Stockholmsupplagan]\r\n\r\nTryckort: Stockholm, Södertälje\r\n10 ed: x x x [Stockholmsupplagan]\r\n11 ed: x x [Stockholmsupplagan][2007-10-16]\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 129604,
+        "period": "2007-10-01--2007-10-31"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH: tidningar\r\nE: ed.1 x x x x x [Väst] Göteborg i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: Göteborg \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n\r\nTryckort: Karlskrona\r\n3 ed: x x x x x\r\n4 ed: x x x x x\r\n\r\nTryckort: Västerås\r\n5 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n6 ed: x x x x x\r\n7 ed: x x x x x\r\n\r\nTryckort: Stockholm, Norrtälje\r\n8 ed: x x x x x [Stockholmsupplagan]\r\n9 ed: x x x x x [Stockholmsupplagan]\r\n\r\nTryckort: Stockholm, Södertälje\r\n10 ed: x x x [Stockholmsupplagan]\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 129673,
+        "period": "2007-11-01--2007-11-30"
+      },
+      {
+        "comment": "Tre rullsviter:\r\nH: tidningar\r\nE: ed.1 x x x x x [Väst] Göteborg i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: Göteborg \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n\r\nTryckort: Karlskrona\r\n3 ed: x x x x x\r\n4 ed: x x x x x\r\n\r\nTryckort: Västerås\r\n5 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n6 ed: x x x x x\r\n7 ed: x x x x x\r\n\r\nTryckort: Stockholm, Norrtälje\r\n8 ed: x x x x x [Stockholmsupplagan]\r\n9 ed: x x x x x [Stockholmsupplagan]\r\n10 ed: x x [Stockholmsupplagan] [2007 12 10]\r\n\r\nTryckort: Stockholm, Södertälje\r\n11 ed: x x x [Stockholmsupplagan]\r\n12 ed: x x [Stockholmsupplagan] [2007-12-03]\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 129705,
+        "period": "2007-12-01--2007-12-31"
+      },
+      {
+        "comment": "H: tidningar\r\nE: ed.1 x x x x x [Väst] Göteborg i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: Göteborg \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n\r\nTryckort: Karlskrona\r\n3 ed: x x x x x\r\n4 ed: x x x x x\r\n\r\nTryckort: Västerås\r\n5 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n6 ed: x x x x x\r\n7 ed: x x x x x\r\n\r\nTryckort: Stockholm, Norrtälje\r\n8 ed: x x x x x [Stockholmsupplagan]\r\n\r\nTryckort: Stockholm, Södertälje\r\n9 ed: x x x [Stockholmsupplagan]\r\n10 ed: x x x [Stockholmsupplagan] [2008 01 14]\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 129844,
+        "period": "2008-01-01--2008-01-31"
+      },
+      {
+        "comment": "H: tidningar\r\nE: ed.1 x x x x x [Väst] Göteborg i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: Göteborg \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n\r\nTryckort: Karlskrona\r\n3 ed: x x x x x\r\n4 ed: x x x x x\r\n\r\nTryckort: Västerås\r\n5 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n6 ed: x x x x x\r\n7 ed: x x x x x\r\n\r\nTryckort: Stockholm, Norrtälje\r\n8 ed: x x x x x [Stockholmsupplagan]\r\n\r\nTryckort: Stockholm, Södertälje\r\n9 ed: x x x [Stockholmsupplagan] \r\n\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 130057,
+        "period": "2008-02-01--2008-02-29"
+      },
+      {
+        "comment": "H: tidningar\r\nE: ed.1 x x x x x [Väst] Göteborg i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: Göteborg \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n\r\nTryckort: Karlskrona\r\n3 ed: x x x x x\r\n4 ed: x x x x x\r\n\r\nTryckort: Västerås\r\n5 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n6 ed: x x x x x\r\n7 ed: x x x x x\r\n\r\nTryckort: Stockholm, Norrtälje\r\n8 ed: x x x x x [Stockholmsupplagan]\r\n\r\nTryckort: Stockholm, Södertälje\r\n9 ed: x x x [Stockholmsupplagan]\r\n10 ed: x x x [Stockholmsupplagan]\r\n\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 130204,
+        "period": "2008-03-01--2008-03-31"
+      },
+      {
+        "comment": "H: tidningar\r\nE: ed.1 x x x x x [Väst] Göteborg i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: Göteborg \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n\r\nTryckort: Karlskrona\r\n3 ed: x x x x x\r\n4 ed: x x x x x\r\n\r\nTryckort: Västerås\r\n5 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n6 ed: x x x x x\r\n\r\nTryckort: Stockholm, Norrtälje\r\n7 ed: x x x x x [Stockholmsupplagan]\r\n8 ed: x x x x x [Stockholmsupplagan]\r\n\r\nTryckort: Stockholm, Södertälje\r\n9 ed: x x x [Stockholmsupplagan] \r\n\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 130628,
+        "period": "2008-04-01--2008-04-30"
+      },
+      {
+        "comment": "H: tidningar\r\nE: ed.1 x x x x x [Väst] Göteborg i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: Göteborg \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n\r\nTryckort: Karlskrona\r\n3 ed: x x x x x\r\n4 ed: x x x x x\r\n\r\nTryckort: Västerås\r\n5 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n6 ed: x x x x x\r\n\r\nTryckort: Stockholm, Norrtälje\r\n7 ed: x x x x x [Stockholmsupplagan]\r\n\r\nTryckort: Stockholm, Södertälje\r\n8 ed: x x x [Stockholmsupplagan] \r\n\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 130714,
+        "period": "2008-05-01--2008-05-31"
+      },
+      {
+        "comment": "H: tidningar\r\nE: ed.1 x x x x x [Väst] Göteborg i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: Göteborg \r\n1 ed: x x x x x [Väst]\r\n\r\nTryckort: Karlskrona\r\n2 ed: x x x x x\r\n3 ed: x x x x x\r\n\r\nTryckort: Västerås\r\n4 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n5 ed: x x x x x\r\n\r\nTryckort: Stockholm, Norrtälje\r\n6 ed: x x x x x [Stockholmsupplagan]\r\n\r\nTryckort: Stockholm, Södertälje\r\n7 ed: x x x [Stockholmsupplagan] \r\n\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 130733,
+        "period": "2008-06-01--2008-06-30"
+      },
+      {
+        "comment": "H: tidningar\r\nE: ed.1 x x x x x [Väst] Göteborg i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: Göteborg \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n\r\nTryckort: Karlskrona\r\n3 ed: x x x x x\r\n4 ed: x x x x x\r\n\r\nTryckort: Västerås\r\n5 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n6 ed: x x x x x\r\n7 ed: x x x x x\r\n\r\nTryckort: Stockholm, Norrtälje\r\n8 ed: x x x x x [Stockholmsupplagan]\r\n\r\nTryckort: Stockholm, Södertälje\r\n9 ed: x x x [Stockholmsupplagan] \r\n\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 130834,
+        "period": "2008-07-01--2008-07-01"
+      },
+      {
+        "comment": "H: tidningar\r\nE: ed.1 x x x x x [Väst] Göteborg i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: Göteborg \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n\r\nTryckort: Karlskrona\r\n3 ed: x x x x x\r\n\r\nTryckort: Västerås\r\n4 ed: x x x x x\r\n5 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n6 ed: x x x x x\r\n7 ed: x x x x x\r\n\r\nTryckort: Stockholm, Norrtälje\r\n8 ed: x x x x x [Stockholmsupplagan]\r\n\r\nTryckort: Stockholm, Södertälje\r\n9 ed: x x x [Stockholmsupplagan] \r\n10 ed: x x x [Stockholmsupplagan] \r\n\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 130859,
+        "period": "2008-08-01--2008-08-31"
+      },
+      {
+        "comment": "H: tidningar\r\nE: ed.1 x x x x x [Väst] Göteborg i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: Göteborg \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n\r\nTryckort: Karlskrona\r\n3 ed: x x x x x\r\n4 ed: x x x x x\r\n\r\nTryckort: Västerås\r\n5 ed: x x x x x\r\n6 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n7 ed: x x x x x\r\n8 ed: x x x x x\r\n\r\nTryckort: Stockholm, Norrtälje\r\n9 ed: x x x x x [Stockholmsupplagan]\r\n\r\nTryckort: Stockholm, Södertälje\r\n10 ed: x x x [Stockholmsupplagan] \r\n11 ed: x x x [Stockholmsupplagan][2008-09-14]\r\n12 ed: x x [extra upplaga] [Stockholmsupplagan] 2008-09-20; 2008-09-23] \r\n\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 130935,
+        "period": "2008-09-01--2008-09-30"
+      },
+      {
+        "comment": "H: tidningar\r\nE: ed.1 x x x x x [Väst] Göteborg i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: Göteborg \r\n1 ed: x x x x x [Väst]\r\n2 ed: x x x x x [Göteborg]\r\n3 ed: x x x x [Göteborg] [2008-10-08; 2008-10-09; 2008-10-10; 2008-10-23; 2008-10-30; 2008-10-31]\r\n4 ed: x x [extra upplaga] [Göteborg] [2008-10-08]\r\n5 ed: x x x x x [extra upplaga] [Göteborg] [2008-10-02]\r\n\r\nTryckort: Karlskrona\r\n6 ed: x x x x x\r\n7 ed: x x x x x\r\n\r\nTryckort: Västerås\r\n8 ed: x x x x x\r\n9 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n10 ed: x x x x x\r\n11 ed: x x x x x\r\n\r\nTryckort: Stockholm, Norrtälje\r\n12 ed: x x x x x [Stockholmsupplagan]\r\n13 ed: x x [extra upplaga][Stockholmsupplagan] [2008-10-10]\r\n\r\nTryckort: Stockholm, Södertälje\r\n14 ed: x x x [Stockholmsupplagan] \r\n15 ed: x x x [Stockholmsupplagan] [2008-10-02]\r\n16 ed: x x [extra upplaga] [Stockholmsupplagan] [2008-10-02; 2008-10-14]\r\n\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 130967,
+        "period": "2008-10-01--2008-10-31"
+      },
+      {
+        "comment": "H: tidningar\r\nE: ed.1 x x x x x [Väst] Göteborg i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: Göteborg \r\n1 ed: x x x x; x x x x x [Väst]\r\n2 ed: x x x x; x x x x x [Göteborg]\r\n\r\nTryckort: Karlskrona\r\n3 ed: x x x x x\r\n4 ed: x x x x x\r\n\r\nTryckort: Västerås\r\n5 ed: x x x x x\r\n6 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n7 ed: x x x x x\r\n\r\nTryckort: Stockholm, Norrtälje\r\n8 ed: x x x x x [Stockholmsupplagan]\r\n\r\nTryckort: Stockholm, Södertälje\r\n9 ed: x x x [Stockholmsupplagan] \r\n10 ed: x x x [Stockholmsupplagan]\r\n11 ed: x x [extra upplaga] [Stockholmsupplagan] \r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 131014,
+        "period": "2008-11-01--2008-11-30"
+      },
+      {
+        "comment": "H: tidningar\r\nE: ed.1 x x x x x [Väst] Göteborg i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: Göteborg \r\n1 ed: x x x x; x x x x x [Väst]\r\n2 ed: x x x x; x x x x x [Göteborg]\r\n\r\nTryckort: Karlskrona\r\n3 ed: x x x x x\r\n4 ed: x x x x x\r\n\r\nTryckort: Västerås\r\n5 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n6 ed: x x x x x\r\n7 ed: x x x x x\r\n\r\nTryckort: Stockholm, Norrtälje\r\n8 ed: x x x x x [Stockholmsupplagan]\r\n\r\nTryckort: Stockholm, Södertälje\r\n9 ed: x x x [Stockholmsupplagan] \r\n10 ed: x x x [Stockholmsupplagan]\r\n11 ed: x x [extra upplaga] [Stockholmsupplagan] \r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 131058,
+        "period": "2008-12-01--2008-12-31"
+      },
+      {
+        "comment": "H: tidningar\r\nE: ed.1 x x x x x [Väst] Göteborg i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: Göteborg \r\n1 ed: x x x x; x x x x x [Väst]\r\n2 ed: x x x x; x x x x x [Göteborg]\r\n\r\nTryckort: Karlskrona\r\n3 ed: x x x x x\r\n4 ed: x x x x x\r\n\r\nTryckort: Västerås\r\n5 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n6 ed: x x x x x\r\n7 ed: x x x x x\r\n\r\nTryckort: Stockholm, Norrtälje\r\n8 ed: x x x x x [Stockholmsupplagan]\r\n\r\nTryckort: Stockholm, Södertälje\r\n9 ed: x x x [Stockholmsupplagan] \r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 131254,
+        "period": "2009-01-01--2009-01-31"
+      },
+      {
+        "comment": "H: tidningar\r\nE: ed.1 x x x x x [Väst] Göteborg i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: Göteborg \r\n1 ed: x x x x; x x x x x [Väst]\r\n2 ed: x x x x; x x x x x [Göteborg]\r\n\r\nTryckort: Karlskrona\r\n3 ed: x x x x x\r\n4 ed: x x x x x\r\n\r\nTryckort: Västerås\r\n5 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n6 ed: x x x x ; x x x x x\r\n7 ed: x x x x x\r\n\r\nTryckort: Stockholm, Norrtälje\r\n8 ed: x x x x x [Stockholmsupplagan]\r\n\r\nTryckort: Stockholm, Södertälje\r\n9 ed: x x x [Stockholmsupplagan]\r\n10 ed: [extra upplaga] x x [Stockholmsupplagan] \r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 131402,
+        "period": "2009-02-01--2009-04-30"
+      },
+      {
+        "comment": "H: tidningar\r\nE: ed.1 x x x x x [Väst] Göteborg i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: Göteborg \r\n1 ed: x x x x; x x x x x [Väst]\r\n2 ed: x x x x; x x x x x [Göteborg]\r\n\r\nTryckort: Karlskrona\r\n3 ed: x x x x x\r\n4 ed: x x x x x\r\n\r\nTryckort: Västerås\r\n5 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n6 ed: x x x x ; x x x x x\r\n7 ed: x x x x x\r\n\r\nTryckort: Stockholm, Södertälje\r\n8 ed: x x x [Stockholmsupplagan]\r\n9 ed: x x x [Stockholmsupplagan] [2009 05 25]\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 132018,
+        "period": "2009-05-01--2009-05-31"
+      },
+      {
+        "comment": "H: tidningar\r\nE: ed.1 x x x x x [Väst] Göteborg i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: Göteborg \r\n1 ed: x x x x; x x x x x [Väst]\r\n2 ed: x x x x; x x x x x [Göteborg]\r\n\r\nTryckort: Karlskrona\r\n3 ed: x x x x x\r\n4 ed: x x x x x\r\n\r\nTryckort: Västerås\r\n5 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n6 ed: x x x x ; x x x x x\r\n\r\nTryckort: Stockholm, Södertälje\r\n7 ed: x x x [Stockholmsupplagan]\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 132062,
+        "period": "2009-06-01--2009-07-31"
+      },
+      {
+        "comment": "H: tidningar\r\nE: ed.1 x x x x x [Väst] Göteborg i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: Göteborg \r\n1 ed: x x x x; x x x x x [Väst]\r\n2 ed: x x x x; x x x x x [Göteborg]\r\n\r\nTryckort: Karlskrona\r\n3 ed: x x x x x\r\n4 ed: x x x x x\r\n\r\nTryckort: Västerås\r\n5 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n6 ed: x x x x ; x x x x x\r\n\r\nTryckort: Stockholm, Södertälje\r\n7 ed: x x x [Stockholmsupplagan]\r\n8 ed: x x x x [extra upplaga][Stockholmsupplagan]\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 132150,
+        "period": "2009-08-01--2009-08-31"
+      },
+      {
+        "comment": "H: tidningar\r\nE: ed.1 x x x x x [Väst] Göteborg i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: Göteborg \r\n1 ed: x x x x; x x x x x [Väst]\r\n2 ed: x x x x; x x x x x [Göteborg]\r\n\r\nTryckort: Karlskrona\r\n3 ed: x x x x x\r\n\r\nTryckort: Västerås\r\n4 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n5 ed: x x x x ; x x x x x\r\n\r\nTryckort: Stockholm, Södertälje\r\n6 ed: x x x [Stockholmsupplagan]\r\n7 ed: x x x x [extra upplaga][Stockholmsupplagan]\r\n8 ed: x x  [extra upplaga][Stockholmsupplagan]\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 132192,
+        "period": "2009-09-01--2009-10-30"
+      },
+      {
+        "comment": "H: tidningar\r\nE: ed.1 x x x x x [Väst] Göteborg i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: Göteborg \r\n1 ed: x x x x; x x x x x [Väst]\r\n2 ed: x x x x; x x x x x [Göteborg]\r\n\r\nTryckort: Karlskrona\r\n3 ed: x x x x x\r\n\r\nTryckort: Västerås\r\n4 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n5 ed: x x x x ; x x x x x\r\n6 ed: x x x x x\r\n\r\nTryckort: Stockholm, Södertälje\r\n7 ed: x x x [Stockholmsupplagan]\r\n8 ed: x x x x [extra upplaga][Stockholmsupplagan]\r\n9 ed: x x [extra upplaga][Stockholmsupplagan]\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 132254,
+        "period": "2009-11-01--2009-11-30"
+      },
+      {
+        "comment": "H: tidningar\r\nE: ed.1 x x x x x [Väst] Göteborg i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: Göteborg \r\n1 ed: x x x x; x x x x x [Väst]\r\n\r\nTryckort: Karlskrona\r\n2 ed: x x x x x\r\n3 ed: x x x x x\r\n\r\nTryckort: Västerås\r\n4 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n5 ed: x x x x ; x x x x x\r\n\r\nTryckort: Stockholm, Södertälje\r\n6 ed: x x x [Stockholmsupplagan]\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 132283,
+        "period": "2009-12-01--2009-12-31"
+      },
+      {
+        "comment": "H: tidningar\r\nE: ed.1 x x x x x [Väst] Göteborg i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: Göteborg \r\n1 ed: x x x x; x x x x x [Väst]\r\n\r\nTryckort: Karlskrona\r\n2 ed: x x x x x\r\n3 ed: x x x x x\r\n\r\nTryckort: Västerås\r\n4 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n5 ed: x x x x ; x x x x x\r\n\r\nTryckort: Stockholm, Södertälje\r\n6 ed: x x x [Stockholmsupplagan]\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 132399,
+        "period": "2010-01-01--2010-01-31"
+      },
+      {
+        "comment": "H: tidningar\r\nE: ed.1 x x x x x [Väst] Göteborg i sin helhet, övriga editioner i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nTryckort: Göteborg \r\n1 ed: x x x x; x x x x x [Väst]\r\n\r\nTryckort: Karlskrona\r\n2 ed: x x x x x\r\n\r\nTryckort: Västerås\r\n3 ed: x x x x x\r\n\r\nTryckort: Örnsköldsvik\r\n4 ed: x x x x x\r\n5 ed: x x x x x\r\n\r\nTryckort: Stockholm, Södertälje\r\n6 ed: x x x [Stockholmsupplagan]\r\n7 ed: x x [extra upplagan]\r\n[Sista editionen för dagen är huvudedition]\r\n\r\nBilagorna filmas endast på utgivningsdagen\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 132656,
+        "period": "2010-02-01--2010-02-28"
+      },
+      {
+        "comment": "H+E: huvudedition, ed: xxx [Stockholmsupplagan] i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nFlera editioner med varierande benämningar förekommer. Editionerna innehåller till största del samma material i samma sättning, endast ett fåtal annonssidor skiljer editionerna åt.\r\n\r\nEditionerna filmas ej.\r\n\r\nBilagorna filmas endast på utgivningsdagen.\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 132811,
+        "period": "2010-03-01--2010-03-31"
+      },
+      {
+        "comment": "H: tidningar\r\nL: löpsedlar\r\n\r\nFlera editioner med varierande benämningar förekommer. Editionerna innehåller till största del samma material i samma sättning, endast ett fåtal annonssidor skiljer editionerna åt.\r\n\r\nEditionerna filmas ej.\r\n\r\nBilagorna filmas endast på utgivningsdagen.\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 133273,
+        "period": "2010-04-01--2010-05-30"
+      },
+      {
+        "comment": "H+E: huvudedition, ed: xxx [Stockholmsupplagan] i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nFlera editioner med varierande benämningar förekommer. Editionerna innehåller till största del samma material i samma sättning, endast ett fåtal annonssidor skiljer editionerna åt.\r\n\r\nEditionerna filmas ej.\r\n\r\nBilagorna filmas endast på utgivningsdagen.\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 133346,
+        "period": "2010-06-01--2010-07-31"
+      },
+      {
+        "comment": "H: tidningar\r\nL: löpsedlar\r\n\r\nFlera editioner med varierande benämningar förekommer. Editionerna innehåller till största del samma material i samma sättning, endast ett fåtal annonssidor skiljer editionerna åt.\r\n\r\nEditionerna filmas ej.\r\n\r\nBilagorna filmas endast på utgivningsdagen.\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 133436,
+        "period": "2010-08-01--2010-08-31"
+      },
+      {
+        "comment": "H+E: huvudedition, ed: xxx [Stockholmsupplagan] i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nFlera editioner med varierande benämningar förekommer. Editionerna innehåller till största del samma material i samma sättning, endast ett fåtal annonssidor skiljer editionerna åt.\r\n\r\nEditionerna filmas ej.\r\n\r\nBilagorna filmas endast på utgivningsdagen.\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 133457,
+        "period": "2010-09-01--2010-09-30"
+      },
+      {
+        "comment": "H: tidningar\r\nL: löpsedlar\r\n\r\nFlera editioner med varierande benämningar förekommer. Editionerna innehåller till största del samma material i samma sättning, endast ett fåtal annonssidor skiljer editionerna åt.\r\n\r\nEditionerna filmas ej.\r\n\r\nBilagorna filmas endast på utgivningsdagen.\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 133495,
+        "period": "2010-10-01--2010-10-31"
+      },
+      {
+        "comment": "H+E: huvudedition, ed: xxx [Stockholmsupplagan] i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nFlera editioner med varierande benämningar förekommer. Editionerna innehåller till största del samma material i samma sättning, endast ett fåtal annonssidor skiljer editionerna åt.\r\n\r\nEditionerna filmas ej.\r\n\r\nBilagorna filmas endast på utgivningsdagen.\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 133537,
+        "period": "2010-11-01--2010-11-30"
+      },
+      {
+        "comment": "H: tidningar\r\nL: löpsedlar\r\n\r\nFlera editioner med varierande benämningar förekommer. Editionerna innehåller till största del samma material i samma sättning, endast ett fåtal annonssidor skiljer editionerna åt.\r\n\r\nEditionerna filmas ej.\r\n\r\nBilagorna filmas endast på utgivningsdagen.\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 133571,
+        "period": "2010-12-01--2011-01-31"
+      },
+      {
+        "comment": "H+E: huvudedition, ed: xxx [Stockholmsupplagan] i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nFlera editioner med varierande benämningar förekommer. Editionerna innehåller till största del samma material i samma sättning, endast ett fåtal annonssidor skiljer editionerna åt.\r\n\r\nEditionerna filmas ej.\r\n\r\nBilagorna filmas endast på utgivningsdagen.\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 133870,
+        "period": "2011-02-01--2011-03-31"
+      },
+      {
+        "comment": "H: tidningar\r\nL: löpsedlar\r\n\r\nFlera editioner med varierande benämningar förekommer. Editionerna innehåller till största del samma material i samma sättning, endast ett fåtal annonssidor skiljer editionerna åt.\r\n\r\nEditionerna filmas ej.\r\n\r\nBilagorna filmas endast på utgivningsdagen.\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 134432,
+        "period": "2011-04-01--2011-04-30"
+      },
+      {
+        "comment": "H+E: huvudedition, ed: xxx [Stockholmsupplagan] i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nFlera editioner med varierande benämningar förekommer. Editionerna innehåller till största del samma material i samma sättning, endast ett fåtal annonssidor skiljer editionerna åt.\r\n\r\nEditionerna filmas ej.\r\n\r\nBilagorna filmas endast på utgivningsdagen.\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 134483,
+        "period": "2011-05-01--2011-05-31"
+      },
+      {
+        "comment": "H: tidningar\r\nL: löpsedlar\r\n\r\nFlera editioner med varierande benämningar förekommer. Editionerna innehåller till största del samma material i samma sättning, endast ett fåtal annonssidor skiljer editionerna åt.\r\n\r\nEditionerna filmas ej.\r\n\r\nBilagorna filmas endast på utgivningsdagen.\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 134517,
+        "period": "2011-06-01--2011-06-30"
+      },
+      {
+        "comment": "H+E: huvudedition, ed: xxx [Stockholmsupplagan] i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nFlera editioner med varierande benämningar förekommer. Editionerna innehåller till största del samma material i samma sättning, endast ett fåtal annonssidor skiljer editionerna åt.\r\n\r\nEditionerna filmas ej.\r\n\r\nBilagorna filmas endast på utgivningsdagen.\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 134551,
+        "period": "2011-07-01--2011-07-31"
+      },
+      {
+        "comment": "H: tidningar\r\nL: löpsedlar\r\n\r\nFlera editioner med varierande benämningar förekommer. Editionerna innehåller till största del samma material i samma sättning, endast ett fåtal annonssidor skiljer editionerna åt.\r\n\r\nEditionerna filmas ej.\r\n\r\nBilagorna filmas endast på utgivningsdagen.\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 134567,
+        "period": "2011-08-01--2011-09-30"
+      },
+      {
+        "comment": "H+E: huvudedition, ed: xxx [Stockholmsupplagan] i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nFlera editioner med varierande benämningar förekommer. Editionerna innehåller till största del samma material i samma sättning, endast ett fåtal annonssidor skiljer editionerna åt.\r\n\r\nEditionerna filmas ej.\r\n\r\nBilagorna filmas endast på utgivningsdagen.\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 134705,
+        "period": "2011-10-01--2011-10-31"
+      },
+      {
+        "comment": "H: tidningar\r\nL: löpsedlar\r\n\r\nFlera editioner med varierande benämningar förekommer. Editionerna innehåller till största del samma material i samma sättning, endast ett fåtal annonssidor skiljer editionerna åt.\r\n\r\nEditionerna filmas ej.\r\n\r\nBilagorna filmas endast på utgivningsdagen.\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 134704,
+        "period": "2011-11-01--2011-12-31"
+      },
+      {
+        "comment": "H+E: huvudedition, ed: xxx [Stockholmsupplagan] i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nFlera editioner med varierande benämningar förekommer. Editionerna innehåller till största del samma material i samma sättning, endast ett fåtal annonssidor skiljer editionerna åt.\r\n\r\nEditionerna filmas ej.\r\n\r\nBilagorna filmas endast på utgivningsdagen.\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 134766,
+        "period": "2012-01-01--2012-02-29"
+      },
+      {
+        "comment": "H: tidningar\r\nL: löpsedlar\r\n\r\nBilagorna filmas endast på utgivningsdagen.\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 135263,
+        "period": "2012-03-01--2012-04-30"
+      },
+      {
+        "comment": "H: tidningar\r\nL: löpsedlar\r\n\r\nFlera editioner med varierande benämningar förekommer. Editionerna innehåller till största del samma material i samma sättning, endast ett fåtal annonssidor skiljer editionerna åt.\r\n\r\nEditionerna filmas ej.\r\n\r\n\r\nBilagorna filmas endast på utgivningsdagen.\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 135623,
+        "period": "2012-05-01--2012-07-31"
+      },
+      {
+        "comment": "H+E: huvudedition, ed: xx [Stockholmsupplagan] i form av ändrade sidor sist på varje rulle\r\nL: löpsedlar\r\n\r\nFlera editioner med varierande benämningar förekommer. Editionerna innehåller till största del samma material i samma sättning, endast ett fåtal annonssidor skiljer editionerna åt.\r\n\r\nEditionerna filmas ej.\r\n\r\nBilagorna filmas endast på utgivningsdagen.\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 135737,
+        "period": "2012-08-01--2012-08-31"
+      },
+      {
+        "comment": "H: tidningar\r\nL: löpsedlar\r\n\r\nFlera editioner med varierande benämningar förekommer. Editionerna innehåller till största del samma material i samma sättning, endast ett fåtal annonssidor skiljer editionerna åt.\r\n\r\nEditionerna filmas ej.\r\n\r\n\r\nBilagorna filmas endast på utgivningsdagen.\r\n\r\nTillfälliga bilagor:\r\nOdaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.\r\n",
+        "id": 135763,
+        "period": "2012-09-01--2013-08-31"
+      },
+      {
+        "comment": " H+E: huvudedition, ed: xx [Stockholmsupplagan] i form av ändrade sidor sist på varje rulle\r\n\r\n L: löpsedlar \r\n\r\nFlera editioner med varierande benämningar förekommer. Editionerna innehåller till största del samma material i samma sättning, endast ett fåtal annonssidor skiljer editionerna åt. \r\n\r\nEditionerna filmas ej.\r\n\r\nBilagorna filmas endast på utgivningsdagen. \r\n\r\nTillfälliga bilagor: Odaterade tillfälliga bilagor är ibland svåra att placera på rätt utgivningsdag vid mikrofilmningen. De kan därför vara svåra att lokalisera på filmen.  ",
+        "id": 138111,
+        "period": "2013-09-01--2013-09-30"
+      },
+      {
+        "comment": " H+E: tidningar, Editioner\r\n\r\n L: löpsedlar \r\n\r\nFlera editioner med varierande benämningar förekommer. Editionerna innehåller till största del samma material i samma sättning, endast ett fåtal annonssidor skiljer editionerna åt.\r\n\r\n Bilagorna filmas endast på utgivningsdagen.\r\n\r\n. Odaterade tillfälliga bilagor digitaliseras med de tidningsnummer tryckeriet levererat dem med.  ",
+        "id": 138340,
+        "period": "2013-10-01--2013-12-31"
+      },
+      {
+        "comment": "Tryckorter och editionsordning:\r\n\r\nGöteborg\r\n1 ed: xxxxx [Göteborg]\r\n2 ed: xxxxx [Stockholm]\r\n3 ed xxxxx [sporadisk]\r\n\r\nÖstersund\r\n4 ed: xxxxx\r\n5 ed: xxxxx [sporadisk]\r\n\r\nSödertälje\r\n6 ed: xxxxx\r\n7 ed: xxxxx [sporadisk]\r\n8 ed: xxx [huvudedition]\r\n\r\nSista södertäljeeditionen [huvudeditionen] digitaliseras i sin helhet. Övriga editioner innehåller samma redaktionella material i omstuvat skick, endast reklamen skiljer och endast huvudeditionen digitaliseras.\r\n\r\nBilagor digitaliseras endast på utgivningsdagen.",
+        "id": 141380,
+        "period": "2014-01-01--2014-06-30"
+      },
+      {
+        "comment": " Tryckorter och editionsordning: \r\n\r\nGöteborg\r\n1 ed: xxxxx [Göteborg]\r\n2 ed: xxxxx [Stockholm] \r\n3 ed xxxxx [sporadisk] \r\n\r\nÖrnsköldsvik \r\n4 ed: xxxxx \r\n5 ed: xxxxx [sporadisk] \r\n\r\nSödertälje\r\n6 ed: xxxxx \r\n7 ed: xxxxx [sporadisk]\r\n8 ed: xxx [sporadisk]\r\n9 ed: xxx [huvudedition] \r\n\r\nSista södertäljeeditionen [huvudeditionen] digitaliseras i sin helhet. Övriga editioner innehåller samma redaktionella material i omstuvat skick, endast reklamen skiljer och endast huvudeditionen digitaliseras.\r\n\r\n Bilagor digitaliseras endast på utgivningsdagen. ",
+        "id": 141435,
+        "period": "2014-07-01--2018-01-31"
+      },
+      {
+        "comment": " Tryckorter och editionsordning: \r\n\r\nGöteborg \r\n1 ed: xxxxx [Göteborg] \r\n2 ed: xxxxx [Stockholm]\r\n3 ed xxxxx [sporadisk] \r\n\r\nUmeå \r\n4 ed: xxxxx \r\n5 ed: xxxxx [sporadisk] \r\n\r\nSödertälje \r\n6 ed: xxxxx \r\n7 ed: xxxxx [sporadisk] \r\n8 ed: xxx [sporadisk] \r\n9 ed: xxx [huvudedition] \r\n\r\nSista södertäljeeditionen [huvudeditionen] digitaliseras i sin helhet. Övriga editioner innehåller samma redaktionella material i omstuvat skick, endast reklamen skiljer och endast huvudeditionen digitaliseras. \r\n\r\nBilagor digitaliseras endast på utgivningsdagen.   ",
+        "id": 152297,
+        "period": "2018-02-01--2021-03-31"
+      },
+      {
+        "comment": "                              Tryckorter och editionsordning: \r\n\r\nGöteborg \r\n1 ed: xxxxx [Göteborg] \r\n2 ed xxxxx [sporadisk] \r\n\r\nUmeå \r\n3 ed: xxxxx \r\n4 ed: xxxxx [sporadisk] \r\n\r\nSödertälje \r\n5 ed: xxxxx [Huvudedition\r\n\r\n\r\nSista södertäljeeditionen [huvudeditionen] digitaliseras i sin helhet. Övriga editioner innehåller samma redaktionella material i omstuvat skick, endast reklamen skiljer och endast huvudeditionen digitaliseras. \r\n\r\nBilagor digitaliseras endast på utgivningsdagen.    ",
+        "id": 169613,
+        "period": "2021-04-01--"
+      }
+    ]
+  }
+}
