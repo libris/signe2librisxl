@@ -1,145 +1,146 @@
 prefix : <https://id.kb.se/vocab/>
 
-</signe/freq/1/m-fre> a :PubFrequency ; :label "1/m - fre" .
-</signe/freq/1/m-lö> a :PubFrequency ; :label "1/m - lö" .
-</signe/freq/1/m-må> a :PubFrequency ; :label "1/m - må" .
-</signe/freq/1/m-on> a :PubFrequency ; :label "1/m - on" .
-</signe/freq/1/m-sö> a :PubFrequency ; :label "1/m - sö" .
-</signe/freq/1/m-to> a :PubFrequency ; :label "1/m - to" .
-</signe/freq/1/m-varierande> a :PubFrequency ; :label "1/m - varierande" .
-</signe/freq/1/v-fre> a :PubFrequency ; :label "1/v - fre" .
-</signe/freq/1/v-fre@em> a :PubFrequency ; :label "1/v - fre em" .
-</signe/freq/1/v-fre@fm> a :PubFrequency ; :label "1/v - fre fm" .
-</signe/freq/1/v-fre@mid> a :PubFrequency ; :label "1/v - fre mid" .
-</signe/freq/1/v-fre@morg> a :PubFrequency ; :label "1/v - fre morg" .
-</signe/freq/1/v-lö> a :PubFrequency ; :label "1/v - lö" .
-</signe/freq/1/v-må> a :PubFrequency ; :label "1/v - må" .
-</signe/freq/1/v-on> a :PubFrequency ; :label "1/v - on" .
-</signe/freq/1/v-on@morg> a :PubFrequency ; :label "1/v - on morg" .
-</signe/freq/1/v-oregelbunden> a :PubFrequency ; :label "1/v - oregelbunden" .
-</signe/freq/1/v-sö> a :PubFrequency ; :label "1/v - sö" .
-</signe/freq/1/v-ti> a :PubFrequency ; :label "1/v - ti" .
-</signe/freq/1/v-ti,to,lö> a :PubFrequency ; :label "1/v - ti, to, lö" .
-</signe/freq/1/v-to> a :PubFrequency ; :label "1/v - to" .
-</signe/freq/1/v-to@em> a :PubFrequency ; :label "1/v - to em" .
-</signe/freq/1/v-to@mid> a :PubFrequency ; :label "1/v - to mid" .
-</signe/freq/1/v-to@morg> a :PubFrequency ; :label "1/v - to morg" .
-</signe/freq/1/v-varierande> a :PubFrequency ; :label "1/v - varierande" .
-</signe/freq/1/år-lö> a :PubFrequency ; :label "1/år - lö" .
-</signe/freq/2/m-fre> a :PubFrequency ; :label "2/m - fre" .
-</signe/freq/2/m-lö> a :PubFrequency ; :label "2/m - lö" .
-</signe/freq/2/m-må> a :PubFrequency ; :label "2/m - må" .
-</signe/freq/2/m-on> a :PubFrequency ; :label "2/m - on" .
-</signe/freq/2/m-ti> a :PubFrequency ; :label "2/m - ti" .
-</signe/freq/2/m-to> a :PubFrequency ; :label "2/m - to" .
-</signe/freq/2/m-to,sö> a :PubFrequency ; :label "2/m - to, sö" .
-</signe/freq/2/m-varierande> a :PubFrequency ; :label "2/m - varierande" .
-</signe/freq/2/v-fre,lö> a :PubFrequency ; :label "2/v - fre, lö" .
-</signe/freq/2/v-fre,sö> a :PubFrequency ; :label "2/v - fre, sö" .
-</signe/freq/2/v-lö,sö> a :PubFrequency ; :label "2/v - lö, sö" .
-</signe/freq/2/v-må,fre> a :PubFrequency ; :label "2/v - må, fre" .
-</signe/freq/2/v-må,on> a :PubFrequency ; :label "2/v - må, on" .
-</signe/freq/2/v-må,sö> a :PubFrequency ; :label "2/v - må, sö" .
-</signe/freq/2/v-må,ti> a :PubFrequency ; :label "2/v - må, ti" .
-</signe/freq/2/v-må,to> a :PubFrequency ; :label "2/v - må, to" .
-</signe/freq/2/v-må,to@em> a :PubFrequency ; :label "2/v - må, to em" .
-</signe/freq/2/v-må,to@kv> a :PubFrequency ; :label "2/v - må, to kv" .
-</signe/freq/2/v-må,to@mid> a :PubFrequency ; :label "2/v - må, to mid" .
-</signe/freq/2/v-on,fre> a :PubFrequency ; :label "2/v - on, fre" .
-</signe/freq/2/v-on,fre@morg> a :PubFrequency ; :label "2/v - on, fre morg" .
-</signe/freq/2/v-on,lö> a :PubFrequency ; :label "2/v - on, lö" .
-</signe/freq/2/v-on,lö@em> a :PubFrequency ; :label "2/v - on, lö em" .
-</signe/freq/2/v-on,lö@fm> a :PubFrequency ; :label "2/v - on, lö fm" .
-</signe/freq/2/v-on,lö@kv> a :PubFrequency ; :label "2/v - on, lö kv" .
-</signe/freq/2/v-on,lö@morg> a :PubFrequency ; :label "2/v - on, lö morg" .
-</signe/freq/2/v-ti,fre> a :PubFrequency ; :label "2/v - ti, fre" .
-</signe/freq/2/v-ti,fre@em> a :PubFrequency ; :label "2/v - ti, fre em" .
-</signe/freq/2/v-ti,fre@fm> a :PubFrequency ; :label "2/v - ti, fre fm" .
-</signe/freq/2/v-ti,fre@kv> a :PubFrequency ; :label "2/v - ti, fre kv" .
-</signe/freq/2/v-ti,fre@morg> a :PubFrequency ; :label "2/v - ti, fre morg" .
-</signe/freq/2/v-ti,lö> a :PubFrequency ; :label "2/v - ti, lö" .
-</signe/freq/2/v-ti,to> a :PubFrequency ; :label "2/v - ti, to" .
-</signe/freq/2/v-to,lö> a :PubFrequency ; :label "2/v - to, lö" .
-</signe/freq/2/v-to,sö> a :PubFrequency ; :label "2/v - to, sö" .
-</signe/freq/3/m-må> a :PubFrequency ; :label "3/m - må" .
-</signe/freq/3/v-fre,lö,sö> a :PubFrequency ; :label "3/v - fre, lö, sö" .
-</signe/freq/3/v-må,fre,lö> a :PubFrequency ; :label "3/v - må, fre, lö" .
-</signe/freq/3/v-må,on,fre> a :PubFrequency ; :label "3/v - må, on, fre" .
-</signe/freq/3/v-må,on,fre@em> a :PubFrequency ; :label "3/v - må, on, fre em" .
-</signe/freq/3/v-må,on,fre@fm> a :PubFrequency ; :label "3/v - må, on, fre fm" .
-</signe/freq/3/v-må,on,fre@kv> a :PubFrequency ; :label "3/v - må, on, fre kv" .
-</signe/freq/3/v-må,on,fre@mid> a :PubFrequency ; :label "3/v - må, on, fre mid" .
-</signe/freq/3/v-må,on,fre@morg> a :PubFrequency ; :label "3/v - må, on, fre morg" .
-</signe/freq/3/v-må,on,lö> a :PubFrequency ; :label "3/v - må, on, lö" .
-</signe/freq/3/v-må,on,to> a :PubFrequency ; :label "3/v - må, on, to" .
-</signe/freq/3/v-må,to,fre> a :PubFrequency ; :label "3/v - må, to, fre" .
-</signe/freq/3/v-må,to,lö> a :PubFrequency ; :label "3/v - må, to, lö" .
-</signe/freq/3/v-ti,fre,lö> a :PubFrequency ; :label "3/v - ti, fre, lö" .
-</signe/freq/3/v-ti,on,to> a :PubFrequency ; :label "3/v - ti, on, to" .
-</signe/freq/3/v-ti,to,fre> a :PubFrequency ; :label "3/v - ti, to, fre" .
-</signe/freq/3/v-ti,to,lö> a :PubFrequency ; :label "3/v - ti, to, lö" .
-</signe/freq/3/v-ti,to,lö@em> a :PubFrequency ; :label "3/v - ti, to, lö em" .
-</signe/freq/3/v-ti,to,lö@fm> a :PubFrequency ; :label "3/v - ti, to, lö fm" .
-</signe/freq/3/v-ti,to,lö@mid> a :PubFrequency ; :label "3/v - ti, to, lö mid" .
-</signe/freq/3/v-ti,to,lö@morg> a :PubFrequency ; :label "3/v - ti, to, lö morg" .
-</signe/freq/3/v-to,fre,lö> a :PubFrequency ; :label "3/v - to, fre, lö" .
-</signe/freq/4/v-må,on,fre,lö> a :PubFrequency ; :label "4/v - må, on, fre, lö" .
-</signe/freq/4/v-må,on,fre,lö@em> a :PubFrequency ; :label "4/v - må, on, fre, lö em" .
-</signe/freq/4/v-må,on,fre,lö@mid> a :PubFrequency ; :label "4/v - må, on, fre, lö mid" .
-</signe/freq/4/v-må,on,to,fre> a :PubFrequency ; :label "4/v - må, on, to, fre" .
-</signe/freq/4/v-må,on,to,fre@em> a :PubFrequency ; :label "4/v - må, on, to, fre em" .
-</signe/freq/4/v-må,on,to,fre@mid> a :PubFrequency ; :label "4/v - må, on, to, fre mid" .
-</signe/freq/4/v-må,on,to,lö> a :PubFrequency ; :label "4/v - må, on, to, lö" .
-</signe/freq/4/v-må,on,to,lö@em> a :PubFrequency ; :label "4/v - må, on, to, lö em" .
-</signe/freq/4/v-må,ti,on,fre@em> a :PubFrequency ; :label "4/v - må, ti, on, fre em" .
-</signe/freq/4/v-må,ti,on,lö> a :PubFrequency ; :label "4/v - må, ti, on, lö" .
-</signe/freq/4/v-må,ti,on,to> a :PubFrequency ; :label "4/v - må, ti, on, to" .
-</signe/freq/4/v-må,ti,to,fre> a :PubFrequency ; :label "4/v - må, ti, to, fre" .
-</signe/freq/4/v-må,ti,to,lö> a :PubFrequency ; :label "4/v - må, ti, to, lö" .
-</signe/freq/4/v-må,ti,to,lö@em> a :PubFrequency ; :label "4/v - må, ti, to, lö em" .
-</signe/freq/4/v-må,ti,to,lö@mid> a :PubFrequency ; :label "4/v - må, ti, to, lö mid" .
-</signe/freq/4/v-må,ti,to,lö@morg> a :PubFrequency ; :label "4/v - må, ti, to, lö morg" .
-</signe/freq/4/v-må,to,fre,lö> a :PubFrequency ; :label "4/v - må, to, fre, lö" .
-</signe/freq/4/v-on,to,fre,lö> a :PubFrequency ; :label "4/v - on, to, fre, lö" .
-</signe/freq/4/v-ti,on,fre,lö@mid> a :PubFrequency ; :label "4/v - ti, on, fre, lö mid" .
-</signe/freq/4/v-ti,on,fre,lö@morg> a :PubFrequency ; :label "4/v - ti, on, fre, lö morg" .
-</signe/freq/4/v-ti,on,to,fre> a :PubFrequency ; :label "4/v - ti, on, to, fre" .
-</signe/freq/4/v-ti,on,to,lö> a :PubFrequency ; :label "4/v - ti, on, to, lö" .
-</signe/freq/4/v-ti,on,to,lö@morg> a :PubFrequency ; :label "4/v - ti, on, to, lö morg" .
-</signe/freq/4/v-ti,to,fre,lö> a :PubFrequency ; :label "4/v - ti, to, fre, lö" .
-</signe/freq/4/v-ti,to,lö,sö> a :PubFrequency ; :label "4/v - ti, to, lö, sö" .
-</signe/freq/4/v-ti,to,lö,sö@em> a :PubFrequency ; :label "4/v - ti, to, lö, sö em" .
-</signe/freq/4/v-ti,to,lö,sö@morg> a :PubFrequency ; :label "4/v - ti, to, lö, sö morg" .
-</signe/freq/4/år-varierande> a :PubFrequency ; :label "4/år - varierande" .
-</signe/freq/5/v-må,on,to,fre,lö> a :PubFrequency ; :label "5/v - må, on, to, fre, lö" .
-</signe/freq/5/v-må,on,to,fre,lö@morg> a :PubFrequency ; :label "5/v - må, on, to, fre, lö morg" .
-</signe/freq/5/v-må,ti,on,fre,lö> a :PubFrequency ; :label "5/v - må, ti, on, fre, lö" .
-</signe/freq/5/v-må,ti,on,to,fre> a :PubFrequency ; :label "5/v - må, ti, on, to, fre" .
-</signe/freq/5/v-må,ti,on,to,fre,lö> a :PubFrequency ; :label "5/v - må, ti, on, to, fre, lö" .
-</signe/freq/5/v-må,ti,on,to,fre@morg> a :PubFrequency ; :label "5/v - må, ti, on, to, fre morg" .
-</signe/freq/5/v-må,ti,on,to,lö> a :PubFrequency ; :label "5/v - må, ti, on, to, lö" .
-</signe/freq/5/v-må,ti,to,fre,lö> a :PubFrequency ; :label "5/v - må, ti, to, fre, lö" .
-</signe/freq/5/v-on,to,fre,lö,sö> a :PubFrequency ; :label "5/v - on, to, fre, lö, sö" .
-</signe/freq/5/v-ti,on,to,fre,lö> a :PubFrequency ; :label "5/v - ti, on, to, fre, lö" .
-</signe/freq/6/v-må,ti,on,fre,lö,sö> a :PubFrequency ; :label "6/v - må, ti, on, fre, lö, sö" .
-</signe/freq/6/v-må,ti,on,to,fre,lö> a :PubFrequency ; :label "6/v - må, ti, on, to, fre, lö" .
-</signe/freq/6/v-må,ti,on,to,fre,lö@em> a :PubFrequency ; :label "6/v - må, ti, on, to, fre, lö em" .
-</signe/freq/6/v-må,ti,on,to,fre,lö@fm> a :PubFrequency ; :label "6/v - må, ti, on, to, fre, lö fm" .
-</signe/freq/6/v-må,ti,on,to,fre,lö@kv> a :PubFrequency ; :label "6/v - må, ti, on, to, fre, lö kv" .
-</signe/freq/6/v-må,ti,on,to,fre,lö@mid> a :PubFrequency ; :label "6/v - må, ti, on, to, fre, lö mid" .
-</signe/freq/6/v-må,ti,on,to,fre,lö@morg> a :PubFrequency ; :label "6/v - må, ti, on, to, fre, lö morg" .
-</signe/freq/6/v-må,ti,on,to,fre,sö> a :PubFrequency ; :label "6/v - må, ti, on, to, fre, sö" .
-</signe/freq/6/v-ti,on,to,fre,lö,sö> a :PubFrequency ; :label "6/v - ti, on, to, fre, lö, sö" .
-</signe/freq/6/år-lö> a :PubFrequency ; :label "6/år - lö" .
-</signe/freq/6/år-on> a :PubFrequency ; :label "6/år - on" .
-</signe/freq/6/år-sö> a :PubFrequency ; :label "6/år - sö" .
-</signe/freq/6/år-varierande> a :PubFrequency ; :label "6/år - varierande" .
-</signe/freq/7/v-må,ti,on,to,fre,lö,sö> a :PubFrequency ; :label "7/v - må, ti, on, to, fre, lö, sö" .
-</signe/freq/7/v-må,ti,on,to,fre,lö,sö@em> a :PubFrequency ; :label "7/v - må, ti, on, to, fre, lö, sö em" .
-</signe/freq/7/v-må,ti,on,to,fre,lö,sö@morg> a :PubFrequency ; :label "7/v - må, ti, on, to, fre, lö, sö morg" .
-</signe/freq/7/år-sö> a :PubFrequency ; :label "7/år - sö" .
-</signe/freq/7/år-ti> a :PubFrequency ; :label "7/år - ti" .
-</signe/freq/8/år-to> a :PubFrequency ; :label "8/år - to" .
-</signe/freq/10/år-sö> a :PubFrequency ; :label "10/år - sö" .
-</signe/freq/10/år-varierande> a :PubFrequency ; :label "10/år - varierande" .
-</signe/freq/12/år-varierande> a :PubFrequency ; :label "12/år - varierande" .
+</signe/freq/1/m-fre> a :Frequency ; :label "1/m - fre" .
+</signe/freq/1/m-lö> a :Frequency ; :label "1/m - lö" .
+</signe/freq/1/m-må> a :Frequency ; :label "1/m - må" .
+</signe/freq/1/m-on> a :Frequency ; :label "1/m - on" .
+</signe/freq/1/m-sö> a :Frequency ; :label "1/m - sö" .
+</signe/freq/1/m-to> a :Frequency ; :label "1/m - to" .
+</signe/freq/1/m-varierande> a :Frequency ; :label "1/m - varierande" .
+</signe/freq/1/v> a :Frequency ; :label "1/v" .
+</signe/freq/1/v-fre> a :Frequency ; :label "1/v - fre" .
+</signe/freq/1/v-fre@em> a :Frequency ; :label "1/v - fre em" .
+</signe/freq/1/v-fre@fm> a :Frequency ; :label "1/v - fre fm" .
+</signe/freq/1/v-fre@mid> a :Frequency ; :label "1/v - fre mid" .
+</signe/freq/1/v-fre@morg> a :Frequency ; :label "1/v - fre morg" .
+</signe/freq/1/v-lö> a :Frequency ; :label "1/v - lö" .
+</signe/freq/1/v-må> a :Frequency ; :label "1/v - må" .
+</signe/freq/1/v-on> a :Frequency ; :label "1/v - on" .
+</signe/freq/1/v-on@morg> a :Frequency ; :label "1/v - on morg" .
+</signe/freq/1/v-oregelbunden> a :Frequency ; :label "1/v - oregelbunden" .
+</signe/freq/1/v-sö> a :Frequency ; :label "1/v - sö" .
+</signe/freq/1/v-ti> a :Frequency ; :label "1/v - ti" .
+</signe/freq/1/v-ti,to,lö> a :Frequency ; :label "1/v - ti, to, lö" .
+</signe/freq/1/v-to> a :Frequency ; :label "1/v - to" .
+</signe/freq/1/v-to@em> a :Frequency ; :label "1/v - to em" .
+</signe/freq/1/v-to@mid> a :Frequency ; :label "1/v - to mid" .
+</signe/freq/1/v-to@morg> a :Frequency ; :label "1/v - to morg" .
+</signe/freq/1/v-varierande> a :Frequency ; :label "1/v - varierande" .
+</signe/freq/1/år-lö> a :Frequency ; :label "1/år - lö" .
+</signe/freq/2/m-fre> a :Frequency ; :label "2/m - fre" .
+</signe/freq/2/m-lö> a :Frequency ; :label "2/m - lö" .
+</signe/freq/2/m-må> a :Frequency ; :label "2/m - må" .
+</signe/freq/2/m-on> a :Frequency ; :label "2/m - on" .
+</signe/freq/2/m-ti> a :Frequency ; :label "2/m - ti" .
+</signe/freq/2/m-to> a :Frequency ; :label "2/m - to" .
+</signe/freq/2/m-to,sö> a :Frequency ; :label "2/m - to, sö" .
+</signe/freq/2/m-varierande> a :Frequency ; :label "2/m - varierande" .
+</signe/freq/2/v-fre,lö> a :Frequency ; :label "2/v - fre, lö" .
+</signe/freq/2/v-fre,sö> a :Frequency ; :label "2/v - fre, sö" .
+</signe/freq/2/v-lö,sö> a :Frequency ; :label "2/v - lö, sö" .
+</signe/freq/2/v-må,fre> a :Frequency ; :label "2/v - må, fre" .
+</signe/freq/2/v-må,on> a :Frequency ; :label "2/v - må, on" .
+</signe/freq/2/v-må,sö> a :Frequency ; :label "2/v - må, sö" .
+</signe/freq/2/v-må,ti> a :Frequency ; :label "2/v - må, ti" .
+</signe/freq/2/v-må,to> a :Frequency ; :label "2/v - må, to" .
+</signe/freq/2/v-må,to@em> a :Frequency ; :label "2/v - må, to em" .
+</signe/freq/2/v-må,to@kv> a :Frequency ; :label "2/v - må, to kv" .
+</signe/freq/2/v-må,to@mid> a :Frequency ; :label "2/v - må, to mid" .
+</signe/freq/2/v-on,fre> a :Frequency ; :label "2/v - on, fre" .
+</signe/freq/2/v-on,fre@morg> a :Frequency ; :label "2/v - on, fre morg" .
+</signe/freq/2/v-on,lö> a :Frequency ; :label "2/v - on, lö" .
+</signe/freq/2/v-on,lö@em> a :Frequency ; :label "2/v - on, lö em" .
+</signe/freq/2/v-on,lö@fm> a :Frequency ; :label "2/v - on, lö fm" .
+</signe/freq/2/v-on,lö@kv> a :Frequency ; :label "2/v - on, lö kv" .
+</signe/freq/2/v-on,lö@morg> a :Frequency ; :label "2/v - on, lö morg" .
+</signe/freq/2/v-ti,fre> a :Frequency ; :label "2/v - ti, fre" .
+</signe/freq/2/v-ti,fre@em> a :Frequency ; :label "2/v - ti, fre em" .
+</signe/freq/2/v-ti,fre@fm> a :Frequency ; :label "2/v - ti, fre fm" .
+</signe/freq/2/v-ti,fre@kv> a :Frequency ; :label "2/v - ti, fre kv" .
+</signe/freq/2/v-ti,fre@morg> a :Frequency ; :label "2/v - ti, fre morg" .
+</signe/freq/2/v-ti,lö> a :Frequency ; :label "2/v - ti, lö" .
+</signe/freq/2/v-ti,to> a :Frequency ; :label "2/v - ti, to" .
+</signe/freq/2/v-to,lö> a :Frequency ; :label "2/v - to, lö" .
+</signe/freq/2/v-to,sö> a :Frequency ; :label "2/v - to, sö" .
+</signe/freq/3/m-må> a :Frequency ; :label "3/m - må" .
+</signe/freq/3/v-fre,lö,sö> a :Frequency ; :label "3/v - fre, lö, sö" .
+</signe/freq/3/v-må,fre,lö> a :Frequency ; :label "3/v - må, fre, lö" .
+</signe/freq/3/v-må,on,fre> a :Frequency ; :label "3/v - må, on, fre" .
+</signe/freq/3/v-må,on,fre@em> a :Frequency ; :label "3/v - må, on, fre em" .
+</signe/freq/3/v-må,on,fre@fm> a :Frequency ; :label "3/v - må, on, fre fm" .
+</signe/freq/3/v-må,on,fre@kv> a :Frequency ; :label "3/v - må, on, fre kv" .
+</signe/freq/3/v-må,on,fre@mid> a :Frequency ; :label "3/v - må, on, fre mid" .
+</signe/freq/3/v-må,on,fre@morg> a :Frequency ; :label "3/v - må, on, fre morg" .
+</signe/freq/3/v-må,on,lö> a :Frequency ; :label "3/v - må, on, lö" .
+</signe/freq/3/v-må,on,to> a :Frequency ; :label "3/v - må, on, to" .
+</signe/freq/3/v-må,to,fre> a :Frequency ; :label "3/v - må, to, fre" .
+</signe/freq/3/v-må,to,lö> a :Frequency ; :label "3/v - må, to, lö" .
+</signe/freq/3/v-ti,fre,lö> a :Frequency ; :label "3/v - ti, fre, lö" .
+</signe/freq/3/v-ti,on,to> a :Frequency ; :label "3/v - ti, on, to" .
+</signe/freq/3/v-ti,to,fre> a :Frequency ; :label "3/v - ti, to, fre" .
+</signe/freq/3/v-ti,to,lö> a :Frequency ; :label "3/v - ti, to, lö" .
+</signe/freq/3/v-ti,to,lö@em> a :Frequency ; :label "3/v - ti, to, lö em" .
+</signe/freq/3/v-ti,to,lö@fm> a :Frequency ; :label "3/v - ti, to, lö fm" .
+</signe/freq/3/v-ti,to,lö@mid> a :Frequency ; :label "3/v - ti, to, lö mid" .
+</signe/freq/3/v-ti,to,lö@morg> a :Frequency ; :label "3/v - ti, to, lö morg" .
+</signe/freq/3/v-to,fre,lö> a :Frequency ; :label "3/v - to, fre, lö" .
+</signe/freq/4/v-må,on,fre,lö> a :Frequency ; :label "4/v - må, on, fre, lö" .
+</signe/freq/4/v-må,on,fre,lö@em> a :Frequency ; :label "4/v - må, on, fre, lö em" .
+</signe/freq/4/v-må,on,fre,lö@mid> a :Frequency ; :label "4/v - må, on, fre, lö mid" .
+</signe/freq/4/v-må,on,to,fre> a :Frequency ; :label "4/v - må, on, to, fre" .
+</signe/freq/4/v-må,on,to,fre@em> a :Frequency ; :label "4/v - må, on, to, fre em" .
+</signe/freq/4/v-må,on,to,fre@mid> a :Frequency ; :label "4/v - må, on, to, fre mid" .
+</signe/freq/4/v-må,on,to,lö> a :Frequency ; :label "4/v - må, on, to, lö" .
+</signe/freq/4/v-må,on,to,lö@em> a :Frequency ; :label "4/v - må, on, to, lö em" .
+</signe/freq/4/v-må,ti,on,fre@em> a :Frequency ; :label "4/v - må, ti, on, fre em" .
+</signe/freq/4/v-må,ti,on,lö> a :Frequency ; :label "4/v - må, ti, on, lö" .
+</signe/freq/4/v-må,ti,on,to> a :Frequency ; :label "4/v - må, ti, on, to" .
+</signe/freq/4/v-må,ti,to,fre> a :Frequency ; :label "4/v - må, ti, to, fre" .
+</signe/freq/4/v-må,ti,to,lö> a :Frequency ; :label "4/v - må, ti, to, lö" .
+</signe/freq/4/v-må,ti,to,lö@em> a :Frequency ; :label "4/v - må, ti, to, lö em" .
+</signe/freq/4/v-må,ti,to,lö@mid> a :Frequency ; :label "4/v - må, ti, to, lö mid" .
+</signe/freq/4/v-må,ti,to,lö@morg> a :Frequency ; :label "4/v - må, ti, to, lö morg" .
+</signe/freq/4/v-må,to,fre,lö> a :Frequency ; :label "4/v - må, to, fre, lö" .
+</signe/freq/4/v-on,to,fre,lö> a :Frequency ; :label "4/v - on, to, fre, lö" .
+</signe/freq/4/v-ti,on,fre,lö@mid> a :Frequency ; :label "4/v - ti, on, fre, lö mid" .
+</signe/freq/4/v-ti,on,fre,lö@morg> a :Frequency ; :label "4/v - ti, on, fre, lö morg" .
+</signe/freq/4/v-ti,on,to,fre> a :Frequency ; :label "4/v - ti, on, to, fre" .
+</signe/freq/4/v-ti,on,to,lö> a :Frequency ; :label "4/v - ti, on, to, lö" .
+</signe/freq/4/v-ti,on,to,lö@morg> a :Frequency ; :label "4/v - ti, on, to, lö morg" .
+</signe/freq/4/v-ti,to,fre,lö> a :Frequency ; :label "4/v - ti, to, fre, lö" .
+</signe/freq/4/v-ti,to,lö,sö> a :Frequency ; :label "4/v - ti, to, lö, sö" .
+</signe/freq/4/v-ti,to,lö,sö@em> a :Frequency ; :label "4/v - ti, to, lö, sö em" .
+</signe/freq/4/v-ti,to,lö,sö@morg> a :Frequency ; :label "4/v - ti, to, lö, sö morg" .
+</signe/freq/4/år-varierande> a :Frequency ; :label "4/år - varierande" .
+</signe/freq/5/v-må,on,to,fre,lö> a :Frequency ; :label "5/v - må, on, to, fre, lö" .
+</signe/freq/5/v-må,on,to,fre,lö@morg> a :Frequency ; :label "5/v - må, on, to, fre, lö morg" .
+</signe/freq/5/v-må,ti,on,fre,lö> a :Frequency ; :label "5/v - må, ti, on, fre, lö" .
+</signe/freq/5/v-må,ti,on,to,fre> a :Frequency ; :label "5/v - må, ti, on, to, fre" .
+</signe/freq/5/v-må,ti,on,to,fre,lö> a :Frequency ; :label "5/v - må, ti, on, to, fre, lö" .
+</signe/freq/5/v-må,ti,on,to,fre@morg> a :Frequency ; :label "5/v - må, ti, on, to, fre morg" .
+</signe/freq/5/v-må,ti,on,to,lö> a :Frequency ; :label "5/v - må, ti, on, to, lö" .
+</signe/freq/5/v-må,ti,to,fre,lö> a :Frequency ; :label "5/v - må, ti, to, fre, lö" .
+</signe/freq/5/v-on,to,fre,lö,sö> a :Frequency ; :label "5/v - on, to, fre, lö, sö" .
+</signe/freq/5/v-ti,on,to,fre,lö> a :Frequency ; :label "5/v - ti, on, to, fre, lö" .
+</signe/freq/6/v-må,ti,on,fre,lö,sö> a :Frequency ; :label "6/v - må, ti, on, fre, lö, sö" .
+</signe/freq/6/v-må,ti,on,to,fre,lö> a :Frequency ; :label "6/v - må, ti, on, to, fre, lö" .
+</signe/freq/6/v-må,ti,on,to,fre,lö@em> a :Frequency ; :label "6/v - må, ti, on, to, fre, lö em" .
+</signe/freq/6/v-må,ti,on,to,fre,lö@fm> a :Frequency ; :label "6/v - må, ti, on, to, fre, lö fm" .
+</signe/freq/6/v-må,ti,on,to,fre,lö@kv> a :Frequency ; :label "6/v - må, ti, on, to, fre, lö kv" .
+</signe/freq/6/v-må,ti,on,to,fre,lö@mid> a :Frequency ; :label "6/v - må, ti, on, to, fre, lö mid" .
+</signe/freq/6/v-må,ti,on,to,fre,lö@morg> a :Frequency ; :label "6/v - må, ti, on, to, fre, lö morg" .
+</signe/freq/6/v-må,ti,on,to,fre,sö> a :Frequency ; :label "6/v - må, ti, on, to, fre, sö" .
+</signe/freq/6/v-ti,on,to,fre,lö,sö> a :Frequency ; :label "6/v - ti, on, to, fre, lö, sö" .
+</signe/freq/6/år-lö> a :Frequency ; :label "6/år - lö" .
+</signe/freq/6/år-on> a :Frequency ; :label "6/år - on" .
+</signe/freq/6/år-sö> a :Frequency ; :label "6/år - sö" .
+</signe/freq/6/år-varierande> a :Frequency ; :label "6/år - varierande" .
+</signe/freq/7/v-må,ti,on,to,fre,lö,sö> a :Frequency ; :label "7/v - må, ti, on, to, fre, lö, sö" .
+</signe/freq/7/v-må,ti,on,to,fre,lö,sö@em> a :Frequency ; :label "7/v - må, ti, on, to, fre, lö, sö em" .
+</signe/freq/7/v-må,ti,on,to,fre,lö,sö@morg> a :Frequency ; :label "7/v - må, ti, on, to, fre, lö, sö morg" .
+</signe/freq/7/år-sö> a :Frequency ; :label "7/år - sö" .
+</signe/freq/7/år-ti> a :Frequency ; :label "7/år - ti" .
+</signe/freq/8/år-to> a :Frequency ; :label "8/år - to" .
+</signe/freq/10/år-sö> a :Frequency ; :label "10/år - sö" .
+</signe/freq/10/år-varierande> a :Frequency ; :label "10/år - varierande" .
+</signe/freq/12/år-varierande> a :Frequency ; :label "12/år - varierande" .

@@ -6,15 +6,15 @@
     "bibliographicInfo": "@graph",
     "idTitle": "title",
     "idTitleId": "id",
-    "periodOfPublication": "temporalCoverage",
+    "periodOfPublication": "originDate",
 
     "titles": {
       "@id": "hasTitle",
       "@context": {
         "title": "mainTitle",
         "id": null,
-        "fromDate": "fromDate",
-        "toDate": "toDate"
+        "fromDate": "startDate",
+        "toDate": "endDate"
       }
     },
     "librisIds": {
@@ -25,17 +25,17 @@
         "id": "id",
         "Libris ID tryck": "Print",
         "Libris ID elektronisk": "Electronic",
-        "period": "@annotation.temporal"
+        "period": "_aboutDateRange"
       }
     },
     "frequencies": {
-      "@id": "pubFrequency",
+      "@id": "frequency",
       "@context": {
         "frequency": "code",
         "id": null,
         "daysOfWeek": "daysOfWeek",
         "timeOfDay": "timeOfDay",
-        "period": "@annotation.temporal"
+        "period": "_aboutDateRange"
       }
     },
     "languages": {
@@ -43,23 +43,23 @@
       "@context": {
         "language": "label",
         "id": null,
-        "period": "@annotation.temporal"
+        "period": "_aboutDateRange"
       }
     },
     "aRegions": {
-      "@id": "distributionCoverage",
+      "@id": "publication",
       "@context": {
         "aRegion": "regionCode",
         "id": null,
-        "period": "@annotation.temporal"
+        "period": "dateRange"
       }
     },
     "politicalTendencies": {
-      "@id": "selfDeclaredPoliticalTendency",
+      "@id": "politicalTendency",
       "@context": {
-        "politicalTendency": "label",
+        "politicalTendency": {"@id": "politicalLabel"},
         "id": null,
-        "period": "@annotation.temporal"
+        "period": "dateRange"
       }
     },
     "sectionTitles": {
@@ -67,9 +67,9 @@
       "@context": {
         "sectionTitle": "title",
         "id": "id",
-        "frequency": "pubFrequency",
+        "frequency": "frequency",
         "daysOfWeek": "daysOfWeek",
-        "period": "temporalCoverage"
+        "period": "publicationPeriod"
       }
     },
     "editionDesignationLocations": {
@@ -82,10 +82,10 @@
             "@context": {
               "designation": "editionStatement",
               "id": "id",
-              "frequency": "pubFrequency",
+              "frequency": "frequency",
               "daysOfWeek": "daysOfWeek",
               "timeOfDay": "timeOfDay",
-              "period": "temporalCoverage"
+              "period": "publicationPeriod"
             }
           }
         },
@@ -97,9 +97,9 @@
       "@context": {
         "supplementTitle": "title",
         "id": "id",
-        "frequency": "pubFrequency",
+        "frequency": "frequency",
         "daysOfWeek": "daysOfWeek",
-        "period": "temporalCoverage",
+        "period": "publicationPeriod",
 
         "type": {
           "@id": "subject",
@@ -133,18 +133,18 @@
     "newsBill": {
       "@id": "associatedNewsBill",
       "@context": {
-        "frequency": "pubFrequency",
+        "frequency": "frequency",
         "id": "id",
         "comment": "comment",
-        "period": "temporalCoverage"
+        "period": "publicationPeriod"
       }
     },
     "productionComments": {
-      "@id": "hasNote",
+      "@id": "production",
       "@context": {
-        "comment": "label",
+        "comment": "comment",
         "id": null,
-        "period": "temporal"
+        "period": "dateRange"
       }
     }
   }
