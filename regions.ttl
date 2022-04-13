@@ -1,20 +1,20 @@
 prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 prefix : <https://id.kb.se/vocab/>
+base <https://id.kb.se/>
 
-:ARegion rdfs:subClassOf :GeographicCoverage .
+:ARegion rdfs:subClassOf :Place .
 
 </geo/Sverige/Blekinge/Karlshamn> a :ARegion;
     :code "23" ;
     :label "Karlshamn"@sv;
     :locatedIn </geo/Sverige/Blekinge> .
 
-</geo/Sverige/Blekinge> a :ARegion;
+</geo/Sverige/Blekinge> a :Place;
     :label "Blekinge"@sv;
     :locatedIn </geo/Sverige> .
 
-</geo/Sverige> a :ARegion;
-    :label "Sverige"@sv;
-    :locatedIn </geo> .
+</geo/Sverige> a :Country;
+    :label "Sverige"@sv .
 
 </geo/Sverige/Blekinge/Karlskrona> a :ARegion;
     :code "22" ;
@@ -26,7 +26,7 @@ prefix : <https://id.kb.se/vocab/>
     :label "Örebro"@sv;
     :locatedIn </geo/Sverige/%C3%96rebro> .
 
-</geo/Sverige/%C3%96rebro> a :ARegion;
+</geo/Sverige/%C3%96rebro> a :Place;
     :label "Örebro"@sv;
     :locatedIn </geo/Sverige> .
 
@@ -39,7 +39,7 @@ prefix : <https://id.kb.se/vocab/>
     :label "Linköping"@sv;
     :locatedIn </geo/Sverige/%C3%96sterg%C3%B6tland> .
 
-</geo/Sverige/%C3%96sterg%C3%B6tland> a :ARegion;
+</geo/Sverige/%C3%96sterg%C3%B6tland> a :Place;
     :label "Östergötland"@sv;
     :locatedIn </geo/Sverige> .
 
@@ -58,7 +58,7 @@ prefix : <https://id.kb.se/vocab/>
     :label "Avesta/Hedemora"@sv;
     :locatedIn </geo/Sverige/Dalarna> .
 
-</geo/Sverige/Dalarna> a :ARegion;
+</geo/Sverige/Dalarna> a :Place;
     :label "Dalarna"@sv;
     :locatedIn </geo/Sverige> .
 
@@ -82,7 +82,7 @@ prefix : <https://id.kb.se/vocab/>
     :label "Bollnäs/Söderhamn"@sv;
     :locatedIn </geo/Sverige/G%C3%A4vleborg> .
 
-</geo/Sverige/G%C3%A4vleborg> a :ARegion;
+</geo/Sverige/G%C3%A4vleborg> a :Place;
     :label "Gävleborg"@sv;
     :locatedIn </geo/Sverige> .
 
@@ -106,7 +106,7 @@ prefix : <https://id.kb.se/vocab/>
     :label "Visby"@sv;
     :locatedIn </geo/Sverige/Gotland> .
 
-</geo/Sverige/Gotland> a :ARegion;
+</geo/Sverige/Gotland> a :Place;
     :label "Gotland"@sv;
     :locatedIn </geo/Sverige> .
 
@@ -115,7 +115,7 @@ prefix : <https://id.kb.se/vocab/>
     :label "Falkenberg/Varberg"@sv;
     :locatedIn </geo/Sverige/Halland> .
 
-</geo/Sverige/Halland> a :ARegion;
+</geo/Sverige/Halland> a :Place;
     :label "Halland"@sv;
     :locatedIn </geo/Sverige> .
 
@@ -129,7 +129,7 @@ prefix : <https://id.kb.se/vocab/>
     :label "Östersund"@sv;
     :locatedIn </geo/Sverige/J%C3%A4mtland> .
 
-</geo/Sverige/J%C3%A4mtland> a :ARegion;
+</geo/Sverige/J%C3%A4mtland> a :Place;
     :label "Jämtland"@sv;
     :locatedIn </geo/Sverige> .
 
@@ -138,7 +138,7 @@ prefix : <https://id.kb.se/vocab/>
     :label "Eksjö/Nässjö/Vetlanda"@sv;
     :locatedIn </geo/Sverige/J%C3%B6nk%C3%B6ping> .
 
-</geo/Sverige/J%C3%B6nk%C3%B6ping> a :ARegion;
+</geo/Sverige/J%C3%B6nk%C3%B6ping> a :Place;
     :label "Jönköping"@sv;
     :locatedIn </geo/Sverige> .
 
@@ -162,7 +162,7 @@ prefix : <https://id.kb.se/vocab/>
     :label "Hultsfred/Vimmerby"@sv;
     :locatedIn </geo/Sverige/Kalmar> .
 
-</geo/Sverige/Kalmar> a :ARegion;
+</geo/Sverige/Kalmar> a :Place;
     :label "Kalmar"@sv;
     :locatedIn </geo/Sverige> .
 
@@ -186,7 +186,7 @@ prefix : <https://id.kb.se/vocab/>
     :label "Ljungby"@sv;
     :locatedIn </geo/Sverige/Kronoberg> .
 
-</geo/Sverige/Kronoberg> a :ARegion;
+</geo/Sverige/Kronoberg> a :Place;
     :label "Kronoberg"@sv;
     :locatedIn </geo/Sverige> .
 
@@ -200,7 +200,7 @@ prefix : <https://id.kb.se/vocab/>
     :label "Haparanda/Kalix"@sv;
     :locatedIn </geo/Sverige/Norrbotten> .
 
-</geo/Sverige/Norrbotten> a :ARegion;
+</geo/Sverige/Norrbotten> a :Place;
     :label "Norrbotten"@sv;
     :locatedIn </geo/Sverige> .
 
@@ -224,7 +224,7 @@ prefix : <https://id.kb.se/vocab/>
     :label "Eskilstuna"@sv;
     :locatedIn </geo/Sverige/S%C3%B6dermanland> .
 
-</geo/Sverige/S%C3%B6dermanland> a :ARegion;
+</geo/Sverige/S%C3%B6dermanland> a :Place;
     :label "Södermanland"@sv;
     :locatedIn </geo/Sverige> .
 
@@ -243,7 +243,7 @@ prefix : <https://id.kb.se/vocab/>
     :label "Ängelholm"@sv;
     :locatedIn </geo/Sverige/Sk%C3%A5ne> .
 
-</geo/Sverige/Sk%C3%A5ne> a :ARegion;
+</geo/Sverige/Sk%C3%A5ne> a :Place;
     :label "Skåne"@sv;
     :locatedIn </geo/Sverige> .
 
@@ -282,7 +282,7 @@ prefix : <https://id.kb.se/vocab/>
     :label "Norrtälje"@sv;
     :locatedIn </geo/Sverige/Stockholm> .
 
-</geo/Sverige/Stockholm> a :ARegion;
+</geo/Sverige/Stockholm> a :Place;
     :label "Stockholm"@sv;
     :locatedIn </geo/Sverige> .
 
@@ -296,7 +296,7 @@ prefix : <https://id.kb.se/vocab/>
     :label "Enköping"@sv;
     :locatedIn </geo/Sverige/Uppsala> .
 
-</geo/Sverige/Uppsala> a :ARegion;
+</geo/Sverige/Uppsala> a :Place;
     :label "Uppsala"@sv;
     :locatedIn </geo/Sverige> .
 
@@ -310,7 +310,7 @@ prefix : <https://id.kb.se/vocab/>
     :label "Arvika"@sv;
     :locatedIn </geo/Sverige/V%C3%A4rmland> .
 
-</geo/Sverige/V%C3%A4rmland> a :ARegion;
+</geo/Sverige/V%C3%A4rmland> a :Place;
     :label "Värmland"@sv;
     :locatedIn </geo/Sverige> .
 
@@ -334,7 +334,7 @@ prefix : <https://id.kb.se/vocab/>
     :label "Lycksele"@sv;
     :locatedIn </geo/Sverige/V%C3%A4sterbotten> .
 
-</geo/Sverige/V%C3%A4sterbotten> a :ARegion;
+</geo/Sverige/V%C3%A4sterbotten> a :Place;
     :label "Västerbotten"@sv;
     :locatedIn </geo/Sverige> .
 
@@ -353,7 +353,7 @@ prefix : <https://id.kb.se/vocab/>
     :label "Örnsköldsvik"@sv;
     :locatedIn </geo/Sverige/V%C3%A4sternorrland> .
 
-</geo/Sverige/V%C3%A4sternorrland> a :ARegion;
+</geo/Sverige/V%C3%A4sternorrland> a :Place;
     :label "Västernorrland"@sv;
     :locatedIn </geo/Sverige> .
 
@@ -372,7 +372,7 @@ prefix : <https://id.kb.se/vocab/>
     :label "Fagersta"@sv;
     :locatedIn </geo/Sverige/V%C3%A4stmanland> .
 
-</geo/Sverige/V%C3%A4stmanland> a :ARegion;
+</geo/Sverige/V%C3%A4stmanland> a :Place;
     :label "Västmanland"@sv;
     :locatedIn </geo/Sverige> .
 
@@ -396,7 +396,7 @@ prefix : <https://id.kb.se/vocab/>
     :label "Borås"@sv;
     :locatedIn </geo/Sverige/V%C3%A4stra%20G%C3%B6taland> .
 
-</geo/Sverige/V%C3%A4stra%20G%C3%B6taland> a :ARegion;
+</geo/Sverige/V%C3%A4stra%20G%C3%B6taland> a :Place;
     :label "Västra Götaland"@sv;
     :locatedIn </geo/Sverige> .
 
