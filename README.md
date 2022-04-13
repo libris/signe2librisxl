@@ -2,28 +2,39 @@
 
 ## Fetch and Convert
 
-Fetch one "bibliographic record" from the API:
+Declare some useful environment variables:
 ```sh
 $ USERPASS=abc:123 # NOTE: ask for correct credentials!
-
-$ curl -su "$USERPASS" "http://signetest.utv.kb.se/signe/rest/bibliographies/1?fromdate=1900-01-01&todate=$(date +%Y-%m-%d)"
+$ SIGNEAPI=http://$USERPASS@signetest.utv.kb.se/signe/rest
+$ FROMTO="fromdate=1900-01-01&todate=$(date +%Y-%m-%d)"
+$ TMPDATA=~/tmp/kb-signe # or any other location you prefer
+```
+Fetch one "bibliographic record" from the API:
+```sh
+$ curl -s "$SIGNEAPI/bibliographies/1?$FROMTO"
 ```
 Fetch them all:
 ```sh
-$ time curl -su "$USERPASS" 'http://signetest.utv.kb.se/signe/rest/bibliographies' | jq '.newspapers[] |.id' | xargs -IX curl -su "$USERPASS" "http://signetest.utv.kb.se/signe/rest/bibliographies/X?fromdate=1900-01-01&todate=$(date +%Y-%m-%d)" -o ~/tmp/kb-signe/X.json
+$ mkdir -p $TMPDATA
+$ curl -s "$SIGNEAPI/bibliographies" |
+  jq '.newspapers[] |.id' |
+  xargs -IX curl -s "$SIGNEAPI/bibliographies/X?$FROMTO" -o $TMPDATA/X.json
 ```
 ## Convert
 
 (This uses [TRLD](https://github.com/niklasl/trld) for JSON-LD processing and
 TriG serialization. Clone or `pip install` that first into your `venv`.)
 
-Convert one (remove `-s` to get *lots of entities*, e.g. componentparts and newsbills):
+(In the calls below, you can remove the `-s` flag if you want to get *lots* of
+entities, e.g. componentparts and newsbills.)
+
+Convert one:
 ```sh
 $ cat test/bibliographies-1-aftonbladet.json | ./convert.sh -s
 ```
 Convert all:
 ```sh
-$ python utils/jsondir2lines.py ~/tmp/kb-signe | awk -F$'\n' 'BEGIN { print "{\"@graph\": [" } { if (NR > 1) printf ", "; print $0 } END { print "]}" }' | ./convert.sh -s
+$ python utils/jsondir2dataset.py $TMPDATA | ./convert.sh -s
 ```
 ## Auxiliary Data
 
