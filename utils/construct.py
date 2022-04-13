@@ -2,9 +2,14 @@
 from rdflib import Graph
 from sys import argv, stdout
 
-infile, queryfile = argv[1:3]
+g = Graph()
 
-g = Graph().parse(infile)
+queryfile = argv[1]
+
+if len(argv) > 2:
+    for infile in argv[2:]:
+        g.parse(infile)
+
 with open(queryfile) as f:
     res = g.query(f.read())
 

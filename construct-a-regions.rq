@@ -1,0 +1,37 @@
+prefix : <https://id.kb.se/vocab/>
+prefix wdt: <http://www.wikidata.org/prop/direct/>
+prefix wd: <http://www.wikidata.org/entity/>
+prefix tmp: <http://tmp/>
+
+# Run with municipality-codes.ttl and regions.ttl as input
+
+construct {
+    ?iri a ?type ;
+        :code ?regionCode ;
+        :label ?label ;
+        :hasPart ?municipality ;
+        :locatedIn ?county .
+} where {
+    ?region a ?type ;
+        :code ?regionCode ;
+        :label ?label ;
+        :locatedIn/:label ?countyShort .
+
+    ?region2 tmp:regionCode ?regionCode ;
+        tmp:muniCode ?municipalityCode .
+
+    bind(strlang(concat(?countyShort, " län"), "sv") as ?countyLabel1)
+    bind(strlang(concat(?countyShort, "s län"), "sv") as ?countyLabel2)
+
+    service <https://query.wikidata.org/sparql> {
+         ?county wdt:P31 wd:Q200547 .
+         { ?county rdfs:label ?countyLabel1 }
+         union
+         { ?county rdfs:label ?countyLabel2 }
+
+         ?municipality wdt:P525 ?municipalityCode ; # P525 = Swedish municipality code
+            wdt:P31 wd:Q127448 . # Q127448 = municipality of Sweden
+    }
+
+    bind(iri(concat("https://id.kb.se/aregions/", ?regionCode)) as ?iri)
+}

@@ -1,0 +1,432 @@
+@prefix ns1: <http://tmp/> .
+
+<http://tmp/region/01> ns1:muniCode "0114",
+        "0115",
+        "0117",
+        "0120",
+        "0123",
+        "0125",
+        "0126",
+        "0127",
+        "0128",
+        "0136",
+        "0138",
+        "0139",
+        "0140",
+        "0160",
+        "0162",
+        "0163",
+        "0180",
+        "0181",
+        "0182",
+        "0183",
+        "0184",
+        "0186",
+        "0187",
+        "0191",
+        "0192" ;
+    ns1:regionCode "01" .
+
+<http://tmp/region/02> ns1:muniCode "0188" ;
+    ns1:regionCode "02" .
+
+<http://tmp/region/03> ns1:muniCode "0305",
+        "0381" ;
+    ns1:regionCode "03" .
+
+<http://tmp/region/04> ns1:muniCode "0330",
+        "0380",
+        "0382" ;
+    ns1:regionCode "04" .
+
+<http://tmp/region/05> ns1:muniCode "0461",
+        "0480",
+        "0481",
+        "0488" ;
+    ns1:regionCode "05" .
+
+<http://tmp/region/06> ns1:muniCode "0428",
+        "0482",
+        "0483" ;
+    ns1:regionCode "06" .
+
+<http://tmp/region/07> ns1:muniCode "0484",
+        "0486" ;
+    ns1:regionCode "07" .
+
+<http://tmp/region/08> ns1:muniCode "0509",
+        "0560",
+        "0583",
+        "0584",
+        "0586" ;
+    ns1:regionCode "08" .
+
+<http://tmp/region/09> ns1:muniCode "0513",
+        "0561",
+        "0580" ;
+    ns1:regionCode "09" .
+
+<http://tmp/region/10> ns1:muniCode "0562",
+        "0563",
+        "0581",
+        "0582" ;
+    ns1:regionCode "10" .
+
+<http://tmp/region/11> ns1:muniCode "0642",
+        "0643",
+        "0665",
+        "0680" ;
+    ns1:regionCode "11" .
+
+<http://tmp/region/12> ns1:muniCode "0512",
+        "0604",
+        "0687" ;
+    ns1:regionCode "12" .
+
+<http://tmp/region/13> ns1:muniCode "0682",
+        "0684",
+        "0685",
+        "0686" ;
+    ns1:regionCode "13" .
+
+<http://tmp/region/14> ns1:muniCode "0617",
+        "0662",
+        "0683" ;
+    ns1:regionCode "14" .
+
+<http://tmp/region/15> ns1:muniCode "0767",
+        "0781" ;
+    ns1:regionCode "15" .
+
+<http://tmp/region/16> ns1:muniCode "0760",
+        "0761",
+        "0763",
+        "0764",
+        "0765",
+        "0780" ;
+    ns1:regionCode "16" .
+
+<http://tmp/region/17> ns1:muniCode "0883" ;
+    ns1:regionCode "17" .
+
+<http://tmp/region/18> ns1:muniCode "0860",
+        "0884" ;
+    ns1:regionCode "18" .
+
+<http://tmp/region/19> ns1:muniCode "0821",
+        "0861",
+        "0882" ;
+    ns1:regionCode "19" .
+
+<http://tmp/region/20> ns1:muniCode "0834",
+        "0840",
+        "0862",
+        "0880",
+        "0881",
+        "0885" ;
+    ns1:regionCode "20" .
+
+<http://tmp/region/21> ns1:muniCode "0980" ;
+    ns1:regionCode "21" .
+
+<http://tmp/region/22> ns1:muniCode "1080",
+        "1081" ;
+    ns1:regionCode "22" .
+
+<http://tmp/region/23> ns1:muniCode "1060",
+        "1082",
+        "1083" ;
+    ns1:regionCode "23" .
+
+<http://tmp/region/24> ns1:muniCode "1256",
+        "1272",
+        "1290" ;
+    ns1:regionCode "24" .
+
+<http://tmp/region/25> ns1:muniCode "1273",
+        "1275",
+        "1293" ;
+    ns1:regionCode "25" .
+
+<http://tmp/region/26> ns1:muniCode "1257",
+        "1278",
+        "1292" ;
+    ns1:regionCode "26" .
+
+<http://tmp/region/27> ns1:muniCode "1214",
+        "1260",
+        "1276",
+        "1277",
+        "1282",
+        "1283",
+        "1284" ;
+    ns1:regionCode "27" .
+
+<http://tmp/region/28> ns1:muniCode "1230",
+        "1231",
+        "1233",
+        "1261",
+        "1262",
+        "1263",
+        "1280",
+        "1281",
+        "1287" ;
+    ns1:regionCode "28" .
+
+<http://tmp/region/29> ns1:muniCode "1264",
+        "1265",
+        "1270",
+        "1286",
+        "1291" ;
+    ns1:regionCode "29" .
+
+<http://tmp/region/30> ns1:muniCode "1266",
+        "1267",
+        "1285" ;
+    ns1:regionCode "30" .
+
+<http://tmp/region/31> ns1:muniCode "1315",
+        "1380",
+        "1381" ;
+    ns1:regionCode "31" .
+
+<http://tmp/region/32> ns1:muniCode "1382",
+        "1383" ;
+    ns1:regionCode "32" .
+
+<http://tmp/region/33> ns1:muniCode "1384",
+        "1401",
+        "1402",
+        "1407",
+        "1415",
+        "1419",
+        "1440",
+        "1441",
+        "1442",
+        "1480",
+        "1481",
+        "1482",
+        "1489" ;
+    ns1:regionCode "33" .
+
+<http://tmp/region/34> ns1:muniCode "1421",
+        "1427",
+        "1430",
+        "1435",
+        "1439",
+        "1484",
+        "1485",
+        "1486" ;
+    ns1:regionCode "34" .
+
+<http://tmp/region/35> ns1:muniCode "1444",
+        "1461",
+        "1462",
+        "1487",
+        "1488" ;
+    ns1:regionCode "35" .
+
+<http://tmp/region/36> ns1:muniCode "1443",
+        "1452",
+        "1463",
+        "1465",
+        "1466",
+        "1490",
+        "1491" ;
+    ns1:regionCode "36" .
+
+<http://tmp/region/37> ns1:muniCode "1445",
+        "1470",
+        "1471",
+        "1494",
+        "1495" ;
+    ns1:regionCode "37" .
+
+<http://tmp/region/38> ns1:muniCode "1498",
+        "1499" ;
+    ns1:regionCode "38" .
+
+<http://tmp/region/39> ns1:muniCode "1446",
+        "1472",
+        "1496",
+        "1497" ;
+    ns1:regionCode "39" .
+
+<http://tmp/region/40> ns1:muniCode "1447",
+        "1473",
+        "1493" ;
+    ns1:regionCode "40" .
+
+<http://tmp/region/41> ns1:muniCode "1760",
+        "1781",
+        "1782" ;
+    ns1:regionCode "41" .
+
+<http://tmp/region/42> ns1:muniCode "1715",
+        "1737",
+        "1761",
+        "1762",
+        "1763",
+        "1764",
+        "1766",
+        "1780",
+        "1783" ;
+    ns1:regionCode "42" .
+
+<http://tmp/region/43> ns1:muniCode "1438",
+        "1460",
+        "1492",
+        "1785" ;
+    ns1:regionCode "43" .
+
+<http://tmp/region/44> ns1:muniCode "1730",
+        "1765",
+        "1784" ;
+    ns1:regionCode "44" .
+
+<http://tmp/region/45> ns1:muniCode "1814",
+        "1860",
+        "1861",
+        "1880",
+        "1881",
+        "1882" ;
+    ns1:regionCode "45" .
+
+<http://tmp/region/46> ns1:muniCode "1862",
+        "1883" ;
+    ns1:regionCode "46" .
+
+<http://tmp/region/47> ns1:muniCode "1863",
+        "1864",
+        "1884",
+        "1885" ;
+    ns1:regionCode "47" .
+
+<http://tmp/region/48> ns1:muniCode "1907",
+        "1961",
+        "1980" ;
+    ns1:regionCode "48" .
+
+<http://tmp/region/49> ns1:muniCode "1960",
+        "1983",
+        "1984" ;
+    ns1:regionCode "49" .
+
+<http://tmp/region/50> ns1:muniCode "1904",
+        "1962",
+        "1982" ;
+    ns1:regionCode "50" .
+
+<http://tmp/region/51> ns1:muniCode "0331",
+        "1981" ;
+    ns1:regionCode "51" .
+
+<http://tmp/region/52> ns1:muniCode "2021",
+        "2026",
+        "2029",
+        "2031",
+        "2080",
+        "2081",
+        "2082" ;
+    ns1:regionCode "52" .
+
+<http://tmp/region/53> ns1:muniCode "2083",
+        "2084" ;
+    ns1:regionCode "53" .
+
+<http://tmp/region/54> ns1:muniCode "2061",
+        "2085" ;
+    ns1:regionCode "54" .
+
+<http://tmp/region/55> ns1:muniCode "2023",
+        "2034",
+        "2039",
+        "2062" ;
+    ns1:regionCode "55" .
+
+<http://tmp/region/56> ns1:muniCode "0319",
+        "0360",
+        "2101",
+        "2104",
+        "2180",
+        "2181" ;
+    ns1:regionCode "56" .
+
+<http://tmp/region/57> ns1:muniCode "2121",
+        "2182",
+        "2183" ;
+    ns1:regionCode "57" .
+
+<http://tmp/region/58> ns1:muniCode "2132",
+        "2161",
+        "2184" ;
+    ns1:regionCode "58" .
+
+<http://tmp/region/59> ns1:muniCode "2260",
+        "2262",
+        "2281" ;
+    ns1:regionCode "59" .
+
+<http://tmp/region/60> ns1:muniCode "2280",
+        "2282" ;
+    ns1:regionCode "60" .
+
+<http://tmp/region/61> ns1:muniCode "2283" ;
+    ns1:regionCode "61" .
+
+<http://tmp/region/62> ns1:muniCode "2284" ;
+    ns1:regionCode "62" .
+
+<http://tmp/region/63> ns1:muniCode "2303",
+        "2305",
+        "2309",
+        "2313",
+        "2321",
+        "2326",
+        "2361",
+        "2380" ;
+    ns1:regionCode "63" .
+
+<http://tmp/region/64> ns1:muniCode "2401",
+        "2403",
+        "2404",
+        "2409",
+        "2460",
+        "2480" ;
+    ns1:regionCode "64" .
+
+<http://tmp/region/65> ns1:muniCode "2417",
+        "2418",
+        "2482" ;
+    ns1:regionCode "65" .
+
+<http://tmp/region/66> ns1:muniCode "2421",
+        "2422",
+        "2425",
+        "2462",
+        "2463",
+        "2481" ;
+    ns1:regionCode "66" .
+
+<http://tmp/region/67> ns1:muniCode "2505",
+        "2506",
+        "2560",
+        "2581" ;
+    ns1:regionCode "67" .
+
+<http://tmp/region/68> ns1:muniCode "2510",
+        "2580",
+        "2582" ;
+    ns1:regionCode "68" .
+
+<http://tmp/region/69> ns1:muniCode "2513",
+        "2514",
+        "2518",
+        "2583" ;
+    ns1:regionCode "69" .
+
+<http://tmp/region/70> ns1:muniCode "2521",
+        "2523",
+        "2584" ;
+    ns1:regionCode "70" .
+
