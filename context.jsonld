@@ -29,13 +29,13 @@
       }
     },
     "frequencies": {
-      "@id": "frequency",
+      "@id": "pubFrequency",
       "@context": {
-        "frequency": "code",
+        "frequency": "frequency",
         "id": null,
         "daysOfWeek": "daysOfWeek",
         "timeOfDay": "timeOfDay",
-        "period": "_aboutDateRange"
+        "period": "dateRange"
       }
     },
     "languages": {

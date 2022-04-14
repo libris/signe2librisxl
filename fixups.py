@@ -223,7 +223,7 @@ def walk(data, via=None, owner=None):
             if iprint is None and inst[TYPE] == 'Print':
                 iprint = inst
 
-        move_to_print = ['publication', 'frequency']
+        move_to_print = ['publication', 'pubFrequency']
         for key in move_to_print:
             if key in data:
                 iprint[key] = data.pop(key)
@@ -280,8 +280,10 @@ def _normalize_frequency(data):
         freq = data['frequency'] = {
             'code': data.pop('frequency'),
         }
-        if 'daysOfWeek' in data:
-            freq['daysOfWeek'] = data.pop('daysOfWeek')
+        move_into = ['daysOfWeek', 'timeOfDay']
+        for key in move_into:
+            if key in data:
+                freq[key] = data.pop(key)
     if freq:
         for ifreq in asiter(freq):
             ifreq_id = None
