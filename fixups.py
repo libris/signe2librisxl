@@ -29,7 +29,7 @@ ID_RULES = {
     'generatedEdition': ('/signe/edition/{}', ['id']),
     'associatedNewsBill': ('/signe/newsbill/{}', ['id']),
     'hasSupplement': ('/signe/supplement/{}', ['id']),
-    'politicalLabel': ('object', '/term/signe/politik/{}'),
+    'politicalTendency': ('politicalTendency', '/term/signe/politik/{}'),
 }
 
 top_type_rule = ('Text', 'https://id.kb.se/vocab/Serial', 'https://id.kb.se/term/saogf/Dagstidningar')
@@ -38,6 +38,9 @@ TYPE_RULES = {
     GRAPH: top_type_rule,
     'hasTitle': ('Title', None, None),
     'manufacture': ('Manufacture', None, None),
+    'pubFrequency': ('PubFrequency', None, None),
+    'politicalTendencyPeriod': ('PoliticalTendencyPeriod', None, None),
+    'languagePeriod': ('LanguagePeriod', None, None),
     'hasPart': ('Text', 'https://id.kb.se/vocab/SerialComponentPart', 'https://id.kb.se/term/komp/Tidningsdel'),
     'generatedEdition': ('Print', 'https://id.kb.se/vocab/Serial', 'https://id.kb.se/term/komp/Upplaga'), # TODO: subseriesOf (or hasSubseries, and put manufacture within these editions?)?
     'associatedNewsBill': ('Text', 'https://id.kb.se/vocab/SerialComponentPart', 'https://id.kb.se/term/komp/L%F6psedel'),
@@ -175,8 +178,10 @@ def walk(data, via=None, owner=None):
         elif k == 'sameAs':
             data[ID] = v[ID]
 
-        elif via == 'language' and k == 'label' and v in LANGUAGE_MAP:
-            data[ID] = LANGUAGE_MAP[v]
+        elif k == 'language':
+            data['language'] = [
+                {ID: LANGUAGE_MAP[l.strip()]} for l in v.split(',')
+            ]
 
         #elif k == 'placeName':
         #    data['place'] = {TYPE:'Place', 'name': v}
@@ -188,20 +193,20 @@ def walk(data, via=None, owner=None):
             assert via == 'publication'
             data['place'] = [{ID: region[code]} for code in v.split(', ')]
 
-        elif k == 'dateRange':
+        elif k == 'issuePeriod':
             startdate, enddate = parse_date_range(v)
             if startdate:
-                data['startDate'] = startdate
+                data['firstIssue'] = startdate
             if enddate:
-                data['endDate'] = enddate
+                data['lastIssue'] = enddate
 
-        elif k == 'publicationPeriod':
-            startdate, enddate = parse_date_range(v)
-            publ = data['publication'] = {TYPE: 'Publication'}
-            if startdate:
-                publ['startDate'] = startdate
-            if enddate:
-                publ['endDate'] = enddate
+        #elif k == 'publicationPeriod':
+        #    startdate, enddate = parse_date_range(v)
+        #    publ = data['publication'] = {TYPE: 'Publication'}
+        #    if startdate:
+        #        publ['firstIssue'] = startdate
+        #    if enddate:
+        #        publ['lastIssue'] = enddate
 
         else:
             data[k] = v

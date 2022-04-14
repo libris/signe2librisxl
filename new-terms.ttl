@@ -1,0 +1,36 @@
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix owl: <http://www.w3.org/2002/07/owl#>
+prefix sdo: <http://schema.org/>
+prefix : <https://id.kb.se/vocab/>
+
+:languagePeriod a owl:ObjectProperty ;
+    #rdfs:domain :Serial ;
+    rdfs:range :LanguagePeriod .
+
+:LanguagePeriod a owl:Class ;
+    rdfs:subClassOf :QualifiedRole .
+
+:politicalTendencyPeriod a owl:ObjectProperty ;
+    #rdfs:domain :Serial ;
+    rdfs:range :PoliticalTendencyPeriod .
+
+:PoliticalTendencyPeriod a owl:Class ;
+    rdfs:subClassOf :QualifiedRole .
+
+:politicalTendency a owl:ObjectProperty ;
+    rdfs:domain :PoliticalTendencyPeriod ;
+    rdfs:range :PoliticalTendency .
+
+:PoliticalTendency a owl:Class ;
+    rdfs:subClassOf :Concept .
+
+:generated a owl:ObjectProperty ;
+    sdo:domainIncludes :Manufacture ;
+    rdfs:range :Embodiment .
+
+# added restrictions (TODO: too narrow?)
+:firstIssue rdfs:subPropertyOf :startDate .
+:lastIssue rdfs:subPropertyOf :endDate .
+
+# TODO: rename to :FrequencyPeriod?
+:PubFrequency rdfs:subClassOf :QualifiedRole .

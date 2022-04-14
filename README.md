@@ -57,7 +57,26 @@ $ utils/construct.py regions.ttl match-places.rq
 
 ## Frequencies
 
-The file `frequencies.ttl' was extracted from an original conversion run where
+The file `frequencies.ttl` was extracted from an original conversion run where
 these were all local bnodes. The frequencies are few enough to warrant
 definining "enums" for them, to facilitate both a consistent notation and I18N
 of their labels. See also <https://id.loc.gov/vocabulary/frequencies>.
+
+## Temporality
+
+This data uses a qualification model of time, meaning that we use specific
+qualified relations to capture relations restricted to a certain date range.
+
+This has a precursor in the existing use of `provisionActivity` and structured
+values, as well as following the rationale in the accepted BF 2.1 [Proposal:
+pubFrequency/PubFrequency for recording complex frequency
+information](https://github.com/lcnetdev/bibframe-ontology/issues/76).
+
+Furthermore, as these qualifications relate to the instances of the serial that
+were issued during a given period, we use the specific `firstIssue` and
+`lastIssue` properties throughout to clearly reflect that.
+
+Particularly, this can be used, e.g. in an application consuming this data, as
+an indication that the qualified data applies to any issue (any entity linking
+to a serial using `isIssueOf`) which has a `date` (of `publication`) that falls
+within the qualified date range.
