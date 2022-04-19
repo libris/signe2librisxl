@@ -1,0 +1,55 @@
+prefix : <https://id.kb.se/vocab/>
+prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#>
+
+# Run with frequencies.ttl and https://id.loc.gov/vocabulary/frequencies.rdf as input
+
+construct {
+    ?narrowFreq a :Frequency ;
+        ?broaderOrExact ?kbFreq ;
+        :label ?label .
+
+    ?kbFreq a :Frequency ;
+        :closeMatch ?lcFreqClose ;
+        :exactMatch ?lcFreqExact ;
+        :label ?freqLabel .
+} where {
+    {
+        values ( ?freqShortId ?kbFreqLabel ?signeFreeText ) {
+            ( "dyl" "four times a week" "4/v" )
+            ( "dyl" "five times a week" "5/v" )
+            ( "dyl" "six times a week" "6/v" )
+            ( "bmn" "six times a year" "6/år" )
+            ( "bmn" "seven times a year" "7/år" )
+            ( "bmn" "eight times a year" "8/år" )
+            ( "mon" "ten times a year" "10/år" )
+            ( "mon" "twelve times a year" "12/år" )
+        }
+        bind(iri(concat("http://id.loc.gov/vocabulary/frequencies/", ?freqShortId)) as ?lcFreqClose)
+    } union {
+        values ( ?freqShortId ?signeFreeText ) {
+            ( "wkl" "1/v" )
+            ( "mon" "1/m" )
+            ( "ann" "1/år" )
+            ( "swk" "2/v" )
+            ( "smn" "2/m" )
+            ( "san" "2/år" )
+            ( "ttw" "3/v" )
+            ( "ttm" "3/m" )
+            ( "tty" "3/år" )
+        }
+        bind(iri(concat("http://id.loc.gov/vocabulary/frequencies/", ?freqShortId)) as ?lcFreqExact)
+        ?lcFreqExact madsrdf:authoritativeLabel ?lcLabel .
+    }
+
+    bind(coalesce(?lcLabel, ?kbFreqLabel) as ?freqLabel)
+    bind(replace(?freqLabel, "\\s+", "") as ?trimmedLabel)
+    bind(iri(concat("https://id.kb.se/frequencies/", ?trimmedLabel)) as ?kbFreq)
+
+    ?narrowFreq a :Frequency ;
+        :label ?label .
+
+    bind(replace(?label, " -.*", "") as ?freqPart)
+
+    filter(?freqPart = ?signeFreeText)
+    bind(if(?label = ?signeFreeText, :exactMatch, :broader) as ?broaderOrExact)
+}

@@ -135,6 +135,7 @@ prefix : <https://id.kb.se/vocab/>
 </signe/freq/6/år-on> a :Frequency ; :label "6/år - on" .
 </signe/freq/6/år-sö> a :Frequency ; :label "6/år - sö" .
 </signe/freq/6/år-varierande> a :Frequency ; :label "6/år - varierande" .
+# if at least two of the following three apply to a resource -> https://id.loc.gov/vocabulary/frequencies/con ?
 </signe/freq/7/v-må,ti,on,to,fre,lö,sö> a :Frequency ; :label "7/v - må, ti, on, to, fre, lö, sö" .
 </signe/freq/7/v-må,ti,on,to,fre,lö,sö@em> a :Frequency ; :label "7/v - må, ti, on, to, fre, lö, sö em" .
 </signe/freq/7/v-må,ti,on,to,fre,lö,sö@morg> a :Frequency ; :label "7/v - må, ti, on, to, fre, lö, sö morg" .
