@@ -1,0 +1,24 @@
+prefix wdt: <http://www.wikidata.org/prop/direct/>
+prefix wd: <http://www.wikidata.org/entity/>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix : <https://id.kb.se/vocab/>
+
+construct {
+    ?s ?p ?o ;
+        :exactMatch ?wd .
+} where {
+    { ?s ?p ?o }
+    union
+    {
+        ?s :label ?label .
+        service <https://query.wikidata.org/sparql> {
+            select ?wd (count(?r) as ?count) {
+                ?wd rdfs:label ?label .
+                ?r ?p ?wd .
+            }
+            group by ?wd
+            order by desc(?count)
+            limit 1
+        }
+    }
+}

@@ -1,0 +1,189 @@
+@prefix ns1: <https://id.kb.se/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://signe.kb.se/%20> a ns1:Place ;
+    ns1:label " "@sv .
+
+<https://signe.kb.se/%C3%96rebro> a ns1:Place ;
+    ns1:label "Örebro"@sv .
+
+<https://signe.kb.se/%C3%96rnsk%C3%B6ldsvik> a ns1:Place ;
+    ns1:label "Örnsköldsvik"@sv .
+
+<https://signe.kb.se/%C3%96stersund> a ns1:Place ;
+    ns1:label "Östersund"@sv .
+
+<https://signe.kb.se/Alings%C3%A5s> a ns1:Place ;
+    ns1:label "Alingsås"@sv .
+
+<https://signe.kb.se/Arboga> a ns1:Place ;
+    ns1:label "Arboga"@sv .
+
+<https://signe.kb.se/Avesta> a ns1:Place ;
+    ns1:label "Avesta"@sv .
+
+<https://signe.kb.se/Bor%C3%A5s> a ns1:Place ;
+    ns1:label "Borås"@sv .
+
+<https://signe.kb.se/Borgholm> a ns1:Place ;
+    ns1:label "Borgholm"@sv .
+
+<https://signe.kb.se/Borl%C3%A4nge> a ns1:Place ;
+    ns1:label "Borlänge"@sv .
+
+<https://signe.kb.se/Enk%C3%B6ping> a ns1:Place ;
+    ns1:label "Enköping"@sv .
+
+<https://signe.kb.se/Eskilstuna> a ns1:Place ;
+    ns1:label "Eskilstuna"@sv .
+
+<https://signe.kb.se/Falun> a ns1:Place ;
+    ns1:label "Falun"@sv .
+
+<https://signe.kb.se/Frederica> a ns1:Place ;
+    ns1:label "Frederica"@sv .
+
+<https://signe.kb.se/Fredericia> a ns1:Place ;
+    ns1:label "Fredericia"@sv .
+
+<https://signe.kb.se/Fredericia%2C%20Danmark> a ns1:Place ;
+    ns1:label "Fredericia, Danmark"@sv .
+
+<https://signe.kb.se/G%C3%A4vle> a ns1:Place ;
+    ns1:label "Gävle"@sv .
+
+<https://signe.kb.se/G%C3%B6teborg> a ns1:Place ;
+    ns1:label "Göteborg"@sv .
+
+<https://signe.kb.se/H%C3%A4rn%C3%B6sand> a ns1:Place ;
+    ns1:label "Härnösand"@sv .
+
+<https://signe.kb.se/H%C3%A4ssleholm> a ns1:Place ;
+    ns1:label "Hässleholm"@sv .
+
+<https://signe.kb.se/Halmstad> a ns1:Place ;
+    ns1:label "Halmstad"@sv .
+
+<https://signe.kb.se/Helsingborg> a ns1:Place ;
+    ns1:label "Helsingborg"@sv .
+
+<https://signe.kb.se/Hjo> a ns1:Place ;
+    ns1:label "Hjo"@sv .
+
+<https://signe.kb.se/Hudiksvall> a ns1:Place ;
+    ns1:label "Hudiksvall"@sv .
+
+<https://signe.kb.se/J%C3%B6nk%C3%B6ping> a ns1:Place ;
+    ns1:label "Jönköping"@sv .
+
+<https://signe.kb.se/Kalmar> a ns1:Place ;
+    ns1:label "Kalmar"@sv .
+
+<https://signe.kb.se/Kalrlskrona> a ns1:Place ;
+    ns1:label "Kalrlskrona"@sv .
+
+<https://signe.kb.se/Karlskrona> a ns1:Place ;
+    ns1:label "Karlskrona"@sv .
+
+<https://signe.kb.se/Karlstad> a ns1:Place ;
+    ns1:label "Karlstad"@sv .
+
+<https://signe.kb.se/Katrineholm> a ns1:Place ;
+    ns1:label "Katrineholm"@sv .
+
+<https://signe.kb.se/Kista> a ns1:Place ;
+    ns1:label "Kista"@sv .
+
+<https://signe.kb.se/Kristinehamn> a ns1:Place ;
+    ns1:label "Kristinehamn"@sv .
+
+<https://signe.kb.se/Landskrona> a ns1:Place ;
+    ns1:label "Landskrona"@sv .
+
+<https://signe.kb.se/Landvetter> a ns1:Place ;
+    ns1:label "Landvetter"@sv .
+
+<https://signe.kb.se/Link%C3%B6ping> a ns1:Place ;
+    ns1:label "Linköping"@sv .
+
+<https://signe.kb.se/Lule%C3%A5> a ns1:Place ;
+    ns1:label "Luleå"@sv .
+
+<https://signe.kb.se/Lysekil> a ns1:Place ;
+    ns1:label "Lysekil"@sv .
+
+<https://signe.kb.se/Malm%C3%B6> a ns1:Place ;
+    ns1:label "Malmö"@sv .
+
+<https://signe.kb.se/Norrk%C3%B6ping> a ns1:Place ;
+    ns1:label "Norrköping"@sv .
+
+<https://signe.kb.se/Norrt%C3%A4lje> a ns1:Place ;
+    ns1:label "Norrtälje"@sv .
+
+<https://signe.kb.se/Oskarshamn> a ns1:Place ;
+    ns1:label "Oskarshamn"@sv .
+
+<https://signe.kb.se/S%C3%B6dert%C3%A4lje> a ns1:Place ;
+    ns1:label "Södertälje"@sv .
+
+<https://signe.kb.se/S%C3%B6dert%C3%A4lje%20> a ns1:Place ;
+    ns1:label "Södertälje "@sv .
+
+<https://signe.kb.se/Sala> a ns1:Place ;
+    ns1:label "Sala"@sv .
+
+<https://signe.kb.se/Skara> a ns1:Place ;
+    ns1:label "Skara"@sv .
+
+<https://signe.kb.se/Skellefte%C3%A5> a ns1:Place ;
+    ns1:label "Skellefteå"@sv .
+
+<https://signe.kb.se/Skene> a ns1:Place ;
+    ns1:label "Skene"@sv .
+
+<https://signe.kb.se/Stockholm> a ns1:Place ;
+    ns1:label "Stockholm"@sv .
+
+<https://signe.kb.se/Sundsvall> a ns1:Place ;
+    ns1:label "Sundsvall"@sv .
+
+<https://signe.kb.se/Tran%C3%A5s> a ns1:Place ;
+    ns1:label "Tranås"@sv .
+
+<https://signe.kb.se/Trelleborg> a ns1:Place ;
+    ns1:label "Trelleborg"@sv .
+
+<https://signe.kb.se/ULRICEHAMN> a ns1:Place ;
+    ns1:label "ULRICEHAMN"@sv .
+
+<https://signe.kb.se/Uddevalla> a ns1:Place ;
+    ns1:label "Uddevalla"@sv .
+
+<https://signe.kb.se/Ume%C3%A5> a ns1:Place ;
+    ns1:label "Umeå"@sv .
+
+<https://signe.kb.se/Uppsala> a ns1:Place ;
+    ns1:label "Uppsala"@sv .
+
+<https://signe.kb.se/V%C3%A4ster%C3%A5s> a ns1:Place ;
+    ns1:label "Västerås"@sv .
+
+<https://signe.kb.se/V%C3%A4xj%C3%B6> a ns1:Place ;
+    ns1:label "Växjö"@sv .
+
+<https://signe.kb.se/Vetlanda> a ns1:Place ;
+    ns1:label "Vetlanda"@sv .
+
+<https://signe.kb.se/Vimmerby> a ns1:Place ;
+    ns1:label "Vimmerby"@sv .
+
+<https://signe.kb.se/Visby> a ns1:Place ;
+    ns1:label "Visby"@sv .
+
+<https://signe.kb.se/kollas> a ns1:Place ;
+    ns1:label "kollas"@sv .
+
+<https://signe.kb.se/lule%C3%A5> a ns1:Place ;
+    ns1:label "luleå"@sv .
+
