@@ -1,7 +1,12 @@
 prefix : <https://id.kb.se/vocab/>
 prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#>
+prefix skos: <http://www.w3.org/2004/02/skos/core#>
 
-# Run with frequencies.ttl and https://id.loc.gov/vocabulary/frequencies.rdf as input
+# Run with these as input:
+# frequencies.ttl
+# https://id.loc.gov/vocabulary/frequencies.rdf
+# http://www.rdaregistry.info/xml/termList/frequency.xml
+# https://www.dublincore.org/specifications/dublin-core/collection-description/frequency/freq.rdf
 
 construct {
     ?narrowFreq a :Frequency ;
@@ -9,9 +14,9 @@ construct {
         :label ?label .
 
     ?kbFreq a :Frequency ;
-        :closeMatch ?lcFreqClose ;
-        :exactMatch ?lcFreqExact ;
-        :label ?freqLabel .
+        ?closeOrExact ?lcFreq, ?rdaFreq, ?dcFreq ;
+        :label ?freqLabel ;
+        :definition ?rdaDefinition .
 } where {
     {
         values ( ?freqShortId ?kbFreqLabel ?signeFreeText ) {
@@ -24,7 +29,7 @@ construct {
             ( "mon" "ten times a year" "10/år" )
             ( "mon" "twelve times a year" "12/år" )
         }
-        bind(iri(concat("http://id.loc.gov/vocabulary/frequencies/", ?freqShortId)) as ?lcFreqClose)
+        bind(iri(concat("http://id.loc.gov/vocabulary/frequencies/", ?freqShortId)) as ?lcFreq)
     } union {
         values ( ?freqShortId ?signeFreeText ) {
             ( "wkl" "1/v" )
@@ -36,12 +41,30 @@ construct {
             ( "ttw" "3/v" )
             ( "ttm" "3/m" )
             ( "tty" "3/år" )
+            ( "dyl" "7/v" )
         }
-        bind(iri(concat("http://id.loc.gov/vocabulary/frequencies/", ?freqShortId)) as ?lcFreqExact)
-        ?lcFreqExact madsrdf:authoritativeLabel ?lcLabel .
+        bind(iri(concat("http://id.loc.gov/vocabulary/frequencies/", ?freqShortId)) as ?lcFreq)
+        ?lcFreq madsrdf:authoritativeLabel ?lcLabel .
     }
 
-    bind(coalesce(?lcLabel, ?kbFreqLabel) as ?freqLabel)
+    bind(strlang(coalesce(?lcLabel, ?kbFreqLabel), 'en') as ?freqLabel)
+    bind(if(bound(?lcLabel), :exactMatch, :closeMatch) as ?closeOrExact)
+
+    optional {
+        {
+            ?lcFreq madsrdf:authoritativeLabel ?lcLabelToMatch .
+            bind(ucase(substr(?lcLabelToMatch, 1, 1)) as ?initial)
+            bind(substr(?lcLabelToMatch, 2) as ?rest)
+            bind(strlang(concat(?initial, ?rest), "en") as ?capitalized)
+            ?dcFreq skos:prefLabel ?capitalized .
+        } union {
+            ?lcFreq madsrdf:authoritativeLabel ?lcLabelToMatch .
+            bind(strlang(?lcLabelToMatch, 'en') as ?enLabel)
+            ?rdaFreq skos:prefLabel ?enLabel ;
+                skos:definition ?definition .
+        }
+    }
+
     bind(replace(?freqLabel, "\\s+", "") as ?trimmedLabel)
     bind(iri(concat("https://id.kb.se/frequencies/", ?trimmedLabel)) as ?kbFreq)
 
