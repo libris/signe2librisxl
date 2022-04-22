@@ -15,8 +15,8 @@ construct {
 
     ?kbFreq a :Frequency ;
         ?closeOrExact ?lcFreq, ?rdaFreq, ?dcFreq ;
-        :label ?freqLabel ;
-        :definition ?rdaDefinition .
+        :label ?freqLabel . #?multiLangLabel ;
+#        :definition ?definition .
 } where {
     {
         values ( ?freqShortId ?kbFreqLabel ?signeFreeText ) {
@@ -60,10 +60,13 @@ construct {
         } union {
             ?lcFreq madsrdf:authoritativeLabel ?lcLabelToMatch .
             bind(strlang(?lcLabelToMatch, 'en') as ?enLabel)
-            ?rdaFreq skos:prefLabel ?enLabel ;
-                skos:definition ?definition .
+            ?rdaFreq skos:prefLabel ?enLabel, ?rdaLabel ;
+                skos:definition ?rdaDefinition .
         }
     }
+
+#    bind(if(?closeOrExact = :exactMatch, ?rdaDefinition, ?unbound) as ?definition)
+#    bind(if(?closeOrExact = :exactMatch, ?rdaLabel, ?unbound) as ?multiLangLabel)
 
     bind(replace(?freqLabel, "\\s+", "") as ?trimmedLabel)
     bind(iri(concat("https://id.kb.se/frequencies/", ?trimmedLabel)) as ?kbFreq)
