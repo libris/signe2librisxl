@@ -184,8 +184,11 @@ def walk(data, via=None, owner=None):
                 {ID: LANGUAGE_MAP[l.strip()]} for l in v.split(',')
             ]
 
-        #elif k == 'placeName':
-        #    data['place'] = {TYPE:'Place', 'name': v}
+        elif k == 'periodOfPublication':
+            v = data['temporalCoverage'] = {
+                TYPE: 'TemporalCoverage',
+                'issuePeriod': v
+            }
 
         elif k == 'generatedEdition':
             data['generated'] = v
@@ -200,14 +203,6 @@ def walk(data, via=None, owner=None):
                 data['firstIssueDate'] = startdate
             if enddate:
                 data['lastIssueDate'] = enddate
-
-        #elif k == 'publicationPeriod':
-        #    startdate, enddate = parse_date_range(v)
-        #    publ = data['publication'] = {TYPE: 'Publication'}
-        #    if startdate:
-        #        publ['firstIssue'] = startdate
-        #    if enddate:
-        #        publ['lastIssue'] = enddate
 
         else:
             data[k] = v
