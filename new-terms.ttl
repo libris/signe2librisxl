@@ -1,24 +1,34 @@
 prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 prefix owl: <http://www.w3.org/2002/07/owl#>
+prefix xsd: <http://www.w3.org/2001/XMLSchema#>
 prefix sdo: <http://schema.org/>
+prefix ptg: <http://protege.stanford.edu/plugins/owl/protege#>
+prefix dc: <http://purl.org/dc/terms/>
+prefix quid: <https://w3id.org/quid/>
 prefix : <https://id.kb.se/vocab/>
+
+# NEW:
+
+:TemporalEntity a owl:Class ;
+    ptg:abstract true ;
+    rdfs:subClassOf quid:QualifiedIdentity .
 
 :languagePeriod a owl:ObjectProperty ;
     #rdfs:domain :Serial ;
     rdfs:range :LanguagePeriod .
 
 :LanguagePeriod a owl:Class ;
-    rdfs:subClassOf :QualifiedRole .
+    rdfs:subClassOf :TemporalEntity .
 
 :politicalTendencyPeriod a owl:ObjectProperty ;
     #rdfs:domain :Serial ;
     rdfs:range :PoliticalTendencyPeriod .
 
 :PoliticalTendencyPeriod a owl:Class ;
-    rdfs:subClassOf :QualifiedRole .
+    rdfs:subClassOf :TemporalEntity .
 
 :politicalTendency a owl:ObjectProperty ;
-    rdfs:domain :PoliticalTendencyPeriod ;
+    sdo:domainIncludes :PoliticalTendencyPeriod ;
     rdfs:range :PoliticalTendency .
 
 :PoliticalTendency a owl:Class ;
@@ -28,9 +38,29 @@ prefix : <https://id.kb.se/vocab/>
     sdo:domainIncludes :Manufacture ;
     rdfs:range :Embodiment .
 
-# added restrictions (TODO: too narrow?)
-:firstIssue rdfs:subPropertyOf :startDate .
-:lastIssue rdfs:subPropertyOf :endDate .
+:firstIssueDate a owl:DatatypeProperty ;
+    rdfs:subPropertyOf :firstIssue, :startDate ;
+    sdo:domainIncludes :FormerTitle, :TemporalEntity ;
+    rdfs:range xsd:date .
 
-# TODO: rename to :FrequencyPeriod?
-:PubFrequency rdfs:subClassOf :QualifiedRole .
+:lastIssueDate a owl:DatatypeProperty ;
+    rdfs:subPropertyOf :lastIssue, :endDate ;
+    sdo:domainIncludes :FormerTitle, :TemporalEntity ;
+    rdfs:range xsd:date .
+
+:frequencyPeriod rdfs:subPropertyOf :pubFrequency .
+:FrequencyPeriod rdfs:subClassOf :PubFrequency, :TemporalEntity .
+
+:TemporalCoverage a owl:Class ;
+    rdfs:subClassOf :TemporalEntity .
+
+# TODO:
+#:isIssueOfEdition (map monographies' editionStatement "<signe-id>" to this...)
+
+# MODIFIED:
+
+:temporalCoverage a owl:ObjectProperty ;
+    rdfs:domain :Work ;
+    rdf:range :TemporalCoverage .
+
+:geographicCoverage rdfs:subPropertyOf dc:spatial .
