@@ -38,6 +38,7 @@ TYPE_RULES = {
     GRAPH: top_type_rule,
     'hasTitle': ('Title', None, None),
     'manufacture': ('Manufacture', None, None),
+    'geographicCoverage': ('GeographicCoverage', None, None),
     'frequencyPeriod': ('FrequencyPeriod', None, None),
     'politicalTendencyPeriod': ('PoliticalTendencyPeriod', None, None),
     'languagePeriod': ('LanguagePeriod', None, None),
@@ -190,7 +191,7 @@ def walk(data, via=None, owner=None):
             data['generated'] = v
 
         elif k == 'regionCode':
-            assert via == 'publication'
+            assert via == 'geographicCoverage'
             data['place'] = [{ID: region[code]} for code in v.split(', ')]
 
         elif k == 'issuePeriod':
@@ -228,7 +229,10 @@ def walk(data, via=None, owner=None):
             if iprint is None and inst[TYPE] == 'Print':
                 iprint = inst
 
-        move_to_print = ['publication', 'frequencyPeriod']
+        move_to_print = [
+            'geographicCoverage',
+            'frequencyPeriod',
+        ]
         for key in move_to_print:
             if key in data:
                 iprint[key] = data.pop(key)

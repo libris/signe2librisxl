@@ -47,7 +47,7 @@
       }
     },
     "aRegions": {
-      "@id": "publication",
+      "@id": "geographicCoverage",
       "@context": {
         "aRegion": "regionCode",
         "id": null,
