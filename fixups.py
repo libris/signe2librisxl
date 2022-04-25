@@ -36,7 +36,7 @@ top_type_rule = ('Text', 'https://id.kb.se/vocab/Serial', 'https://id.kb.se/term
 TYPE_RULES = {
     None: top_type_rule,
     GRAPH: top_type_rule,
-    'hasTitle': ('Title', None, None),
+    'hasTitle': ('VariantTitle', None, None),
     'manufacture': ('Manufacture', None, None),
     'geographicCoverage': ('GeographicCoverage', None, None),
     'frequencyPeriod': ('FrequencyPeriod', None, None),
@@ -125,13 +125,17 @@ def walk(data, via=None, owner=None):
     if via in {None, GRAPH}:
         data['@context'] = CONTEXT_DATA
 
-    if via in {None, GRAPH} and 'title' in data:
-        data['hasTitle'] = [ { 
-            TYPE: 'KeyTitle',
-            'mainTitle': data.pop('title')
-        } ] + list(asiter(data['hasTitle']))
+    # Drop and re-add "at the top" below
+    hastitle = list(asiter(data.pop('hasTitle', None)))
 
-    hastitle = data.pop('hasTitle', None)
+    # Set top title to KeyTitle
+    if via in {None, GRAPH} and 'title' in data:
+        data['hasTitle'] = [
+            {
+                TYPE: 'KeyTitle',
+                'mainTitle': data.pop('title')
+            }
+        ] + hastitle
 
     entries = list(data.items())
     entries.sort(key=lambda kv: -int(kv[0].startswith('@')))
@@ -211,6 +215,12 @@ def walk(data, via=None, owner=None):
 
 
     # Post-Walk
+
+    # Set specific title types
+    for title in hastitle:
+        if 'lastIssueDate' in title:
+            title[TYPE] = 'FormerTitle'
+
     workref = {ID: data[ID]} if ID in data else None
     included = []
 
