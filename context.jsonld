@@ -13,8 +13,8 @@
       "@context": {
         "title": "mainTitle",
         "id": null,
-        "fromDate": "firstIssue",
-        "toDate": "lastIssue"
+        "fromDate": "firstIssueDate",
+        "toDate": "lastIssueDate"
       }
     },
     "librisIds": {
@@ -29,7 +29,7 @@
       }
     },
     "frequencies": {
-      "@id": "pubFrequency",
+      "@id": "frequencyPeriod",
       "@context": {
         "frequency": "frequency",
         "id": null,

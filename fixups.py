@@ -38,7 +38,7 @@ TYPE_RULES = {
     GRAPH: top_type_rule,
     'hasTitle': ('Title', None, None),
     'manufacture': ('Manufacture', None, None),
-    'pubFrequency': ('PubFrequency', None, None),
+    'frequencyPeriod': ('FrequencyPeriod', None, None),
     'politicalTendencyPeriod': ('PoliticalTendencyPeriod', None, None),
     'languagePeriod': ('LanguagePeriod', None, None),
     'hasPart': ('Text', 'https://id.kb.se/vocab/SerialComponentPart', 'https://id.kb.se/term/komp/Tidningsdel'),
@@ -196,9 +196,9 @@ def walk(data, via=None, owner=None):
         elif k == 'issuePeriod':
             startdate, enddate = parse_date_range(v)
             if startdate:
-                data['firstIssue'] = startdate
+                data['firstIssueDate'] = startdate
             if enddate:
-                data['lastIssue'] = enddate
+                data['lastIssueDate'] = enddate
 
         #elif k == 'publicationPeriod':
         #    startdate, enddate = parse_date_range(v)
@@ -228,7 +228,7 @@ def walk(data, via=None, owner=None):
             if iprint is None and inst[TYPE] == 'Print':
                 iprint = inst
 
-        move_to_print = ['publication', 'pubFrequency']
+        move_to_print = ['publication', 'frequencyPeriod']
         for key in move_to_print:
             if key in data:
                 iprint[key] = data.pop(key)
