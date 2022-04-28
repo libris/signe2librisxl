@@ -80,7 +80,7 @@
           "designations": {
             "@id": "generatedEdition",
             "@context": {
-              "designation": "editionStatement",
+              "designation": "label",
               "id": "id",
               "frequency": "frequency",
               "daysOfWeek": "daysOfWeek",

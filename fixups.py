@@ -43,10 +43,10 @@ TYPE_RULES = {
     'frequencyPeriod': ('FrequencyPeriod', None, None),
     'politicalTendencyPeriod': ('PoliticalTendencyPeriod', None, None),
     'languagePeriod': ('LanguagePeriod', None, None),
-    'hasPart': ('Text', 'https://id.kb.se/vocab/SerialComponentPart', 'https://id.kb.se/term/komp/Tidningsdel'),
-    'generatedEdition': ('Print', 'https://id.kb.se/vocab/Serial', 'https://id.kb.se/term/komp/Upplaga'), # TODO: subseriesOf (or hasSubseries, and put manufacture within these editions?)?
-    'associatedNewsBill': ('Text', 'https://id.kb.se/vocab/SerialComponentPart', 'https://id.kb.se/term/komp/L%F6psedel'),
-    'hasSupplement': ('Text', 'https://id.kb.se/vocab/SerialComponentPart', 'https://id.kb.se/term/komp/Tidningsbilaga'),
+    'hasPart': ('Text', 'https://id.kb.se/vocab/SerialComponentPart', 'https://id.kb.se/term/repr/Tidningsdel'),
+    'generatedEdition': ('SerialEdition', None, None),
+    'associatedNewsBill': ('Text', 'https://id.kb.se/vocab/SerialComponentPart', 'https://id.kb.se/term/repr/L%F6psedel'),
+    'hasSupplement': ('Text', 'https://id.kb.se/vocab/SerialComponentPart', 'https://id.kb.se/term/repr/Tidningsbilaga'),
 }
 
 LANGUAGE_MAP = {
@@ -194,9 +194,6 @@ def walk(data, via=None, owner=None):
                 'issuePeriod': v
             }
 
-        elif k == 'generatedEdition':
-            data['generated'] = v
-
         elif k == 'regionCode':
             assert via == 'geographicCoverage'
             data['place'] = [{ID: region[code]} for code in v.split(', ')]
@@ -223,8 +220,6 @@ def walk(data, via=None, owner=None):
 
     workref = {ID: data[ID]} if ID in data else None
     included = []
-
-    _process_supplements(data, workref, included)
 
     if workref and 'hasInstance' in data:
         instances = list(asiter(data.pop('hasInstance')))
@@ -258,31 +253,9 @@ def walk(data, via=None, owner=None):
         included.extend(instances)
 
         # De-duplicates on place name and generated...
-        manufacture = list({
-            (
-                printing.get('place', {}).get(ID, ""),
-                '|'.join(sorted(x[ID] for x in asiter(printing.get('generated'))))
-            ): printing
-            for printing in asiter(data.pop('manufacture', None))
-            if len(printing) > 1 or TYPE not in printing
-        }.values())
+        _process_manufacture_data(data, iprint, included)
 
-        if manufacture:
-            if iprint:
-                toinclude = []
-                for printing in manufacture:
-                    editions = printing.pop('generated', iprint)
-                    for edition in asiter(editions):
-                        if len(printing) > 1 or TYPE not in printing:
-                            edition.setdefault('manufacture', []).append(printing)
-                        if edition is not iprint:
-                            #edition['specializationOf'] = {ID: iprint[ID]}
-                            toinclude.append(edition)
-                        #edition['instanceOf'] = workref
-
-                subslice_link = 'hasEdition' # 'generalizationOf' # 'hasSubseries'
-                iprint[subslice_link] = [{ID: sub[ID]} for sub in toinclude]
-                included.extend(toinclude)
+    _process_supplements(data, workref, included)
 
     if included:
         data.setdefault(INCLUDED, []).extend(included)
@@ -320,6 +293,20 @@ def _normalize_frequency(data):
             else:
                 ifreq[TYPE] = 'Frequency'
                 ifreq['label'] = code
+
+
+def _process_manufacture_data(data, iprint, included):
+    manufacture = list({
+        (
+            repr(printing.get('place', {})),
+            '|'.join(sorted(x[ID] for x in asiter(printing.get('generatedEdition'))))
+        ): printing
+        for printing in asiter(data.pop('manufacture', None))
+        if len(printing) > 1 or TYPE not in printing
+    }.values())
+
+    if manufacture:
+        iprint['manufacture'] = manufacture
 
 
 def _process_supplements(data, workref, included):
