@@ -25,7 +25,7 @@
         "id": "id",
         "Libris ID tryck": "Print",
         "Libris ID elektronisk": "Electronic",
-        "period": "periodOfPublication"
+        "period": null
       }
     },
     "frequencies": {
