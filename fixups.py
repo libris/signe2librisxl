@@ -14,6 +14,7 @@ TYPE = '@type'
 VALUE = '@value'
 VOCAB = '@vocab'
 
+ID_BASE = 'https://id.kb.se/'
 KBV = 'https://id.kb.se/vocab/'
 
 CONTEXT_DATA = {
@@ -57,7 +58,7 @@ LANGUAGE_MAP = {
 }
 
 # TODO:
-# - Replace all "/signe/"-URI:s with real ones; including <frequencies.ttl>
+# - Replace all "/signe/"-URI:s with real ones
 with open(Path(__file__).parent / 'context-regions.jsonld') as f:
     region = json.load(f)[CONTEXT]
 
@@ -85,7 +86,13 @@ def parse_date_range(v):
     return startdate.strip() or None, enddate.strip() or None
 
 
+def process(data):
+    walk(data)
+
+
 def walk(data, via=None, owner=None):
+    at_dataset_root = via in {None, GRAPH}
+
     if isinstance(data, list):
         for li in data:
             walk(li, via, owner)
@@ -107,12 +114,6 @@ def walk(data, via=None, owner=None):
     # Pre-Walk
     new_id = None
 
-    if ID in data:
-        did = data[ID]
-        if '%' not in did and ':' not in did \
-                and (not did.isalnum() or not did.isascii()):
-            new_id = squote(data.pop(ID))
-
     id_rule = ID_RULES.get(via)
     if id_rule:
         base_id, keys = id_rule
@@ -122,14 +123,14 @@ def walk(data, via=None, owner=None):
 
     _normalize_frequency(data)
 
-    if via in {None, GRAPH}:
+    if at_dataset_root:
         data['@context'] = CONTEXT_DATA
 
     # Drop and re-add "at the top" below
     hastitle = list(asiter(data.pop('hasTitle', None)))
 
     # Set top title to KeyTitle
-    if via in {None, GRAPH} and 'title' in data:
+    if at_dataset_root and 'title' in data:
         data['hasTitle'] = [
             {
                 TYPE: 'KeyTitle',
@@ -175,10 +176,6 @@ def walk(data, via=None, owner=None):
 
         if k == 'id':
             data['exactMatch'] = {ID: f'/signe/{via}/{v}'}
-
-        elif k.startswith('_about'):
-            prop = k[1:]
-            data[ANNOTATION] = {prop: v}
 
         elif k == 'sameAs':
             data[ID] = v[ID]
@@ -370,5 +367,5 @@ if __name__ == '__main__':
     data = json.load(sys.stdin)
     if GRAPH not in data:
         data = {GRAPH: [data]}
-    walk(data)
+    process(data)
     json.dump(data, sys.stdout, indent=2, ensure_ascii=False)
