@@ -76,7 +76,7 @@
       "@id": "manufacture",
       "@context": [
         {
-          "printingLocation": {"@id": "place", "@type": "@id"},
+          "printingLocation": "placeLabel",
           "designations": {
             "@id": "generatedEdition",
             "@context": {
@@ -88,8 +88,7 @@
               "period": "issuePeriod"
             }
           }
-        },
-        "context-places.jsonld"
+        }
       ]
     },
     "periodicalSupplements": {

@@ -177,6 +177,9 @@ def walk(data, via=None, owner=None):
         if k == 'id':
             data['exactMatch'] = {ID: f'/signe/{via}/{v}'}
 
+        if k == 'placeLabel':
+            data['place'] = {'label': v}
+
         elif k == 'sameAs':
             data[ID] = v[ID]
 
