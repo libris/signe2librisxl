@@ -229,14 +229,6 @@ def walk(data, via=None, owner=None):
             if iprint is None and inst[TYPE] == 'Print':
                 iprint = inst
 
-        move_to_print = [
-            'geographicCoverage',
-            'frequencyPeriod',
-        ]
-        for key in move_to_print:
-            if key in data:
-                iprint[key] = data.pop(key)
-
         if 'production' in data:
             microform = {
                 ID: f'{data[ID]}/microform',
