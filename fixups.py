@@ -306,7 +306,16 @@ def _process_manufacture_data(data, iprint, included):
     }.values())
 
     if manufacture:
-        iprint['manufacture'] = manufacture
+        toinclude = []
+        for printing in manufacture:
+            editions = printing.pop('generatedEdition', None)
+            for edition in asiter(editions):
+                if len(printing) > 1 or TYPE not in printing:
+                    edition.setdefault('manufacture', []).append(printing)
+                edition['isEditionOf'] = {ID: iprint[ID]}
+                toinclude.append(edition)
+
+        included.extend(toinclude)
 
 
 def _process_supplements(data, workref, included):

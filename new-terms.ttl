@@ -2,7 +2,6 @@ prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 prefix owl: <http://www.w3.org/2002/07/owl#>
 prefix xsd: <http://www.w3.org/2001/XMLSchema#>
 prefix skos: <http://www.w3.org/2004/02/skos/core#>
-prefix prov: <http://www.w3.org/ns/prov#>
 prefix sdo: <http://schema.org/>
 prefix ptg: <http://protege.stanford.edu/plugins/owl/protege#>
 prefix dc: <http://purl.org/dc/terms/>
@@ -55,7 +54,7 @@ prefix : <https://id.kb.se/vocab/>
 
 # TODO: Establish this notion (it is a "group in time" for editions)
 :SerialEdition a owl:Class ;
-    rdfs:subClassOf [ a owl:Restriction ;
+    rdfs:subClassOf :Instance, :TemporalEntity , [ a owl:Restriction ;
             owl:onProperty :issuanceType ;
             owl:hasValue :Serial ] .
 
@@ -64,15 +63,17 @@ prefix : <https://id.kb.se/vocab/>
     rdfs:domain :Instance ; # :Serial
     rdfs:range :SerialEdition .
 
-# (map monographies' editionStatement "<signe-id>" to this...)
+# (map monographies' editionStatement "<signe-id>" to this... ; 0 == no distinct editions exist)
 :editionStatement owl:propertyChainAxiom (:isIssueOfEdition :label) .
 
-:generatedEdition a owl:ObjectProperty ;
-    rdfs:subPropertyOf prov:generated ;
-    sdo:domainIncludes :Manufacture ;
-    rdfs:range :SerialEdition .
+:isEditionOf a owl:ObjectProperty ;
+    rdfs:subPropertyOf :isPartOf ;
+    rdfs:domain :SerialEdition ;
+    rdfs:range :Instance .
 
 # MODIFIED:
+
+:manufacture sdo:domainIncludes :SerialEdition .
 
 :pubFrequency :category :pending .
 :PubFrequency :category :pending .
