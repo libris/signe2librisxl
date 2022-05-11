@@ -266,25 +266,26 @@ def _normalize_frequency(data):
     if freq:
         for ifreq in asiter(freq):
             ifreq_id = None
-            code = ifreq.pop('code')
-            if code.split('/', 1)[0].isdigit() and 'daysOfWeek' in ifreq:
-                weekdays = ifreq.pop('daysOfWeek').replace(' ', '')
-                if weekdays:
-                    timeofday = ifreq.get('timeOfDay')
-                    todcode = timeofday.replace(' ', '') if timeofday else None
-                    if todcode and todcode.isalpha():
-                        ifreq_id = f'/signe/freq/{code}-{weekdays}@{todcode}'
-                        del ifreq['timeOfDay']
-                    elif not timeofday:
-                        ifreq_id = f'/signe/freq/{code}-{weekdays}'
-                #else:
-                #    ifreq_id = f'/signe/freq/{code}'
+            # TODO: map segments to linked frequency form
+            #code = ifreq.pop('code')
+            #if code.split('/', 1)[0].isdigit() and 'daysOfWeek' in ifreq:
+            #    weekdays = ifreq.pop('daysOfWeek').replace(' ', '')
+            #    if weekdays:
+            #        timeofday = ifreq.get('timeOfDay')
+            #        todcode = timeofday.replace(' ', '') if timeofday else None
+            #        if todcode and todcode.isalpha():
+            #            ifreq_id = f'{ID_BASE}freq/{code}-{weekdays}@{todcode}'
+            #            del ifreq['timeOfDay']
+            #        elif not timeofday:
+            #            ifreq_id = f'{ID_BASE}freq/{code}-{weekdays}'
+            #else:
+            #    ifreq_id = f"{ID_BASE}freq/{code.replace(' ', '_')}"
 
             if ifreq_id:
                 ifreq[ID] = ifreq_id
             else:
                 ifreq[TYPE] = 'Frequency'
-                ifreq['label'] = code
+                #ifreq['label'] = code
 
 
 def _process_manufacture_data(data, iprint, included):
