@@ -1,0 +1,10 @@
+/cache
+/build
+/signe.ini
+/.venv
+
+*.pyc
+.mypy_cache/
+*.sw[j-p]
+.idea
+.DS_Store

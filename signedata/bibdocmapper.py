@@ -1,7 +1,9 @@
 import json
-import sys
-from pathlib import Path
 from urllib.parse import quote, unquote
+from trld.jsonld.compaction import compact
+from trld.jsonld.expansion import expand
+
+from .util import asiter, get_etc_path
 
 
 ANNOTATION = '@annotation'
@@ -23,14 +25,14 @@ CONTEXT_DATA = {
 }
 
 ID_RULES = {
-    None: ('/signe/bib/{}', ['id']),
-    GRAPH: ('/signe/bib/{}', ['id']),
-    'hasInstance': ('/signe/instance/{}', ['id']),
-    'hasPart': ('/signe/part/{}', ['id']),
-    'generatedEdition': ('/signe/edition/{}', ['id']),
-    'associatedNewsBill': ('/signe/newsbill/{}', ['id']),
-    'hasSupplement': ('/signe/supplement/{}', ['id']),
-    'politicalTendency': ('politicalTendency', '/term/signe/politik/{}'),
+    None: ('signe:bib/{}', ['id']),
+    GRAPH: ('signe:bib/{}', ['id']),
+    'hasInstance': ('signe:instance/{}', ['id']),
+    'hasPart': ('signe:part/{}', ['id']),
+    'generatedEdition': ('signe:edition/{}', ['id']),
+    'associatedNewsBill': ('signe:newsbill/{}', ['id']),
+    'hasSupplement': ('signe:supplement/{}', ['id']),
+    'politicalTendency': ('politicalTendency', 'signe:politik/{}'),
 }
 
 top_type_rule = ('Text', 'https://id.kb.se/vocab/Serial', 'https://id.kb.se/term/saogf/Dagstidningar')
@@ -57,37 +59,18 @@ LANGUAGE_MAP = {
     'bosniska': 'https://id.kb.se/language/bos',
 }
 
-# TODO:
-# - Replace all "/signe/"-URI:s with real ones
-with open(Path(__file__).parent / 'context-regions.jsonld') as f:
-    region = json.load(f)[CONTEXT]
+
+with get_etc_path('context-regions.jsonld').open() as f:
+    REGION = json.load(f)[CONTEXT]
 
 
-def asiter(o):
-    if o is None:
-        return
-    if isinstance(o, list):
-        yield from o
-    else:
-        yield o
-
-
-def squote(s: str):
-    return quote(s, safe='/,@')
-
-
-def drop_encoded(data, keys):
-    return [squote(str(data.pop(key)).encode('utf8'))
-            for key in keys if key in data]
-
-
-def parse_date_range(v):
-    startdate, sep, enddate = v.partition('--')
-    return startdate.strip() or None, enddate.strip() or None
-
-
-def process(data):
+def convert(bibdoc, full=False):
+    context = 'context.jsonld' if full else 'context-short.jsonld'
+    base_iri = None
+    data = expand(bibdoc, base_iri, get_etc_path(context).as_uri())
+    data = compact(get_etc_path('context-xl.jsonld').as_uri(), data)
     walk(data)
+    return data
 
 
 def walk(data, via=None, owner=None):
@@ -117,7 +100,7 @@ def walk(data, via=None, owner=None):
     id_rule = ID_RULES.get(via)
     if id_rule:
         base_id, keys = id_rule
-        values = drop_encoded(data, keys)
+        values = _drop_encoded(data, keys)
         if values:
             new_id = base_id.format(*values)
 
@@ -175,7 +158,7 @@ def walk(data, via=None, owner=None):
             continue
 
         if k == 'id':
-            data['exactMatch'] = {ID: f'/signe/{via}/{v}'}
+            data['exactMatch'] = {ID: f'signe:{via}/{v}'}
 
         if k == 'placeLabel':
             data['place'] = {'label': v}
@@ -196,10 +179,10 @@ def walk(data, via=None, owner=None):
 
         elif k == 'regionCode':
             assert via == 'geographicCoverage'
-            data['place'] = [{ID: region[code]} for code in v.split(', ')]
+            data['place'] = [{ID: REGION[code]} for code in v.split(', ')]
 
         elif k == 'issuePeriod':
-            startdate, enddate = parse_date_range(v)
+            startdate, enddate = _parse_date_range(v)
             if startdate:
                 data['firstIssueDate'] = startdate
             if enddate:
@@ -355,9 +338,23 @@ def _process_supplements(data, workref, included):
     included.extend(mergedsupplements.values())
 
 
+def squote(s: str):
+    return quote(s, safe='/,@')
+
+
+def _drop_encoded(data, keys):
+    return [squote(str(data.pop(key)).encode('utf8'))
+            for key in keys if key in data]
+
+
+def _parse_date_range(v):
+    startdate, sep, enddate = v.partition('--')
+    return startdate.strip() or None, enddate.strip() or None
+
+
 if __name__ == '__main__':
+    import sys
+
     data = json.load(sys.stdin)
-    if GRAPH not in data:
-        data = {GRAPH: [data]}
-    process(data)
+    data = convert(data)
     json.dump(data, sys.stdout, indent=2, ensure_ascii=False)

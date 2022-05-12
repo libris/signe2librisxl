@@ -1,0 +1,7 @@
+[signe]
+api_url = http://USER:PASS@signetest.utv.kb.se/signe/rest
+sql_connection = odbc://UID:PWD@mssql09.kb.local:1433;databaseName=SIGNE_TEST
+
+[compiler]
+cache = cache
+build = build
