@@ -70,6 +70,13 @@
     "frequencies": [
       {
         "frequency": "6/v",
+        "id": 138052,
+        "daysOfWeek": "må, ti, on, to, fre, lö",
+        "timeOfDay": "morg",
+        "period": "1864-12-23--1898-11-26"
+      },
+      {
+        "frequency": "6/v",
         "id": 138034,
         "daysOfWeek": "må, ti, on, to, fre, lö",
         "timeOfDay": "morg",
@@ -131,6 +138,11 @@
       }
     ],
     "politicalTendencies": [
+      {
+        "politicalTendency": "frisinnad",
+        "id": 138043,
+        "period": "1882-01-01--1882-12-31"
+      },
       {
         "politicalTendency": "frisinnad",
         "id": 40222,

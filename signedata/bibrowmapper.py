@@ -1,22 +1,27 @@
 import datetime
+from urllib.parse import quote
+
+from . import SIGNE_BASE
 
 
 def convert(bibrow):
     bibrowid, paperid, catid, fromdate, todate, text1, text2, comment = bibrow
 
     libris_uri = (
-        f'signe:bib/{paperid}'
+        f'{SIGNE_BASE}bib/{paperid}'
         #f'http://libris.kb.se/resource/bib/{printid}'
         #if isinstance(printid, int)
         #else f'https://libris.kb.se/{printid}#it'
     )
 
-    if catid == 8:  # Editionsbeteckningar = 8
-        return {
-            '@id': f'signe:edition/{bibrowid}',
+    item = None
+
+    if catid == 8:  # Editionsbeteckningar
+        item = {
+            '@id': f'{SIGNE_BASE}edition/{bibrowid}',
             '@type': 'SerialEdition',
             'isEditionOf': {'@id': libris_uri},
-            'editionStatement': text1,
+            'label': text1,
             'firstIssueDate': reprdate(fromdate),
         }
         if todate:
@@ -29,7 +34,21 @@ def convert(bibrow):
         if comment:
             item['comment'] = comment
 
-    return None
+    if catid == 24:  # Politisk_inriktning
+        if not text1.strip():
+            return None
+
+        item = {
+            '@id': f'{SIGNE_BASE}politik/{quote(text1)}',
+            '@type': 'Concept',
+            #'label': text1,
+        }
+        if '"' in text1:
+            item['comment'] = text1
+        else:
+            item['label'] = text1[0].upper() + text1[1:]
+
+    return item
 
 
 def reprdate(dt: datetime.datetime) -> str:

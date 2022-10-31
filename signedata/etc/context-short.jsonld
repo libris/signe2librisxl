@@ -3,6 +3,7 @@
     "./context.jsonld",
     {
       "sectionTitles": null,
+      "editionDesignationLocations": null,
       "periodicalSupplements": null,
       "newsBill": null,
       "productionComments": null

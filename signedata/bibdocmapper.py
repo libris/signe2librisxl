@@ -3,6 +3,7 @@ from urllib.parse import quote, unquote
 from trld.jsonld.compaction import compact
 from trld.jsonld.expansion import expand
 
+from . import LIBRIS_BASE, SIGNE_BASE
 from .util import asiter, get_etc_path
 
 
@@ -12,6 +13,7 @@ CONTEXT = '@context'
 GRAPH = '@graph'
 ID = '@id'
 INCLUDED = '@included'
+REVERSE = '@reverse'
 TYPE = '@type'
 VALUE = '@value'
 VOCAB = '@vocab'
@@ -25,17 +27,17 @@ CONTEXT_DATA = {
 }
 
 ID_RULES = {
-    None: ('signe:bib/{}', ['id']),
-    GRAPH: ('signe:bib/{}', ['id']),
-    'hasInstance': ('signe:instance/{}', ['id']),
-    'hasPart': ('signe:part/{}', ['id']),
-    'generatedEdition': ('signe:edition/{}', ['id']),
-    'associatedNewsBill': ('signe:newsbill/{}', ['id']),
-    'hasSupplement': ('signe:supplement/{}', ['id']),
-    'politicalTendency': ('politicalTendency', 'signe:politik/{}'),
+    None: (SIGNE_BASE + 'bib/{}', ['id']),
+    GRAPH: (SIGNE_BASE + 'bib/{}', ['id']),
+    'hasInstance': (SIGNE_BASE + 'instance/{}', ['id']),
+    'hasPart': (SIGNE_BASE + 'part/{}', ['id']),
+    'generatedEdition': (SIGNE_BASE + 'edition/{}', ['id']),
+    'associatedNewsBill': (SIGNE_BASE + 'newsbill/{}', ['id']),
+    'hasSupplement': (SIGNE_BASE + 'supplement/{}', ['id']),
+    'politicalTendency': ('politicalTendency', SIGNE_BASE + 'politik/{}'),
 }
 
-top_type_rule = ('Text', 'https://id.kb.se/vocab/Serial', 'https://id.kb.se/term/saogf/Dagstidningar')
+top_type_rule = ('Text', 'Serial', 'https://id.kb.se/term/saogf/Dagstidningar')
 TYPE_RULES = {
     None: top_type_rule,
     GRAPH: top_type_rule,
@@ -45,10 +47,10 @@ TYPE_RULES = {
     'frequencyPeriod': ('FrequencyPeriod', None, None),
     'politicalTendencyPeriod': ('PoliticalTendencyPeriod', None, None),
     'languagePeriod': ('LanguagePeriod', None, None),
-    'hasPart': ('Text', 'https://id.kb.se/vocab/SerialComponentPart', 'https://id.kb.se/term/repr/Tidningsdel'),
+    'hasPart': ('Text', 'SerialComponentPart', 'https://id.kb.se/term/repr/Tidningsdel'),
     'generatedEdition': ('SerialEdition', None, None),
-    'associatedNewsBill': ('Text', 'https://id.kb.se/vocab/SerialComponentPart', 'https://id.kb.se/term/repr/L%F6psedel'),
-    'hasSupplement': ('Text', 'https://id.kb.se/vocab/SerialComponentPart', 'https://id.kb.se/term/repr/Tidningsbilaga'),
+    'associatedNewsBill': ('Text', 'SerialComponentPart', 'https://id.kb.se/term/repr/L%F6psedel'),
+    'hasSupplement': ('Text', 'SerialComponentPart', 'https://id.kb.se/term/repr/Tidningsbilaga'),
 }
 
 LANGUAGE_MAP = {
@@ -60,16 +62,15 @@ LANGUAGE_MAP = {
 }
 
 
-with get_etc_path('context-regions.jsonld').open() as f:
-    REGION = json.load(f)[CONTEXT]
-
-
 def convert(bibdoc, full=False):
     context = 'context.jsonld' if full else 'context-short.jsonld'
     base_iri = None
     data = expand(bibdoc, base_iri, get_etc_path(context).as_uri())
     data = compact(get_etc_path('context-xl.jsonld').as_uri(), data)
+
     walk(data)
+    del data[CONTEXT]
+
     return data
 
 
@@ -134,7 +135,7 @@ def walk(data, via=None, owner=None):
         rtype, itype, gform = type_rule
         data[TYPE] = rtype
         if itype:
-            data['issuanceType'] = {ID: itype}
+            data['issuanceType'] = itype
         if gform:
             data['genreForm'] = {ID: gform}
 
@@ -158,7 +159,8 @@ def walk(data, via=None, owner=None):
             continue
 
         if k == 'id':
-            data['exactMatch'] = {ID: f'signe:{via}/{v}'}
+            assert False, (via, id, k)
+            #data['exactMatch'] = {ID: f'signe:{via}/{v}'}
 
         if k == 'placeLabel':
             data['place'] = {'label': v}
@@ -179,7 +181,7 @@ def walk(data, via=None, owner=None):
 
         elif k == 'regionCode':
             assert via == 'geographicCoverage'
-            data['place'] = [{ID: REGION[code]} for code in v.split(', ')]
+            data['place'] = [{ID: f'{LIBRIS_BASE}dataset/scb/a-region/{code}'} for code in v.split(', ')]
 
         elif k == 'issuePeriod':
             startdate, enddate = _parse_date_range(v)
@@ -203,12 +205,13 @@ def walk(data, via=None, owner=None):
 
     workref = {ID: data[ID]} if ID in data else None
     included = []
+    reverses = {}
 
     if workref and 'hasInstance' in data:
         instances = list(asiter(data.pop('hasInstance')))
         iprint = None
         for inst in instances:
-            inst['instanceOf'] = workref
+            #inst['instanceOf'] = workref
             if iprint is None and inst[TYPE] == 'Print':
                 iprint = inst
 
@@ -217,7 +220,7 @@ def walk(data, via=None, owner=None):
                 ID: f'{data[ID]}/microform',
                 TYPE: 'Microform',
                 'issuanceType': 'Serial',
-                'instanceOf': workref,
+                #'instanceOf': workref,
             }
             microform['production'] = [
                 dict({TYPE: 'Production'}, **prod)
@@ -225,12 +228,15 @@ def walk(data, via=None, owner=None):
             ]
             instances.append(microform)
 
-        included.extend(instances)
+        reverses.setdefault('instanceOf', []).extend(instances)
 
         # De-duplicates on place name and generated...
         _process_manufacture_data(data, iprint, included)
 
     _process_supplements(data, workref, included)
+
+    if reverses:
+        data.setdefault(REVERSE, {}).update(reverses)
 
     if included:
         data.setdefault(INCLUDED, []).extend(included)

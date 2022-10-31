@@ -20,5 +20,7 @@ bibrows = compiler.pytuples(
     cache_dir / 'bib.pydbtuples', lambda: signesql.dump(sql_connection, 'Bibliografi')
 )
 
+editionrows = filter(lambda row: row[2] == 8, bibrows)
+
 compiler.build((build_dir / 'bibs.jsonld.lines'), bibdocmapper.convert, bibdocs)
-compiler.build((build_dir / 'editions.jsonld.lines'), bibrowmapper.convert, bibrows)
+compiler.build((build_dir / 'editions.jsonld.lines'), bibrowmapper.convert, editionrows)
