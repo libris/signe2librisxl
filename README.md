@@ -21,8 +21,29 @@ $ python -m signedata signe.ini
 
 The supplied $BUILDDIR now contains jsonl files with records that XL can load.
 
-## Mappings
+## About The Mappings
 
-See the `mappings/` directory for identities this data needs to map to. This
-must be integrated into the base Libris data for this dataset to be
-operational.
+This data maps to Libris base data (mainly id.kb.se terms). Some of these have
+been set up specifically to support this Signe data, namely frequencies and
+a-regions.
+
+(If these are specific to Signe only, we have a bigger coordination problem.)
+
+### Temporality
+
+This data uses a qualification model of time, meaning that we use specific
+qualified relations to capture relations restricted to a certain date range.
+
+This has a precursor in the existing use of `provisionActivity` and structured
+values, as well as following the rationale in the accepted BF 2.1 [Proposal:
+pubFrequency/PubFrequency for recording complex frequency
+information](https://github.com/lcnetdev/bibframe-ontology/issues/76).
+
+Furthermore, as these qualifications relate to the instances of the serial that
+were issued during a given period, we use the specific `firstIssue` and
+`lastIssue` properties throughout to clearly reflect that.
+
+Particularly, this can be used, e.g. in an application consuming this data, as
+an indication that the qualified data applies to any issue (any entity linking
+to a serial using `isIssueOf`) which has a `date` (of `publication`) that falls
+within the qualified date range.
