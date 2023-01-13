@@ -5,3 +5,15 @@ sql_connection = odbc://UID:PWD@mssql09.kb.local:1433;databaseName=SIGNE_TEST
 [compiler]
 cache = cache
 build = build
+
+[description]
+context = context-short.jsonld
+#context = context.jsonld
+bib_base_uri = https://libris.kb.se/dataset/signe/bib/
+instance_base_uri = https://libris.kb.se/dataset/signe/instance/
+#part_base_uri = https://libris.kb.se/dataset/signe/part/
+edition_base_uri = https://libris.kb.se/dataset/signe/edition/
+#newsbill_base_uri = https://libris.kb.se/dataset/signe/newsbill/
+#supplement_base_uri = https://libris.kb.se/dataset/signe/supplement/
+#political_base_uri = https://libris.kb.se/dataset/signe/politik/
+#aregion_base_uri = https://libris.kb.se/dataset/scb/a-region/

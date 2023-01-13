@@ -22,5 +22,7 @@ bibrows = compiler.pytuples(
 
 editionrows = filter(lambda row: row[2] == 8, bibrows)
 
-compiler.build((build_dir / 'bibs.jsonld.lines'), bibdocmapper.convert, bibdocs)
-compiler.build((build_dir / 'editions.jsonld.lines'), bibrowmapper.convert, editionrows)
+desc_cfg = cfg['description']
+
+compiler.build(desc_cfg, (build_dir / 'bibs.jsonld.lines'), bibdocmapper.convert, bibdocs)
+compiler.build(desc_cfg, (build_dir / 'editions.jsonld.lines'), bibrowmapper.convert, editionrows)

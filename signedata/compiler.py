@@ -33,10 +33,9 @@ def lines(fpath: Path, func, *, ser, deser):
                 yield data
 
 
-# TODO: wrap resulting items in Records
-def build(fpath: Path, convert, items):
+def build(desc_cfg, fpath: Path, convert, items):
     fpath.parent.mkdir(parents=True, exist_ok=True)
     with fpath.open('w') as f:
         for item in items:
-            if data := convert(item):
+            if data := convert(item, desc_cfg):
                 print(json.dumps(data, ensure_ascii=False), file=f)

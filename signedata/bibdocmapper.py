@@ -3,7 +3,6 @@ from urllib.parse import quote, unquote
 from trld.jsonld.compaction import compact
 from trld.jsonld.expansion import expand
 
-from . import LIBRIS_BASE, SIGNE_BASE
 from .util import asiter, get_etc_path
 
 
@@ -27,14 +26,14 @@ CONTEXT_DATA = {
 }
 
 ID_RULES = {
-    None: (SIGNE_BASE + 'bib/{}', ['id']),
-    GRAPH: (SIGNE_BASE + 'bib/{}', ['id']),
-    'hasInstance': (SIGNE_BASE + 'instance/{}', ['id']),
-    'hasPart': (SIGNE_BASE + 'part/{}', ['id']),
-    'generatedEdition': (SIGNE_BASE + 'edition/{}', ['id']),
-    'associatedNewsBill': (SIGNE_BASE + 'newsbill/{}', ['id']),
-    'hasSupplement': (SIGNE_BASE + 'supplement/{}', ['id']),
-    'politicalTendency': ('politicalTendency', SIGNE_BASE + 'politik/{}'),
+    None: ('bib_base_uri', 'id'),
+    GRAPH: ('bib_base_uri', 'id'),
+    'hasInstance': ('instance_base_uri', 'id'),
+    'hasPart': ('part_base_uri', 'id'),
+    'generatedEdition': ('edition_base_uri', 'id'),
+    'associatedNewsBill': ('newsbill_base_uri', 'id'),
+    'hasSupplement': ('supplement_base_uri', 'id'),
+    'politicalTendency': ('politicalTendency', 'political_base_uri', 'label'),
 }
 
 top_type_rule = ('Text', 'Serial', 'https://id.kb.se/term/saogf/Dagstidningar')
@@ -46,6 +45,7 @@ TYPE_RULES = {
     'geographicCoverage': ('GeographicCoverage', None, None),
     'frequencyPeriod': ('FrequencyPeriod', None, None),
     'politicalTendencyPeriod': ('PoliticalTendencyPeriod', None, None),
+    'politicalTendency': ('PoliticalTendency', None, None),
     'languagePeriod': ('LanguagePeriod', None, None),
     'hasPart': ('Text', 'SerialComponentPart', 'https://id.kb.se/term/repr/Tidningsdel'),
     'generatedEdition': ('SerialEdition', None, None),
@@ -62,24 +62,24 @@ LANGUAGE_MAP = {
 }
 
 
-def convert(bibdoc, full=False):
-    context = 'context.jsonld' if full else 'context-short.jsonld'
+def convert(bibdoc, cfg={}):
+    context = cfg['context']
     base_iri = None
     data = expand(bibdoc, base_iri, get_etc_path(context).as_uri())
     data = compact(get_etc_path('context-xl.jsonld').as_uri(), data)
 
-    walk(data)
+    walk(cfg, data)
     del data[CONTEXT]
 
     return data
 
 
-def walk(data, via=None, owner=None):
+def walk(cfg, data, via=None, owner=None):
     at_dataset_root = via in {None, GRAPH}
 
     if isinstance(data, list):
         for li in data:
-            walk(li, via, owner)
+            walk(cfg, li, via, owner)
         while {} in data:
             data.remove({})
         if via == GRAPH:
@@ -90,9 +90,15 @@ def walk(data, via=None, owner=None):
     if not isinstance(data, dict):
         id_rule = ID_RULES.get(via)
         if id_rule:
-            link, base_id = id_rule
+            link, base_id_key, *parts = id_rule
             del owner[via]
-            owner[link] = {ID: base_id.format(squote(data))}
+            base_id = cfg.get(base_id_key)
+            if base_id:
+                owner[link] = {ID: base_id + squote(data)}
+            else:
+                key = parts[0]
+                rtype = TYPE_RULES[link][0]
+                owner[link] = {"@type": rtype, key: data}
         return
 
     # Pre-Walk
@@ -100,10 +106,13 @@ def walk(data, via=None, owner=None):
 
     id_rule = ID_RULES.get(via)
     if id_rule:
-        base_id, keys = id_rule
-        values = _drop_encoded(data, keys)
-        if values:
-            new_id = base_id.format(*values)
+        base_id_key, key = id_rule
+        base_id = cfg.get(base_id_key)
+
+        if key in data:
+            value = squote(str(data.pop(key)).encode('utf8'))
+        if base_id:
+            new_id = base_id + value
 
     _normalize_frequency(data)
 
@@ -141,7 +150,7 @@ def walk(data, via=None, owner=None):
 
     if hastitle:
         data['hasTitle'] = hastitle
-        walk(hastitle, 'hasTitle', data)
+        walk(cfg, hastitle, 'hasTitle', data)
 
 
     # Walk
@@ -159,7 +168,7 @@ def walk(data, via=None, owner=None):
             continue
 
         if k == 'id':
-            assert False, (via, id, k)
+            assert False, (via, 'id', k)
             #data['exactMatch'] = {ID: f'signe:{via}/{v}'}
 
         if k == 'placeLabel':
@@ -181,7 +190,15 @@ def walk(data, via=None, owner=None):
 
         elif k == 'regionCode':
             assert via == 'geographicCoverage'
-            data['place'] = [{ID: f'{LIBRIS_BASE}dataset/scb/a-region/{code}'} for code in v.split(', ')]
+            aregion_base_uri = cfg.get('aregion_base_uri')
+            data['place'] = [
+                (
+                    {ID: aregion_base_uri +code}
+                    if aregion_base_uri
+                    else {TYPE: 'GeographicCoverage', 'code': code}
+                )
+                for code in v.split(', ')
+            ]
 
         elif k == 'issuePeriod':
             startdate, enddate = _parse_date_range(v)
@@ -193,7 +210,7 @@ def walk(data, via=None, owner=None):
         else:
             data[k] = v
 
-        walk(v, via=k, owner=data)
+        walk(cfg, v, via=k, owner=data)
 
 
     # Post-Walk
@@ -346,11 +363,6 @@ def _process_supplements(data, workref, included):
 
 def squote(s: str):
     return quote(s, safe='/,@')
-
-
-def _drop_encoded(data, keys):
-    return [squote(str(data.pop(key)).encode('utf8'))
-            for key in keys if key in data]
 
 
 def _parse_date_range(v):
