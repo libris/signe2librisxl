@@ -59,7 +59,15 @@ LANGUAGE_MAP = {
     'engelska': 'https://id.kb.se/language/eng',
     'arabiska': 'https://id.kb.se/language/ara',
     'bosniska': 'https://id.kb.se/language/bos',
+    'estniska': 'https://id.kb.se/language/est',
+    'spanska': 'https://id.kb.se/language/spa',
 }
+
+
+def lang_desc(l):
+    if l not in LANGUAGE_MAP:
+        return {TYPE: 'Language', 'labelByLang': {'sv': l}}
+    return {ID: LANGUAGE_MAP[l]}
 
 
 def convert(bibdoc, cfg={}):
@@ -179,7 +187,7 @@ def walk(cfg, data, via=None, owner=None):
 
         elif k == 'language':
             data['language'] = [
-                {ID: LANGUAGE_MAP[l.strip()]} for l in v.split(',')
+                lang_desc(l.strip()) for l in v.split(',')
             ]
 
         elif k == 'periodOfPublication':

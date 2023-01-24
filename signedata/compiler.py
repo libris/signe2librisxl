@@ -21,7 +21,7 @@ def pytuples(fpath: Path, func):
 
 def lines(fpath: Path, func, *, ser, deser):
     fpath.parent.mkdir(parents=True, exist_ok=True)
-    if fpath.exists():
+    if fpath.exists() and fpath.stat().st_size > 0:
         print("Using cached:", fpath, file=sys.stderr)
         with fpath.open() as f:
             for l in f:
