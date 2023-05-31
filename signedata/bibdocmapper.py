@@ -20,6 +20,8 @@ VOCAB = '@vocab'
 ID_BASE = 'https://id.kb.se/'
 KBV = 'https://id.kb.se/vocab/'
 
+REVERSE_INSTANCE_RELATION = False
+
 CONTEXT_DATA = {
     VOCAB: KBV,
     BASE: 'https://signe.kb.se/',
@@ -233,7 +235,11 @@ def walk(cfg, data, via=None, owner=None):
     reverses = {}
 
     if workref and 'hasInstance' in data:
-        instances = list(asiter(data.pop('hasInstance')))
+        instances = list(asiter(data['hasInstance']))
+
+        if REVERSE_INSTANCE_RELATION:
+            del data['hasInstance']
+
         iprint = None
         for inst in instances:
             #inst['instanceOf'] = workref
@@ -253,7 +259,8 @@ def walk(cfg, data, via=None, owner=None):
             ]
             instances.append(microform)
 
-        reverses.setdefault('instanceOf', []).extend(instances)
+        if REVERSE_INSTANCE_RELATION:
+            reverses.setdefault('instanceOf', []).extend(instances)
 
         # De-duplicates on place name and generated...
         _process_manufacture_data(data, iprint, included)
