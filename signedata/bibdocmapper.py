@@ -132,11 +132,11 @@ def walk(cfg, data, via=None, owner=None):
     # Drop and re-add "at the top" below
     hastitle = list(asiter(data.pop('hasTitle', None)))
 
-    # Set top title to KeyTitle
+    # Set top title to Title
     if at_dataset_root and 'title' in data:
         data['hasTitle'] = [
             {
-                TYPE: 'KeyTitle',
+                TYPE: 'Title',
                 'mainTitle': data.pop('title')
             }
         ] + hastitle
