@@ -1,3 +1,5 @@
 trld==0.1.1
 requests==2.31.0
 pyodbc==4.0.35
+# pinned for RHEL < 8 (2.x depends on a newer SSL than RHEL 7 provides)
+urllib3==1.26.16
