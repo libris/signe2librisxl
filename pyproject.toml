@@ -1,0 +1,11 @@
+[project]
+name = "signe2librisxl"
+version = "0.1.0"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "pyodbc==4.0.35",
+    "requests==2.32.3",
+    "trld==0.1.1",
+    "urllib3==1.26.19",
+]

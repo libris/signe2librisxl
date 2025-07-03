@@ -8,15 +8,18 @@ Important: install ODBC Driver 18 for SQL Server! See:
 (The use of `--system-site-packages` when creating the virtualenv below is
 needed if you want/have to install pyodbc using your distro's package manager.)
 ```sh
-$ python3 -m venv --system-site-packages .venv
+$ uv venv --system-site-packages
 $ source .venv/bin/activate
-$ pip install -r requirements.txt
 $ cp signe.ini.in signe.ini # edit for correct credentials!
 ```
 ## Extract & Transform
 ```sh
 $ python -m signedata signe.ini
 ```
+
+(Note: if you _don't_ need `--system-site-packages`, you can skip `uv venv`/`source`
+and simply run `uv run python -m signedata signe.ini`.)
+
 ## Load
 
 The supplied $BUILDDIR now contains jsonl files with records that XL can load.
