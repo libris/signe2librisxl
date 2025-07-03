@@ -7,6 +7,9 @@ Important: install ODBC Driver 18 for SQL Server! See:
 
 (The use of `--system-site-packages` when creating the virtualenv below is
 needed if you want/have to install pyodbc using your distro's package manager.)
+
+Install uv: https://github.com/astral-sh/uv
+
 ```sh
 $ uv venv --system-site-packages
 $ source .venv/bin/activate
