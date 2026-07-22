@@ -1,4 +1,0 @@
-trld==0.1.1
-requests==2.32.3
-pyodbc==4.0.35
-urllib3==1.26.19
